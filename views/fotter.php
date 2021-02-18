@@ -1,4 +1,4 @@
-<!-- Footer Scripts --> 
+    <!-- Footer Scripts --> 
 <!-- JS | Custom script for all pages --> 
 <script src="<?php echo URL; ?>public/js/custom.js"></script>
 
