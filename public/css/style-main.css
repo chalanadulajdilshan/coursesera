@@ -7093,3 +7093,6 @@ blockquote p {
 .course-box:hover{
     box-shadow: 0px 2px 10px 6px rgba(0,0,0,0.2 );
 }
+.course-box h4{
+    margin-top: 10px;
+}

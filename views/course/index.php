@@ -29,13 +29,8 @@
                             <div class="thumb"> <img alt="featured project" src="<?php echo URL; ?>public/images/project/lg1.jpg" class="img-fullwidth"></div>
                         </div>-->
                         <div class="col-sm-6 col-md-12 course-box" >
-                            <h4 class="line-bottom mt-0 mt-sm-20">Accounting Technologies</h4>
-                            <ul class="review_text list-inline">
-                                <li><h4 class="mt-0"><span class="text-theme-color-2">Price :</span> $125</h4></li>
-                                <li>
-                                    <div class="star-rating" title="Rated 4.50 out of 5"><span style="width: 90%;">4.50</span></div>
-                                </li>
-                            </ul>
+                            <h4 class="line-bottom  mt-sm-20">Accounting Technologies</h4>
+                             
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit amet.Aliquam ipsum quis ipsum facilisis sit ame ipsum quis ipsum facilisis sit amet facilisis consecte.</p>
                             <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="<?php echo URL; ?>course/details">view details</a>
                         </div>
@@ -46,15 +41,10 @@
                             <div class="thumb"> <img alt="featured project" src="<?php echo URL; ?>public/images/project/lg2.jpg" class="img-fullwidth"></div>
                         </div>-->
                         <div class="col-sm-6 col-md-12 course-box">
-                            <h4 class="line-bottom mt-0 mt-sm-20">Development Studies</h4>
-                            <ul class="review_text list-inline">
-                                <li><h4 class="mt-0"><span class="text-theme-color-2">Price :</span> $125</h4></li>
-                                <li>
-                                    <div class="star-rating" title="Rated 4.50 out of 5"><span style="width: 90%;">4.50</span></div>
-                                </li>
-                            </ul>
+                            <h4 class="line-bottom  mt-sm-20">Development Studies</h4>
+                             
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit amet.Aliquam ipsum quis ipsum facilisis sit ame ipsum quis ipsum facilisis sit amet facilisis consecte.</p>
-                            <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-development-studies.html">view details</a>
+                            <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="<?php echo URL; ?>course/details">view details</a>
                         </div>
                     </div>
                     <hr>
@@ -63,15 +53,10 @@
                             <div class="thumb"> <img alt="featured project" src="<?php echo URL; ?>public/images/project/lg3.jpg" class="img-fullwidth"></div>
                         </div>-->
                         <div class="col-sm-6 col-md-12 course-box">
-                            <h4 class="line-bottom mt-0 mt-sm-20">Modern Technologies</h4>
-                            <ul class="review_text list-inline">
-                                <li><h4 class="mt-0"><span class="text-theme-color-2">Price :</span> $125</h4></li>
-                                <li>
-                                    <div class="star-rating" title="Rated 4.50 out of 5"><span style="width: 90%;">4.50</span></div>
-                                </li>
-                            </ul>
+                            <h4 class="line-bottom  mt-sm-20">Modern Technologies</h4>
+                             
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit amet.Aliquam ipsum quis ipsum facilisis sit ame ipsum quis ipsum facilisis sit amet facilisis consecte.</p>
-                            <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-chemical-engineering.html">view details</a>
+                            <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="<?php echo URL; ?>course/details">view details</a>
                         </div>
                     </div>
                     <hr>
@@ -80,15 +65,10 @@
                             <div class="thumb"> <img alt="featured project" src="<?php echo URL; ?>public/images/project/lg4.jpg" class="img-fullwidth"></div>
                         </div>-->
                         <div class="col-sm-6 col-md-12 course-box">
-                            <h4 class="line-bottom mt-0 mt-sm-20">Computer Technologies</h4>
-                            <ul class="review_text list-inline">
-                                <li><h4 class="mt-0"><span class="text-theme-color-2">Price :</span> $125</h4></li>
-                                <li>
-                                    <div class="star-rating" title="Rated 4.50 out of 5"><span style="width: 90%;">4.50</span></div>
-                                </li>
-                            </ul>
+                            <h4 class="line-bottom  mt-sm-20">Computer Technologies</h4>
+                             
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit amet.Aliquam ipsum quis ipsum facilisis sit ame ipsum quis ipsum facilisis sit amet facilisis consecte.</p>
-                            <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-modern-languages.html">view details</a>
+                            <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="<?php echo URL; ?>course/details">view details</a>
                         </div>
                     </div>
                 </div>
