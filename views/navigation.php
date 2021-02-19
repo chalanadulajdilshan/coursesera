@@ -32,7 +32,7 @@
               <img src="images/logo-wide.png" alt="">
             </a>
             <ul class="menuzord-menu">
-              <li class="active"><a href="#home">Home</a>
+              <li class="active"><a href="<?php echo URL; ?>">Home</a>
                 <ul class="dropdown">
                   <li><a href="#">Multi Page Layouts</a>
                     <ul class="dropdown">
@@ -399,8 +399,8 @@
                   <li><a href="page-gallery-prettyphoto.html">Pretty Photo Gallery</a></li>
                 </ul>
               </li>
-              <li><a href="#home">Courses</a>
-                <ul class="dropdown">
+              <li><a href="<?php echo URL; ?>course">Courses</a>
+<!--                  <ul class="dropdown" style="display: none;">
                   <li><a href="page-course-gird.html">Course Gird</a></li>
                   <li><a href="page-course-list.html">Course List</a></li>
                   <li><a href="page-courses-accounting-technologies.html">Accounting Technoloiges</a></li>
@@ -411,7 +411,7 @@
                   <li><a href="page-courses-modern-languages.html">Modern Languages</a></li>
                   <li><a href="page-courses-modern-technologies.html">Modern Technologies</a></li>
                   <li><a href="page-courses-software-engineering.html">Software Engineering</a></li>
-                </ul>
+                </ul>-->
               </li>
               <li><a href="#home">Teachers</a>
                 <ul class="dropdown">
