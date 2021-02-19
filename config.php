@@ -11,7 +11,7 @@ define('URL_Admin', 'http://' . $host . 'coursesera');
 
 // Database
 define('DB_TYPE', "mysql");
-define('DB_NAME', "ictunit_project_management4");
+define('DB_NAME', "coursera");
 define('DB_USER', "root");
 define('DB_PASS', "");
 define('DB_HOST', "localhost");
