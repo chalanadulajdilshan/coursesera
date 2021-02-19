@@ -1,7 +1,7 @@
 <!-- Start main-content -->
 <div class="main-content bg-lighter">
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/bg/bg6.jpg">
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="<?php echo URL; ?>images/bg/bg6.jpg">
         <div class="container pt-70 pb-20">
             <!-- Section Content -->
             <div class="section-content">
