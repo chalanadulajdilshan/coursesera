@@ -86,26 +86,82 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
                                             <form id="appointment_form" name="appointment_form" class="mt-30" method="post" action="http://html.kodesolution.live/m/learnpress/v2.0/demo/includes/appointment.php">
                                                 <div class="row">
-                                                    <div class="col-sm-12">
+                                                   
+                                                  <div class="col-sm-12">
+                                                        <lable> <b>Your Name <span class="red">*</span></b>  </lable>
+                                                    </div>
+                                                    <div class="col-sm-6">
                                                         <div class="form-group mb-10">
-                                                            <input name="form_name" class="form-control" type="text" required="" placeholder="Enter Name" aria-required="true">
+                                                            <input name="form_name" class="form-control" type="text" required="" placeholder="First Name" aria-required="true">
                                                         </div>
                                                     </div>
+
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group mb-10">
+                                                            <input name="form_name" class="form-control" type="text" required="" placeholder="Second Name" aria-required="true">
+                                                        </div>
+                                                    </div>
+
                                                     <div class="col-sm-12">
+                                                        <lable> <b>  Your Email <span class="red">*</span></b>  </lable>
                                                         <div class="form-group mb-10">
                                                             <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email" aria-required="true">
                                                         </div>
                                                     </div>
+
                                                     <div class="col-sm-12">
+                                                        <lable> <b>Phone Number <span class="red">*</span></b>  </lable>
+                                                    </div>
+
+                                                    <div class="col-sm-6">
                                                         <div class="form-group mb-10">
-                                                            <input name="form_phone" class="form-control required phone-inputmask" type="text" placeholder="Enter Phone" aria-required="true">
+                                                            <input name="form_phone" class="form-control required phone-inputmask" type="text" placeholder="Mobile Number +9476" aria-required="true">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group mb-10">
+                                                            <input name="form_phone" class="form-control required phone-inputmask" type="text" placeholder="Hand Phone Number +9411" aria-required="true">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-sm-6">
+                                                        <lable> <b>  Date of Birth <span class="red">*</span></b>  </lable>
+                                                        <div class="form-group mb-10">
+                                                            <input name="form_email" class="form-control" type="text" placeholder="DD/MM/YYYY" >
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <lable> <b>  Gender <span class="red">*</span></b>  </lable>
+                                                        <div class="form-group mb-10">
+                                                            <select class="form-control required">
+                                                                <option> -- Select Option -- </option>
+                                                                <option> Male </option>
+                                                                <option> Female </option>
+                                                                <option> Other </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <lable> <b>  Residential address <span class="red">*</span></b>  </lable>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="form-group mb-10">
+                                                            <input name="form_email" class="form-control" type="text" placeholder="No:" >
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-9">
+                                                        <div class="form-group mb-10">
+                                                            <input name="form_email" class="form-control" type="text" placeholder="Street: " >
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-12">
                                                         <div class="form-group mb-10">
                                                             <select class="form-control required">
                                                                 <option> -- Select Your Course --</option>
-                                                                <option> Course 1 </option>
+                                                                <?php foreach ($this->province as $key => $value) { ?>
+<option> <?php echo $value['name'] ?></option>
+                                                                <?php }
+                                                                ?>
                                                             </select>
 
                                                         </div>
