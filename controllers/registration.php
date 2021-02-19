@@ -7,6 +7,7 @@ class Registration extends Controller {
     }
 
     function index() {
+        $this->view->render('header');
         $this->view->province = $this->model->get_province();
         $this->view->render('registration/index');
     }

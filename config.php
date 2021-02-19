@@ -7,11 +7,11 @@ define('DEVELOPMENT_MODE', 1);
 
 define('URL', 'http://' . $host . '/coursesera/');
 define('MAIN_PUBLIC_URL', 'http://' . $host . '/coursesera/public/');
-define('URL_Admin', 'http://' . $host . 'coursesera');
+define('URL_Admin', 'http://' . $host . 'coursesera/');
 
 // Database
 define('DB_TYPE', "mysql");
-define('DB_NAME', "coursera");
+define('DB_NAME', "coursesera");
 define('DB_USER', "root");
 define('DB_PASS', "");
 define('DB_HOST', "localhost");
