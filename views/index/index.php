@@ -620,7 +620,7 @@
                 <!-- Portfolio Item End -->
 
                 <!-- Portfolio Item Start -->
-                <div class="gallery-item languages"><?php echo URL; ?>public/
+                <div class="gallery-item languages">
                   <div class="item">
                     <div class="project mb-30 border-2px">
                       <div class="thumb">
