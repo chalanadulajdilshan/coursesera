@@ -29,7 +29,7 @@
             <div class="container">
                 <nav id="menuzord-right" class="menuzord default">
                     <a class="menuzord-brand pull-left flip" href="javascript:void(0)">
-                        <img src="images/logo-wide.png" alt="">
+                        <img src="<?php echo URL; ?>public/images/c-logo.png" alt="">
                     </a>
                     <ul class="menuzord-menu">
                         <li class="active"><a href="<?php echo URL; ?>">Home</a>
