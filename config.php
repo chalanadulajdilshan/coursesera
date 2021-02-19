@@ -3,7 +3,7 @@
 // root URL
 $host = $_SERVER['HTTP_HOST'];
 define('HOST', $host);
-define('DEVELOPMENT_MODE', 0);
+define('DEVELOPMENT_MODE', 1);
 
 define('URL', 'http://' . $host . '/coursesera/');
 define('MAIN_PUBLIC_URL', 'http://' . $host . '/coursesera/public/');
