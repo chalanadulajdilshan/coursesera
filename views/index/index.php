@@ -1,15 +1,14 @@
  
 
 
-<body class="boxed-layout bg-img-fixed bg-img-cover pt-40 pb-40 pt-sm-0" data-bg-img="images/bg/bg1.jpg">
 <div id="wrapper" class="clearfix">
   <!-- preloader -->
-  <div id="preloader">
+<!--  <div id="preloader">
     <div id="spinner">
         <img alt="" src="<?php echo URL; ?>public/images/preloaders/5.gif">
     </div>
     <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-  </div>
+  </div>-->
   
   <!-- Header -->
 
@@ -448,7 +447,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
-              <img class="img-fullwidth" src="images/services/bg-1.jpg" alt="">
+              <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/bg-1.jpg" alt="">
               <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
                    
                     <h4 class=" letter-space-1 mt-10">Online<span class="text-theme-color-2"> Learning</span></h4>
@@ -457,7 +456,7 @@
               </div>
             </div>
             <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
-              <img class="img-fullwidth" src="images/services/bg-2.jpg" alt="">
+              <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/bg-2.jpg" alt="">
               <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
                     <h4 class="letter-space-1 mt-10">Graduation<span class="text-theme-color-2"> Degree</span></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis unde nesciunt?</p>
@@ -465,7 +464,7 @@
               </div>
             </div>
             <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
-              <img class="img-fullwidth" src="images/services/bg-3.jpg" alt="">
+              <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/bg-3.jpg" alt="">
               <div class="bg-silver-light border-1px p-20 pt-0 pb-30">
                   <h4 class=" letter-space-1 mt-10">Experience<span class="text-theme-color-2"> Yourself</span></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis unde nesciunt?</p>
@@ -492,7 +491,7 @@
             <div class="col-sm-12 col-md-6 mt-0 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
               <div class="video-popup">                
                 <a href="https://www.youtube.com/watch?v=pW1uVUg5wXM" data-lightbox-gallery="youtube-video" title="Video">
-                  <img alt="" src="images/about/5.jpg" class="img-responsive img-fullwidth mt-10 ml-30 ml-xs-0 ml-sm-0">
+                  <img alt="" src="<?php echo URL; ?>public/images/about/5.jpg" class="img-responsive img-fullwidth mt-10 ml-30 ml-xs-0 ml-sm-0">
                 </a>
               </div>
             </div>
@@ -502,7 +501,7 @@
     </section>
 
    <!-- Divider: why choose us 1 -->
-    <section class="divider parallax" data-bg-img="images/bg/bg1.jpg" data-parallax-ratio="0.7">
+    <section class="divider parallax" data-bg-img="<?php echo URL; ?>public/images/bg/bg1.jpg" data-parallax-ratio="0.7">
       <div class="container pt-0 pb-0">
         <div class="row">
           <div class="col-md-8 col-md-offset-4">
@@ -587,7 +586,7 @@
                   <div class="item">
                     <div class="project mb-30 border-2px">
                       <div class="thumb">
-                        <img class="img-fullwidth" alt="" src="images/project/c1.jpg">
+                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/c1.jpg">
                         <div class="hover-link">
                         <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span>$500</span> </a>
                         </div>
@@ -606,7 +605,7 @@
                   <div class="item">
                     <div class="project mb-30 border-2px">
                       <div class="thumb">
-                        <img class="img-fullwidth" alt="" src="images/project/c2.jpg">
+                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/c2.jpg">
                         <div class="hover-link">
                         <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span>$500</span> </a>
                         </div>
@@ -625,7 +624,7 @@
                   <div class="item">
                     <div class="project mb-30 border-2px">
                       <div class="thumb">
-                        <img class="img-fullwidth" alt="" src="images/project/c3.jpg">
+                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/c3.jpg">
                         <div class="hover-link">
                         <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span>$500</span> </a>
                         </div>
@@ -913,12 +912,12 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item">
                   <div class="thumb">
-                    <img alt="project" src="images/gallery/gallery-sm5.jpg" class="img-fullwidth">
+                    <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm5.jpg" class="img-fullwidth">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/5.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo URL; ?>public/images/gallery/5.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -929,12 +928,12 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item">
                   <div class="thumb">
-                    <img alt="project" src="images/gallery/gallery-sm6.jpg" class="img-fullwidth">
+                    <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm6.jpg" class="img-fullwidth">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/6.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo URL; ?>public/images/gallery/6.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -945,12 +944,12 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item">
                   <div class="thumb">
-                    <img alt="project" src="images/gallery/gallery-sm7.jpg" class="img-fullwidth">
+                    <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm7.jpg" class="img-fullwidth">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/7.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo URL; ?>public/images/gallery/7.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -961,12 +960,12 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item">
                   <div class="thumb">
-                    <img alt="project" src="images/gallery/gallery-sm8.jpg" class="img-fullwidth">
+                    <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm8.jpg" class="img-fullwidth">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/8.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo URL; ?>public/images/gallery/8.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -977,12 +976,12 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item">
                   <div class="thumb">
-                    <img alt="project" src="images/gallery/gallery-sm9.jpg" class="img-fullwidth">
+                    <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm9.jpg" class="img-fullwidth">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/9.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo URL; ?>public/images/gallery/9.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -993,12 +992,12 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item">
                   <div class="thumb">
-                    <img alt="project" src="images/gallery/gallery-sm10.jpg" class="img-fullwidth">
+                    <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm10.jpg" class="img-fullwidth">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/10.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo URL; ?>public/images/gallery/10.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -1009,12 +1008,12 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item">
                   <div class="thumb">
-                    <img alt="project" src="images/gallery/gallery-sm11.jpg" class="img-fullwidth">
+                    <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm11.jpg" class="img-fullwidth">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/11.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo URL; ?>public/images/gallery/11.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -1025,12 +1024,12 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item">
                   <div class="thumb">
-                    <img alt="project" src="images/gallery/gallery-sm12.jpg" class="img-fullwidth">
+                    <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm12.jpg" class="img-fullwidth">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/12.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo URL; ?>public/images/gallery/12.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -1049,7 +1048,7 @@
                   </div>
                   <div class="content mt-20">
                     <div class="thumb pull-left flip">
-                      <img width="64" src="images/testimonials/1.jpg" alt="" class="img-circle">
+                      <img width="64" src="<?php echo URL; ?>public/images/testimonials/1.jpg" alt="" class="img-circle">
                     </div>
                     <div class="testimonials-details pull-left flip ml-20">
                       <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
@@ -1069,7 +1068,7 @@
                   </div>
                   <div class="content mt-20">
                     <div class="thumb pull-left flip">
-                      <img width="64" src="images/testimonials/2.jpg" alt="" class="img-circle">
+                      <img width="64" src="<?php echo URL; ?>public/images/testimonials/2.jpg" alt="" class="img-circle">
                     </div>
                     <div class="testimonials-details pull-left flip ml-20">
                       <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
@@ -1089,7 +1088,7 @@
                   </div>
                   <div class="content mt-20">
                     <div class="thumb pull-left flip">
-                      <img width="64" src="images/testimonials/3.jpg" alt="" class="img-circle">
+                      <img width="64" src="<?php echo URL; ?>public/images/testimonials/3.jpg" alt="" class="img-circle">
                     </div>
                     <div class="testimonials-details pull-left flip ml-20">
                       <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
@@ -1127,7 +1126,7 @@
               <div class="item">
                 <div class="hover-effect mb-30">
                   <div class="thumb">
-                    <img class="img-fullwidth" alt="" src="images/team/1.jpg">
+                    <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/1.jpg">
                     <div class="hover-link">
                       <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -1146,7 +1145,7 @@
               <div class="item">
                 <div class="hover-effect mb-30">
                   <div class="thumb">
-                    <img class="img-fullwidth" alt="" src="images/team/2.jpg">
+                    <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/2.jpg">
                     <div class="hover-link">
                       <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -1165,7 +1164,7 @@
               <div class="item">
                 <div class="hover-effect mb-30">
                   <div class="thumb">
-                    <img class="img-fullwidth" alt="" src="images/team/3.jpg">
+                    <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/3.jpg">
                     <div class="hover-link">
                       <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -1184,7 +1183,7 @@
               <div class="item">
                 <div class="hover-effect mb-30">
                   <div class="thumb">
-                    <img class="img-fullwidth" alt="" src="images/team/4.jpg">
+                    <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/4.jpg">
                     <div class="hover-link">
                       <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -1203,7 +1202,7 @@
               <div class="item">
                 <div class="hover-effect mb-30">
                   <div class="thumb">
-                    <img class="img-fullwidth" alt="" src="images/team/3.jpg">
+                    <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/3.jpg">
                     <div class="hover-link">
                       <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -1226,7 +1225,7 @@
     </section>
 
     <!-- Section: events -->
-    <section class="divider parallax layer-overlay overlay-dark-8" data-stellar-background-ratio="0.5" data-bg-img="images/bg/bg1.jpg">
+    <section class="divider parallax layer-overlay overlay-dark-8" data-stellar-background-ratio="0.5" data-bg-img="<?php echo URL; ?>public/images/bg/bg1.jpg">
       <div class="container pt-40 pb-60">
         <div class="section-content">
           <div class="row">
@@ -1308,7 +1307,7 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="thumb">
-                        <img class="img-fullwidth mb-sm-0" src="images/about/as1.jpg" alt="">
+                        <img class="img-fullwidth mb-sm-0" src="<?php echo URL; ?>public/images/about/as1.jpg" alt="">
                         </div>
                       </div>
                       <div class="col-md-6 p-10 pl-sm-50">
@@ -1328,7 +1327,7 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="thumb">
-                        <img class="img-fullwidth mb-sm-0" src="images/about/as2.jpg" alt="">
+                        <img class="img-fullwidth mb-sm-0" src="<?php echo URL; ?>public/images/about/as2.jpg" alt="">
                         </div>
                       </div>
                       <div class="col-md-6 p-10 pl-sm-50">
@@ -1348,7 +1347,7 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="thumb">
-                        <img class="img-fullwidth mb-sm-0" src="images/about/as3.jpg" alt="">
+                        <img class="img-fullwidth mb-sm-0" src="<?php echo URL; ?>public/images/about/as3.jpg" alt="">
                         </div>
                       </div>
                       <div class="col-md-6 p-10 pl-sm-50">
@@ -1368,7 +1367,7 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="thumb">
-                        <img class="img-fullwidth mb-sm-0" src="images/about/as4.jpg" alt="">
+                        <img class="img-fullwidth mb-sm-0" src="<?php echo URL; ?>public/images/about/as4.jpg" alt="">
                         </div>
                       </div>
                       <div class="col-md-6 p-10 pl-sm-50">
@@ -1407,7 +1406,7 @@
               <article class="post clearfix mb-sm-30">
                 <div class="entry-header">
                   <div class="post-thumb thumb"> 
-                    <img src="images/blog/1.jpg" alt="" class="img-responsive img-fullwidth"> 
+                    <img src="<?php echo URL; ?>public/images/blog/1.jpg" alt="" class="img-responsive img-fullwidth"> 
                   </div>
                 </div>
                 <div class="entry-content p-20 pr-10">
@@ -1429,7 +1428,7 @@
               <article class="post clearfix mb-sm-30">
                 <div class="entry-header">
                   <div class="post-thumb thumb"> 
-                    <img src="images/blog/2.jpg" alt="" class="img-responsive img-fullwidth"> 
+                    <img src="<?php echo URL; ?>public/images/blog/2.jpg" alt="" class="img-responsive img-fullwidth"> 
                   </div>
                 </div>
                 <div class="entry-content p-20 pr-10">
@@ -1451,7 +1450,7 @@
               <article class="post clearfix mb-sm-30">
                 <div class="entry-header">
                   <div class="post-thumb thumb"> 
-                    <img src="images/blog/3.jpg" alt="" class="img-responsive img-fullwidth"> 
+                    <img src="<?php echo URL; ?>public/images/blog/3.jpg" alt="" class="img-responsive img-fullwidth"> 
                   </div>
                 </div>
                 <div class="entry-content p-20 pr-10">
@@ -1513,11 +1512,6 @@
       </div>
     </section>        
 
-  </div>
+  </div></div>
   <!-- end main-content -->
   
-  
-</body>
-
-<!-- Mirrored from html.kodesolution.live/m/learnpress/v2.0/demo/index-boxed-mp-layout2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Feb 2021 06:13:39 GMT -->
-</html>
