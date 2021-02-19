@@ -37,7 +37,7 @@
                                 </li>
                             </ul>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit amet.Aliquam ipsum quis ipsum facilisis sit ame ipsum quis ipsum facilisis sit amet facilisis consecte.</p>
-                            <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-accounting-technologies.html">view details</a>
+                            <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="<?php echo URL; ?>course/details">view details</a>
                         </div>
                     </div>
                     <hr>
