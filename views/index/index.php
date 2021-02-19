@@ -653,7 +653,7 @@
                                     </div>
                                 </div>
                             </div>
-                          <div class="item">
+                            <div class="item">
                                 <div class="project mb-30 border-2px">
                                     <div class="thumb">
                                         <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/p4.jpg">
@@ -971,115 +971,42 @@
         </section>
 
         <!-- Section: teachers -->
-        <section>
-            <div class="container pt-70 pb-40">
-                <div class="section-title text-center">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h2 class="mt-0 line-height-1 text-uppercase">Our <span class="text-theme-color-2">Teachers</span></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
+        <section id="mission">
+            <div class="container-fluid pt-0 pb-0">
+                <div class="row equal-height">
+                    <div class="col-sm-6 col-md-6 pull-right xs-pull-none bg-theme-colored wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" style="min-height: 38.57em; visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                        <div class="pt-60 pb-40 pl-90 pr-160 p-md-30">
+                            <h2 class="title text-white text-uppercase line-bottom mt-0 mb-30">Who can join the programme</h2>
+                            <div class="icon-box clearfix m-0 p-0 pb-10">
+                                <!--                <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none"> 
+                                                  <i class="fa fa-desktop text-theme-color-2 font-36"></i> 
+                                                </a>-->
+                                <div class="ml-120 ml-sm-0">
+                                    <p class="text-white">Those who are interested to gain new skills to enter into the job market</p>
+                                    <p class="text-white">Students who are currently pursuing their undergraduate/ diploma/ postgraduate degree</p>
+                                </div>
+                            </div>
+                            <div class="icon-box clearfix m-0 p-0 pb-10">
+                                <!--                <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none">
+                                                  <i class="fa fa-user text-theme-color-2 font-36"></i> 
+                                                </a>-->
+                                <div class="ml-120 ml-sm-0">
+                                    <p class="text-white">Those who are unemployed and wish to gain skills to start mini and micro-enterprises</p>
+                                    <p class="text-white">Those who lost their employment/ income opportunity due to COVID 19 or other reasons and wish
+                                        to gain new skills / up-skill / reskill to secure a job/income opportunity</p>
+                                </div>
+                            </div>
+                            <div class="icon-box clearfix m-0 p-0 pb-10">
+                                <!--                <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none">
+                                                  <i class="fa fa-money text-theme-color-2 font-36"></i> 
+                                                </a>-->
+                                <div class="ml-120 ml-sm-0">
+                                    <p class="text-white">Instructors/ teachers/ trainer of Technical and Vocational Education and Training </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row multi-row-clearfix">
-                    <div class="col-md-12">
-                        <div class="owl-carousel-4col" data-nav="true">
-                            <div class="item">
-                                <div class="hover-effect mb-30">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/1.jpg">
-                                        <div class="hover-link">
-                                            <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="details p-15 pt-10 pb-10">
-                                        <h4 class="title mb-5">Proff.  DR.  Jhon Doe</h4>
-                                        <h5 class="sub-title mt-0 mb-15">Teacher's Designation</h5>
-                                        <a class="btn btn-theme-colored btn-sm" href="page-doctor-details.html">view details</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="hover-effect mb-30">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/2.jpg">
-                                        <div class="hover-link">
-                                            <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="details p-15 pt-10 pb-10">
-                                        <h4 class="title mb-5">Proff.  DR.  Jhon Doe</h4>
-                                        <h5 class="sub-title mt-0 mb-15">Teacher's Designation</h5>
-                                        <a class="btn btn-theme-colored btn-sm" href="page-doctor-details.html">view details</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="hover-effect mb-30">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/3.jpg">
-                                        <div class="hover-link">
-                                            <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="details p-15 pt-10 pb-10">
-                                        <h4 class="title mb-5">Proff.  DR.  Jhon Doe</h4>
-                                        <h5 class="sub-title mt-0 mb-15">Teacher's Designation</h5>
-                                        <a class="btn btn-theme-colored btn-sm" href="page-doctor-details.html">view details</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="hover-effect mb-30">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/4.jpg">
-                                        <div class="hover-link">
-                                            <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="details p-15 pt-10 pb-10">
-                                        <h4 class="title mb-5">Proff.  DR.  Jhon Doe</h4>
-                                        <h5 class="sub-title mt-0 mb-15">Teacher's Designation</h5>
-                                        <a class="btn btn-theme-colored btn-sm" href="page-doctor-details.html">view details</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="hover-effect mb-30">
-                                    <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/team/3.jpg">
-                                        <div class="hover-link">
-                                            <ul class="styled-icons icon-dark icon-theme-colored icon-circled icon-sm">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="details p-15 pt-10 pb-10">
-                                        <h4 class="title mb-5">Proff.  DR.  Jhon Doe</h4>
-                                        <h5 class="sub-title mt-0 mb-15">Teacher's Designation</h5>
-                                        <a class="btn btn-theme-colored btn-sm" href="page-doctor-details.html">view details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-sm-6 col-md-6 p-0 bg-img-cover wow fadeInRight hidden-xs" data-bg-img="<?php echo URL; ?>public/images/portfolio/s1.jpg" data-wow-duration="1s" data-wow-delay="0.3s" style="background-image: url(&quot;images/photos/ab1.jpg&quot;); min-height: 38.57em; visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
                     </div>
                 </div>
             </div>
@@ -1087,170 +1014,216 @@
 
         <!-- Section: events -->
         <section class="divider parallax layer-overlay overlay-dark-8" data-stellar-background-ratio="0.5" data-bg-img="<?php echo URL; ?>public/images/bg/bg1.jpg">
-            <div class="container pt-40 pb-60">
+<!--<section class="bg-lighter">-->
+            <div class="container pt-40 pb-50">
                 <div class="section-content">
                     <div class="row">
-                        <div class="col-md-6 wow fadeInLeft mt-10 pr-30" data-wow-duration="1s" data-wow-delay="0.3s">
-                            <h3 class="bg-theme-colored p-15 pl-30 mb-0 text-white">Get A Free Registration!</h3>
-                            <form id="volunteer_apply_form" class="bg-light p-30 pb-15" name="job_apply_form" action="http://html.kodesolution.live/m/learnpress/v2.0/demo/includes/become-volunteer.php" method="post" enctype="multipart/form-data">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="form_name">Name <small>*</small></label>
-                                            <input id="form_name" name="form_name" type="text" placeholder="Enter Name" required="" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="form_email">Email <small>*</small></label>
-                                            <input id="form_email" name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="form-group mb-10">
-                                            <div class="styled-select">
-                                                <select id="booking_service" name="booking_service" class="form-control" required="">
-                                                    <option value="">- Select Your  Courses -</option>
-                                                    <option value="Accounting Technoloiges">Accounting Technoloiges</option>
-                                                    <option value="Chemical Engineering">Chemical Engineering</option>
-                                                    <option value="Computer Technologies">Computer Technologies</option>
-                                                    <option value="Development Studies">Development Studies</option>
-                                                    <option value="Electrical & Electronic">Electrical & Electronic</option>
-                                                    <option value="Modern Languages">Modern Languages</option>
-                                                    <option value="Modern Technologies">Modern Technologies</option>
-                                                    <option value="Software Engineering">Software Engineering</option>
-                                                </select>
+                        <div class="col-md-4 wow fadeInRight pr-40" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                            <h3 class="text-uppercase title line-bottom">What <span class="text-theme-color-2 font-weight-700">Clients Say ?</span></h3>
+                            <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 382px;"><div class="bxslider bx-nav-top" style="width: auto; position: relative; transition-duration: 0s; transform: translate3d(0px, -392.8px, 0px);"><div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15 bx-clone" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
+                                            <div class="comment">
+                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
+                                            </div>
+                                            <div class="content mt-20">
+                                                <div class="thumb pull-left flip">
+                                                    <img src="images/testimonials/2.jpg" alt="" class="img-circle" width="64">
+                                                </div>
+                                                <div class="testimonials-details pull-left flip ml-20">
+                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
+                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
+                                                    <ul class="review_text list-inline">
+                                                        <li>
+                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div><div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15 bx-clone" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
+                                            <div class="comment">
+                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
+                                            </div>
+                                            <div class="content mt-20">
+                                                <div class="thumb pull-left flip">
+                                                    <img src="images/testimonials/3.jpg" alt="" class="img-circle" width="64">
+                                                </div>
+                                                <div class="testimonials-details pull-left flip ml-20">
+                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
+                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
+                                                    <ul class="review_text list-inline">
+                                                        <li>
+                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="form_message">Message <small>*</small></label>
-                                    <textarea id="form_message" name="form_message" class="form-control required" rows="2" placeholder="Your cover letter/message sent to the employer"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="" />
-                                    <button type="submit" class="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10" data-loading-text="Please wait...">Apply Now</button>
-                                </div>
-                            </form>
-                            <!-- Job Form Validation-->
-                            <script type="text/javascript">
-                                $("#volunteer_apply_form").validate({
-                                    submitHandler: function (form) {
-                                        var form_btn = $(form).find('button[type="submit"]');
-                                        var form_result_div = '#form-result';
-                                        $(form_result_div).remove();
-                                        form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                                        var form_btn_old_msg = form_btn.html();
-                                        form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                                        $(form).ajaxSubmit({
-                                            dataType: 'json',
-                                            success: function (data) {
-                                                if (data.status == 'true') {
-                                                    $(form).find('.form-control').val('');
-                                                }
-                                                form_btn.prop('disabled', false).html(form_btn_old_msg);
-                                                $(form_result_div).html(data.message).fadeIn('slow');
-                                                setTimeout(function () {
-                                                    $(form_result_div).fadeOut('slow')
-                                                }, 6000);
-                                            }
-                                        });
-                                    }
-                                });
-                            </script>
+                                        <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
+                                            <div class="comment">
+                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
+                                            </div>
+                                            <div class="content mt-20">
+                                                <div class="thumb pull-left flip">
+                                                    <img src="images/testimonials/1.jpg" alt="" class="img-circle" width="64">
+                                                </div>
+                                                <div class="testimonials-details pull-left flip ml-20">
+                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
+                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
+                                                    <ul class="review_text list-inline">
+                                                        <li>
+                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
+                                            <div class="comment">
+                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
+                                            </div>
+                                            <div class="content mt-20">
+                                                <div class="thumb pull-left flip">
+                                                    <img src="images/testimonials/2.jpg" alt="" class="img-circle" width="64">
+                                                </div>
+                                                <div class="testimonials-details pull-left flip ml-20">
+                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
+                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
+                                                    <ul class="review_text list-inline">
+                                                        <li>
+                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
+                                            <div class="comment">
+                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
+                                            </div>
+                                            <div class="content mt-20">
+                                                <div class="thumb pull-left flip">
+                                                    <img src="images/testimonials/3.jpg" alt="" class="img-circle" width="64">
+                                                </div>
+                                                <div class="testimonials-details pull-left flip ml-20">
+                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
+                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
+                                                    <ul class="review_text list-inline">
+                                                        <li>
+                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15 bx-clone" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
+                                            <div class="comment">
+                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
+                                            </div>
+                                            <div class="content mt-20">
+                                                <div class="thumb pull-left flip">
+                                                    <img src="images/testimonials/1.jpg" alt="" class="img-circle" width="64">
+                                                </div>
+                                                <div class="testimonials-details pull-left flip ml-20">
+                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
+                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
+                                                    <ul class="review_text list-inline">
+                                                        <li>
+                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div><div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15 bx-clone" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
+                                            <div class="comment">
+                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
+                                            </div>
+                                            <div class="content mt-20">
+                                                <div class="thumb pull-left flip">
+                                                    <img src="images/testimonials/2.jpg" alt="" class="img-circle" width="64">
+                                                </div>
+                                                <div class="testimonials-details pull-left flip ml-20">
+                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
+                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
+                                                    <ul class="review_text list-inline">
+                                                        <li>
+                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div></div></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev" href=""><i class="fa fa-angle-left"></i></a><a class="bx-next" href=""><i class="fa fa-angle-right"></i></a></div></div></div>
                         </div>
-                        <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
-                            <h3 class="text-uppercase ml-15 title line-bottom text-white">Next <span class="text-theme-color-2 font-weight-700">Events</span></h3>
-                            <div class="bxslider bx-nav-top p-0 m-0">
-                                <div class="col-xs-12 pr-0 col-sm-6 col-md-6 mb-20">
-                                    <div class="pricing table-horizontal maxwidth400">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="thumb">
-                                                    <img class="img-fullwidth mb-sm-0" src="<?php echo URL; ?>public/images/about/as1.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 p-10 pl-sm-50">
-                                                <h4 class="mt-0 mb-5 mt-10"><a href="#" class="text-white">Upcoming Event Title</a></h4>
-                                                <ul class="list-inline font-16 mb-5 text-white">
-                                                    <li class="pr-0"><i class="fa fa-calendar mr-5"></i> June 26, 2016 |</li>
-                                                    <li class="pl-5"><i class="fa fa-map-marker mr-5"></i>New York</li>
-                                                </ul>
-                                                <p class="mb-0 font-13 text-white mr-5 pr-10">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit. Quas eveniet.</p>
-                                                <a class="font-16  text-white mt-20" href="#">Read More →</a>
-                                            </div>
+                        <div class="col-md-8 hidden-xs pl-40">
+                            <h3 class="line-bottom mt-20 line-height-1"><span class="text-theme-color-2">FAQ</span></h3>
+                            <div id="accordion1" class="panel-group accordion">
+                              
+                                <div class="panel">
+                                    <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion12" class="active" aria-expanded="true"> <span class="open-sub"></span>Who can join? </a> </div>
+                                    <div id="accordion12" class="panel-collapse collapse in" role="tablist" aria-expanded="true" style=""><div class="panel-content">
+                                            <p> Those who are interested to gain new skills to enter into the job market</p>
+
+                                            <p> Students who are currently pursuing their undergraduate/ diploma/ postgraduate degree</p>
+
+                                              <p>  Those who are unemployed and wish to gain skills to start mini and micro-enterprises</p>
+
+                                               <p>  Those who lost their employment/ income opportunity due to COVID 19 or other reasons and wish to gain new skills/ up-skill/re-skill to secure a job/ income opportunity</p>
+
+                                              <p>  Instructors/ teachers/ trainer of Technical and Vocational Education and Training</p>
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                  <div class="panel">
+                                    <div class="panel-title"> <a class="collapsed" data-parent="#accordion1" data-toggle="collapse" href="#accordion11" aria-expanded="false"> <span class="open-sub"></span>How can join? </a> </div>
+                                    <div id="accordion11" class="panel-collapse collapse" role="tablist" aria-expanded="false" style="height: 0px;">
+                                        
+                                        <div class="panel-content">
+                                            <p> Submit the online application form latest by 11 September 2020</p>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <div class="panel">
+                                    <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion13" class="collapsed" aria-expanded="false"> <span class="open-sub"></span> Benefits?</a> </div>
+                                    <div id="accordion13" class="panel-collapse collapse" role="tablist" aria-expanded="false" style="height: 0px;">
+                                        <div class="panel-content">
+                                            <p>UNLIMITED and FREE access to 3,800 courses designed to skill and reskill citizens of Commonwealth Member States for livelihoods.</p>
+                                            <p>Programme leads include highly reputed professors and mentors from well recognised universities and institutions around the world. Find more at: https://www.coursera.org/browse </p>
+                                            <p>Certification from world renowned universities</p>
+                                            <p>Mentorship support</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 pr-0 col-sm-6 col-md-6 mb-30">
-                                    <div class="pricing table-horizontal maxwidth400">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="thumb">
-                                                    <img class="img-fullwidth mb-sm-0" src="<?php echo URL; ?>public/images/about/as2.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 p-10 pl-sm-50">
-                                                <h4 class="mt-0 mb-5 mt-10"><a href="#" class="text-white">Upcoming Event Title</a></h4>
-                                                <ul class="list-inline font-16 mb-5 text-white">
-                                                    <li class="pr-0"><i class="fa fa-calendar mr-5"></i> June 26, 2016 |</li>
-                                                    <li class="pl-5"><i class="fa fa-map-marker mr-5"></i>New York</li>
-                                                </ul>
-                                                <p class="mb-0 font-13 text-white mr-5 pr-10">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit. Quas eveniet.</p>
-                                                <a class="font-16  text-white mt-20" href="#">Read More →</a>
-                                            </div>
+                                <div class="panel">
+                                    <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion14" class="collapsed" aria-expanded="false"> <span class="open-sub"></span> How this work?</a> </div>
+                                    <div id="accordion14" class="panel-collapse collapse" role="tablist" aria-expanded="false">
+                                        <div class="panel-content">
+                                            <p> Each learner will be required to complete at least 2 courses. All participants will have access to the e-learning courses until December 2020.m</p>
+                                            <p>Learner has to respond to our email invitation to sign up for Coursera portal within 3 days of receiving.</p>
+                                            <p>Learner has to enroll in a course or two within a week of accepting the invitation.</p>
+                                            <p>Learner has to show enough progress with learning, say at least three hours of learning within the first two weeks of joining.</p>
+                                            <p>Learner has to complete at least one course within 4 weeks of availing the scholarship.</p>
+                                            <p>The scholarship will be withdrawn if the learner is not able to demonstrate enough commitment and willingness to take advantage of the scholarship.</p>
+                                            <p>A helpdesk facility is available to help facilitate learning.</p>
+                                            <p>Please fill in the application form We will review your application and if you are eligible for the program, you will receive an invitation to join Coursera e-learning platform.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 pr-0 col-sm-6 col-md-6 mb-30">
-                                    <div class="pricing table-horizontal maxwidth400">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="thumb">
-                                                    <img class="img-fullwidth mb-sm-0" src="<?php echo URL; ?>public/images/about/as3.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 p-10 pl-sm-50">
-                                                <h4 class="mt-0 mb-5 mt-10"><a href="#" class="text-white">Upcoming Event Title</a></h4>
-                                                <ul class="list-inline font-16 mb-5 text-white">
-                                                    <li class="pr-0"><i class="fa fa-calendar mr-5"></i> June 26, 2016 |</li>
-                                                    <li class="pl-5"><i class="fa fa-map-marker mr-5"></i>New York</li>
-                                                </ul>
-                                                <p class="mb-0 font-13 text-white mr-5 pr-10">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit. Quas eveniet.</p>
-                                                <a class="font-16  text-white mt-20" href="#">Read More →</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12 pr-0 col-sm-6 col-md-6 mb-30">
-                                    <div class="pricing table-horizontal maxwidth400">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="thumb">
-                                                    <img class="img-fullwidth mb-sm-0" src="<?php echo URL; ?>public/images/about/as4.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 p-10 pl-sm-50">
-                                                <h4 class="mt-0 mb-5 mt-10"><a href="#" class="text-white">Upcoming Event Title</a></h4>
-                                                <ul class="list-inline font-16 mb-5 text-white">
-                                                    <li class="pr-0"><i class="fa fa-calendar mr-5"></i> June 26, 2016 |</li>
-                                                    <li class="pl-5"><i class="fa fa-map-marker mr-5"></i>New York</li>
-                                                </ul>
-                                                <p class="mb-0 font-13 text-white mr-5 pr-10">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit. Quas eveniet.</p>
-                                                <a class="font-16  text-white mt-20" href="#">Read More →</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- Section: Blog -->
         <section id="blog">
