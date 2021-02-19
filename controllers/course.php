@@ -13,5 +13,13 @@ class Course extends Controller{
         $this->view->render('course/index');
         $this->view->render('footer');
     }
+    function details(){
+    
+        
+        $this->view->render('header');
+        $this->view->render('navigation');
+        $this->view->render('course/details');
+        $this->view->render('footer');
+    }
      
 }
