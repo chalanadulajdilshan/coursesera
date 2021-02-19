@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en">
-
-
-    <body class="">
+ 
         <div id="wrapper" class="clearfix">
             <!-- preloader -->
-            <div id="preloader">
-                <div id="spinner">
-                    <img alt="" src="<?php echo MAIN_PUBLIC_URL ?>images/preloaders/5.gif">
-                </div>
-                <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-            </div>
+             
 
             <!-- Start main-content -->
             <div class="main-content">
@@ -21,7 +12,7 @@
                             <div class="container pb-100 pt-50">
                                 <div class="row">
                                     <div class="col-md-10 col-md-push-1">
-                                        <div class="text-center mb-60"><a href="#" class=""><img alt="" src="<?php echo MAIN_PUBLIC_URL ?>images/logo-wide.png"></a></div>
+                                       
                                         <div class="bg-lightest border-1px p-25">
                                             <h4 class="text-theme-colored text-uppercase m-0">Make an Appointment</h4>
                                             <div class="line-bottom mb-0"></div>
@@ -372,51 +363,13 @@
                         </div>
                     </div>
             </div>
-        </section>
+         
     </div>  
     <!-- end main-content -->
 
     <!-- Footer -->
-    <footer id="footer" class="footer bg-black-222">
-        <div class="container p-20">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p class="mb-0">Copyright &copy;2016 ThemeMascot. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+     
     <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-</div>
-<!-- end wrapper -->
-
-<!-- Footer Scripts -->
-<!-- JS | Custom script for all pages -->
-<script src="<?php echo MAIN_PUBLIC_URL ?>js/custom.js"></script>
-<script src="<?php echo MAIN_PUBLIC_URL ?>ajax/js/district.js"></script>
-<script src="<?php echo MAIN_PUBLIC_URL ?>js/jquery.inputmask.bundle.min.js" type="text/javascript"></script>
-
-<script>
-    $(function (e) {
-        "use strict";
-        $(".date-inputmask").inputmask("dd/mm/yyyy"),
-                $(".phone-inputmask").inputmask("9999999999"),
-                $(".email-inputmask").inputmask({
-            mask: "*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[*{2,6}][*{1,2}].*{1,}[.*{2,6}][.*{1,2}]"
-            , greedy: !1
-            , onBeforePaste: function (n, a) {
-                return (e = e.toLowerCase()).replace("mailto:", "")
-            }
-            , definitions: {
-                "*": {
-                    validator: "[0-9A-Za-z!#$%&'*+/=?^_`{|}~/-]"
-                    , cardinality: 1
-                    , casing: "lower"
-                }
-            }
-        })
-    });</script>
-</body>
-
-</html>
-
+ 
+ 
+ 
