@@ -66,6 +66,7 @@
                                     <li><a href="page-courses-modern-technologies.html">Modern Technologies</a></li>
                                     <li><a href="page-courses-software-engineering.html">Software Engineering</a></li>
                                 </ul>
+                                <a href="#" style="color: blue;">See More..</a>
                             </div>
                         </div>
                         <!--                        <div class="widget">
