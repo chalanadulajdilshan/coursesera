@@ -461,11 +461,8 @@
                       <li><a href="blog-extra-infinity-scroll-lazyload.html">Blog Infinity Scroll Lazyload</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Blog Timeline</a>
-                    <ul class="dropdown">
-                      <li><a href="blog-timeline.html">Blog Timeline Default</a></li>
-                      <li><a href="blog-timeline-masonry.html">Blog Timeline Masonry</a></li>
-                    </ul>
+                  <li><a href="<?php echo URL; ?>contactus">Contact Us</a>
+                     
                   </li>
                 </ul>
               </li>
