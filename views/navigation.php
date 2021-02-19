@@ -47,15 +47,16 @@
                         <li><a href="<?php echo URL; ?>contactus">Contact Us</a>
 
                         </li>
-                        <li><a class="btn btn-default btn-transparent btn-theme-colored btn-circled btn-lg" href="#">Register Now...!</a>
+                        <li><a class="btn btn-default btn-transparent btn-theme-colored btn-circled btn-lg" href="#" style="border: 3px solid;
+                               margin-top: -5px;"><b>Register Now...!</b></a>
 
                         </li> 
-                         
-                         
 
-                         
-                         
-                        
+
+
+
+
+
 
                     </ul>
                 </nav>
