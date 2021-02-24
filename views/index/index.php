@@ -47,7 +47,7 @@
                 <div class="section-content">
                     <div class="row">
                         <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/1.jpg" alt="">
+                            <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/couseara.png" alt="">
                              
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
 
@@ -58,7 +58,7 @@
                              
                         </div>
                         <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/2.jpg" alt="">
+                            <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/udemylogo.png" alt="">
                              
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
                                 <h4 class="letter-space-1 mt-10"><span class="text-theme-color-2">Udemy</span></h4>
@@ -68,7 +68,7 @@
                              
                         </div>
                         <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/3.jpg" alt="">
+                            <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/google digital.png" alt="">
                              
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30">
                                 <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2"> Google</span></h4>
