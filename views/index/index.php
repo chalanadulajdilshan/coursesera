@@ -31,7 +31,7 @@
                             </div>
                             <div class="col-md-4">
 
-                        
+
 
                             </div>
                         </div>
@@ -48,34 +48,34 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
                             <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/couseara.png" alt="">
-                             
+
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
 
                                 <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2"> Coursera</span></h4>
                                 <p>laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero    </p>
                                 <a href="#" class="btn btn-sm btn-theme-colored">View more</a>
                             </div>
-                             
+
                         </div>
                         <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
                             <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/udemylogo.png" alt="">
-                             
+
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
                                 <h4 class="letter-space-1 mt-10"><span class="text-theme-color-2">Udemy</span></h4>
                                 <p>laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero    </p>
                                 <a href="#" class="btn btn-sm btn-theme-colored">View more</a>
                             </div>
-                             
+
                         </div>
                         <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
                             <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/google digital.png" alt="">
-                             
+
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30">
                                 <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2"> Google</span></h4>
                                 <p>laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero   </p>
                                 <a href="#" class="btn btn-sm btn-theme-colored">View more</a>
                             </div>
-                             
+
                         </div>
                     </div>
                 </div>
@@ -90,9 +90,9 @@
                         <div class="col-sm-12 col-md-6 mb-sm-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                             <h3 class="text-uppercase mt-0">Welcome To <span class="text-theme-color-2"> SOSL </span></h3>
                             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi earum aliquid in ullam.Lorem ipsum.</p>
-                            <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt ut dolorem laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
-                            <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt ut dolorem laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
+                            <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit.eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
                             <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="#">View Details</a> 
+                            <img style="margin-top: 15px" src="<?php echo URL; ?>public/images/logos.png">
                         </div>
                         <div class="col-sm-12 col-md-6 mt-0 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="video-popup">                
