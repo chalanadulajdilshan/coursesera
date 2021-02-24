@@ -88,7 +88,7 @@
                 <div class="section-content">
                     <div class="row mt-10">
                         <div class="col-sm-12 col-md-6 mb-sm-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                            <h3 class="text-uppercase mt-0">Welcome To <span class="text-theme-color-2"> Coursera </span></h3>
+                            <h3 class="text-uppercase mt-0">Welcome To <span class="text-theme-color-2"> SOSL </span></h3>
                             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi earum aliquid in ullam.Lorem ipsum.</p>
                             <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt ut dolorem laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
                             <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt ut dolorem laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
@@ -131,7 +131,7 @@
                                             <i class="fa fa-users text-theme-colored font-50"></i>
                                         </a>
                                         <div class="ml-70 ml-sm-0">
-                                            <h4 class="icon-box-title mt-15 mb-5">Best Teachers</h4>
+                                            <h4 class="icon-box-title mt-15 mb-5">Best Staff</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@
                                             <i class="fa fa-money text-theme-colored font-50"></i>
                                         </a>
                                         <div class="ml-70 ml-sm-0">
-                                            <h4 class="icon-box-title mt-15 mb-5">Low Cost Services</h4>
+                                            <h4 class="icon-box-title mt-15 mb-5">Cost Free</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                         </div>
                                     </div>
