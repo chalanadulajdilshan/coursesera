@@ -1,3 +1,4 @@
+
 <footer id="footer" class="footer bg-black-222" data-bg-img="<?php echo URL; ?>public/images/footer-bg.png">
     <div class="container pt-70 pb-40">
         <div class="row">
