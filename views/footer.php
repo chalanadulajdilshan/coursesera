@@ -23,28 +23,28 @@
                         <article class="post media-post clearfix pb-0 mb-10">
                             <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                                <h5 class="post-title mt-0 mb-5"><a href="#">Sustainable Construction</a></h5>
+                                <h5 class="post-title mt-0 mb-5"><a href="#">News Title 1</a></h5>
                                 <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                         </article>
                         <article class="post media-post clearfix pb-0 mb-10">
                             <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                                <h5 class="post-title mt-0 mb-5"><a href="#">Industrial Coatings</a></h5>
+                                <h5 class="post-title mt-0 mb-5"><a href="#">News Title 2</a></h5>
                                 <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                         </article>
                         <article class="post media-post clearfix pb-0 mb-10">
                             <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                                <h5 class="post-title mt-0 mb-5"><a href="#">Storefront Installations</a></h5>
+                                <h5 class="post-title mt-0 mb-5"><a href="#">News Title 3</a></h5>
                                 <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                         </article>
                         <article class="post media-post clearfix pb-0 mb-10">
                             <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
                             <div class="post-right">
-                                <h5 class="post-title mt-0 mb-5"><a href="#">Industrial Coatings</a></h5>
+                                <h5 class="post-title mt-0 mb-5"><a href="#">News Title 4</a></h5>
                                 <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                             </div>
                         </article>
@@ -55,11 +55,12 @@
                 <div class="widget dark">
                     <h5 class="widget-title line-bottom">Useful Links</h5>
                     <ul class="list angle-double-right list-border">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Donor Privacy Policy</a></li>
-                        <li><a href="#">Disclaimer</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Media Center</a></li>
+                        <li><a href="<?php echo URL; ?>">Home</a></li>
+                        <li><a href="<?php echo URL; ?>aboutus">About Us</a></li>
+                        <li><a href="<?php echo URL; ?>course">Courses</a></li>
+                        <li><a href="<?php echo URL; ?>success_stories">Success Stories</a></li>
+                        <li><a href="<?php echo URL; ?>contactus">Contact Us</a></li>
+                        <li><a href="<?php echo URL; ?>registration">Register Now</a></li>
                     </ul>
                 </div>
             </div>
@@ -68,8 +69,8 @@
                     <h5 class="widget-title line-bottom">Quick Contact</h5>
                     <ul class="list-border">
                         <li><a href="#">+(012) 345 6789</a></li>
-                        <li><a href="#">hello@yourdomain.com</a></li>
-                        <li><a href="#" class="lineheight-20">121 King Street, Melbourne Victoria 3000, Australia</a></li>
+                        <li><a href="#">sosl@vtasl.gov.lk</a></li>
+                        <li><a href="#" class="lineheight-20">Street No,Address Here</a></li>
                     </ul>
                     <p class="font-16 text-white mb-5 mt-15">Subscribe to our newsletter</p>
                     <form id="footer-mailchimp-subscription-form" class="newsletter-form mt-10">

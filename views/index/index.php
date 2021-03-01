@@ -16,7 +16,7 @@
     <!-- Start main-content -->
     <div class="main-content">
         <!-- Section: home -->
-        <section id="home" class="divider parallax layer-overlay overlay-dark-4" data-bg-img="<?php echo URL; ?>public/images/bg/2.jpg">
+        <section id="home" class="divider layer-overlay overlay-dark-4" data-bg-img="<?php echo URL; ?>public/images/bg/2.jpg">
             <div class="display-table">
                 <div class="display-table-cell">
                     <div class="container pt-100 pb-100">
@@ -26,7 +26,7 @@
                                     <h2 class="m-0 text-white text-uppercase font-30">Welcome To</h2>
                                     <h1 class="text-white text-uppercase font-52 font-weight-600 mt-0 line-height-1"><span class="text-theme-color-2">Skills Online</span>  Sri Lanka</h1>
                                     <p class="font-16 text-white">We provides always our best services for our clients and  always<br> try to achieve our client's trust and satisfaction.</p>
-                                    <a class="btn btn-colored btn-default btn-flat border-left-theme-color-2-6px mt-15" href="#" style="margin-bottom: 5%;"><b>Apply Online </b></a>
+                                    <a class="btn btn-colored btn-default btn-flat border-left-theme-color-2-6px mt-15" href="<?php echo URL; ?>registration" style="margin-bottom: 5%;"><b>Apply Online </b></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -93,7 +93,7 @@
                             <h3 class="text-uppercase mt-0">Welcome To <span class="text-theme-color-2"> SOSL </span></h3>
                             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi earum aliquid in ullam.Lorem ipsum.</p>
                             <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit.eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
-                            <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="#">View Details</a> 
+                            <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="<?php echo URL; ?>aboutus">View Details</a> 
                             <img style="margin-top: 15px" src="<?php echo URL; ?>public/images/logos.png">
                         </div>
                         <div class="col-sm-12 col-md-6 mt-0 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
