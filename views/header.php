@@ -7,12 +7,12 @@
         <!-- Meta Tags -->
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-        <meta name="description" content="LearnPress | Education & Courses HTML Template" />
-        <meta name="keywords" content="academy, course, education, education html theme, elearning, learning," />
+        <meta name="description" content="Skills Online Sri Lanka" />
+        <meta name="keywords" content="Skills Online Sri Lanka" />
         <meta name="author" content="ThemeMascot" />
 
         <!-- Page Title -->
-        <title>LearnPress | Education & Courses HTML Template</title>
+        <title>Skills Online Sri Lanka</title>
 
         <!-- Favicon and Touch Icons -->
         <link href="<?php echo URL; ?>public/images/favicon.png" rel="shortcut icon" type="image/png">
