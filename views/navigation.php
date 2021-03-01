@@ -41,7 +41,7 @@
                         <li><a href="<?php echo URL; ?>course">Courses</a>
 
                         </li>
-                        <li><a href="<?php echo URL; ?>">Success Stories</a>
+                        <li><a href="<?php echo URL; ?>success_stories">Success Stories</a>
 
                         </li>
                         <li><a href="<?php echo URL; ?>contactus">Contact Us</a>
