@@ -97,10 +97,12 @@
                             <img style="margin-top: 15px" src="<?php echo URL; ?>public/images/logos.png">
                         </div>
                         <div class="col-sm-12 col-md-6 mt-0 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-                            <div class="video-popup">                
-                                <a href="https://www.youtube.com/watch?v=pW1uVUg5wXM" data-lightbox-gallery="youtube-video" title="Video">
+                            <div class="video-popup">     
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/iVOWiwPrCK0" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--                                <a href="https://www.youtube.com/watch?v=pW1uVUg5wXM" data-lightbox-gallery="youtube-video" title="Video">
                                     <img alt="" src="<?php echo URL; ?>public/images/about/5.jpg" class="img-responsive img-fullwidth mt-10 ml-30 ml-xs-0 ml-sm-0">
-                                </a>
+                                </a>-->
                             </div>
                         </div>
                     </div>
@@ -144,7 +146,7 @@
                                             <i class="fa fa-book text-theme-colored font-50"></i>
                                         </a>
                                         <div class="ml-70 ml-sm-0">
-                                            <h4 class="icon-box-title mt-15 mb-5">Best Library</h4>
+                                            <h4 class="icon-box-title mt-15 mb-5">5100+ Courses</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                         </div>
                                     </div>
@@ -173,7 +175,7 @@
                 <div class="section-title text-center">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
-                            <h2 class="mt-0 line-height-1 text-uppercase">Our <span class="text-theme-color-2">Courses</span></h2>
+                            <h2 class="mt-0 line-height-1 text-uppercase">Popular <span class="text-theme-color-2">Subjects</span></h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
                         </div>
                     </div>
@@ -184,14 +186,14 @@
                             <div class="item">
                                 <div class="project mb-30 border-2px">
                                     <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/p5.jpg">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/Arts-And-Humanities.jpg">
                                         <div class="hover-link">
-                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span>$500</span> </a>
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
                                         </div>
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
-                                        <h5 class="font-14 font-weight-500 mb-5">Subtitle place here</h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Course Title Here</a></h4>
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Arts and Humanities</a></h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
                                         <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
@@ -204,14 +206,14 @@
                             <div class="item">
                                 <div class="project mb-30 border-2px">
                                     <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/p2.jpg">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/business.jpg">
                                         <div class="hover-link">
-                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span>$500</span> </a>
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
                                         </div>
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
-                                        <h5 class="font-14 font-weight-500 mb-5">Subtitle place here</h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Course Title Here</a></h4>
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Business</a></h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
                                         <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
@@ -224,14 +226,14 @@
                             <div class="item">
                                 <div class="project mb-30 border-2px">
                                     <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/p1.jpg">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/computer-science.jpg">
                                         <div class="hover-link">
-                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span>$500</span> </a>
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
                                         </div>
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
-                                        <h5 class="font-14 font-weight-500 mb-5">Subtitle place here</h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Course Title Here</a></h4>
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Computer Science</a></h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
                                         <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
@@ -244,14 +246,14 @@
                             <div class="item">
                                 <div class="project mb-30 border-2px">
                                     <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/p3.jpg">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/ict.jpg">
                                         <div class="hover-link">
-                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span>$500</span> </a>
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
                                         </div>
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
-                                        <h5 class="font-14 font-weight-500 mb-5">Subtitle place here</h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Course Title Here</a></h4>
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Information Technology</a></h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
                                         <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
@@ -264,14 +266,114 @@
                             <div class="item">
                                 <div class="project mb-30 border-2px">
                                     <div class="thumb">
-                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/p4.jpg">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/physical-science.jpg">
                                         <div class="hover-link">
-                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span>$500</span> </a>
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
                                         </div>
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
-                                        <h5 class="font-14 font-weight-500 mb-5">Subtitle place here</h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Course Title Here</a></h4>
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Physical Science & Engineering</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
+                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                            <li class="current-fund"><strong>Time</strong> June 26</li>
+                                            <li class="target-fund"><strong>Discount</strong>15%</li>
+                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="project mb-30 border-2px">
+                                    <div class="thumb">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/Health.jpg">
+                                        <div class="hover-link">
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
+                                        </div>
+                                    </div>
+                                    <div class="project-details p-15 pt-10 pb-10">
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Health</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
+                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                            <li class="current-fund"><strong>Time</strong> June 26</li>
+                                            <li class="target-fund"><strong>Discount</strong>15%</li>
+                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="project mb-30 border-2px">
+                                    <div class="thumb">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/Personal development.jpg">
+                                        <div class="hover-link">
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
+                                        </div>
+                                    </div>
+                                    <div class="project-details p-15 pt-10 pb-10">
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Personal Development</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
+                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                            <li class="current-fund"><strong>Time</strong> June 26</li>
+                                            <li class="target-fund"><strong>Discount</strong>15%</li>
+                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="project mb-30 border-2px">
+                                    <div class="thumb">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/learn-language.png">
+                                        <div class="hover-link">
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
+                                        </div>
+                                    </div>
+                                    <div class="project-details p-15 pt-10 pb-10">
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Language Learning</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
+                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                            <li class="current-fund"><strong>Time</strong> June 26</li>
+                                            <li class="target-fund"><strong>Discount</strong>15%</li>
+                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="project mb-30 border-2px">
+                                    <div class="thumb">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/maths.jpg">
+                                        <div class="hover-link">
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
+                                        </div>
+                                    </div>
+                                    <div class="project-details p-15 pt-10 pb-10">
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Math and Logic</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
+                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                            <li class="current-fund"><strong>Time</strong> June 26</li>
+                                            <li class="target-fund"><strong>Discount</strong>15%</li>
+                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="project mb-30 border-2px">
+                                    <div class="thumb">
+                                        <img class="img-fullwidth" alt="" src="<?php echo URL; ?>public/images/project/data-science.jpg">
+                                        <div class="hover-link">
+                                            <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="#"><span></span> </a>
+                                        </div>
+                                    </div>
+                                    <div class="project-details p-15 pt-10 pb-10">
+                                        <h5 class="font-14 font-weight-500 mb-5"></h5>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Data Science</a></h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
                                         <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
@@ -294,9 +396,9 @@
                 <div class="section-content">
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 text-center">
-                            <h3 class="text-white text-uppercase font-30 font-weight-600 mt-0 mb-20">Watch Our Latest Campus Tour video</h3>
+                            <h3 class="text-white text-uppercase font-30 font-weight-600 mt-0 mb-20">5100+ Courses and Specializations</h3>
                             <p class="text-white lead">Lorem ipsum dolor sit amet, volupt consectetur adipisicing elit. Rem autem voluptatem obcaecat ipsum dolor sit tetur adipisicing elit amet, consec autem atem obcaecati!</p>
-                            <a href="https://www.youtube.com/watch?v=pW1uVUg5wXM" data-lightbox-gallery="youtube-video"><i class="fa fa-play-circle text-white font-72"></i>
+                            
                             </a>
                         </div>
                     </div>
