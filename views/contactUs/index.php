@@ -1,8 +1,10 @@
 <!-- Start main-content -->
 <div class="main-content bg-lighter">
     <!-- Section: inner-header -->
-    <section class="inner-header divider layer-overlay overlay-dark-5" data-bg-img="<?php echo URL; ?>public/images/bg/bg6.jpg">
-        <div class="container pt-70 pb-20">
+
+    <section class="inner-header divider" data-bg-img="<?php echo URL; ?>public/images/bg/bg6.jpg">
+
+   <div class="container pt-70 pb-20">
             <!-- Section Content -->
             <div class="section-content">
                 <div class="row">
