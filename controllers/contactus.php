@@ -7,7 +7,7 @@ class Contactus extends Controller{
    
     function index(){
     
-        
+//        var_dump('sssss');
         $this->view->render('header');
         $this->view->render('navigation');
         $this->view->render('contactUs/index');

@@ -74,6 +74,7 @@ class Bootstrap
     {
         $url = isset($_GET['url']) ? $_GET['url'] : null;
         $url = rtrim($url, '/');
+        
         $url = filter_var($url, FILTER_SANITIZE_URL);
         $this->_url = explode('/', $url);
     }
@@ -118,7 +119,7 @@ class Bootstrap
         //$this->_url[0]->controller, $this->_url[1]->method, $this->_url[2]->param1, $this->_url[3]->param2, $this->_url[4]->param3, $this->_url[5]->param4
         //Get count of $this->_url array elements
         $count = count($this->_url);
-
+// var_dump($this->_url[1]);exit();
         //If method does not exists in controller then load error page
         if ($count > 1) {
             if (!method_exists($this->_controller, $this->_url[1])) {
@@ -132,6 +133,7 @@ class Bootstrap
                 break;
             case 2:
                 //Controller->Method()
+               
                 $this->_controller->{$this->_url[1]}();
                 break;
             case 3:
