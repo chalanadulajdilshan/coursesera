@@ -67,9 +67,11 @@
                             </div>
 
                         </div>
-                        <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/google digital.png" alt="">
 
+                        <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <a href="<?php echo URL; ?>google">
+                                <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/google digital.png" alt="">
+                            </a>
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30">
                                 <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2"> Google</span></h4>
                                 <p>laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero   </p>
