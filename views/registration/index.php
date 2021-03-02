@@ -113,8 +113,8 @@
                                                     </label>
                                                 </div> 
                                                 <div class="form-group " style="display: none" id="other_val">
-                                                    <input name="reason" class="form-control" type="text" placeholder="Fill your other resource details"  >
-                                                   
+                                                    <input name="about_us" class="form-control" type="text" placeholder="Fill your other resource details"  >
+
                                                 </div>
 
                                                 <div class="form-group   " style="float: right;">
@@ -172,13 +172,13 @@
                                             <div class="col-sm-6">
                                                 <lable>Phone Number <span class="red">*</span> </lable>
                                                 <div class="form-group mb-10">
-                                                    <input name="mobile_phone"  id="mobile_phone" class="form-control   phone-inputmask" type="text" placeholder="Mobile Number +9476" >
+                                                    <input name="mobile_phone"  id="mobile_phone" class="form-control   phone-inputmask" maxlength="10" type="text" placeholder="Mobile Number +9476" >
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
                                                 <lable>Land Phone Number  </lable>
                                                 <div class="form-group mb-10">
-                                                    <input name="land_phone" id="land_phone" class="form-control   phone-inputmask" type="text" placeholder="Land Phone Number +9411"  >
+                                                    <input name="land_phone" id="land_phone" class="form-control   phone-inputmask" type="text" maxlength="10" placeholder="Land Phone Number +9411"  >
                                                 </div>
                                             </div>
 
@@ -255,7 +255,7 @@
                                             <div class="col-sm-12">
                                                 <h5 class="text-theme-colored text-uppercase mb-10">3) Current Status</h5>
 
-                                                <label class="mb-0">  3.1. Student Status: <span class="red">*</span></label><br>
+                                                <label class="mb-0 main-lable">  3.1. Student Status: <span class="red">*</span></label><br>
                                                 <label class="ml-20"> Are you a student? </label>
 
                                                 <input type="radio" id="styes"  name="is_student" value="yes" class="ml-10">
@@ -264,7 +264,7 @@
                                                 <input type="radio" id="stno"  name="is_student" value="no"  class="ml-30">
                                                 <label for="stno">No</label>  <br>
 
-                                                <label class="mb-0 " > 3.2. If yes provide details  <span class="red">*</span></label><br>
+                                                <label class="mb-0 main-lable" > 3.2. If yes provide details  <span class="red">*</span></label><br>
                                                 <input type="radio" id="field1"  name="student_status" value="College Student Full-time" class="ml-20">
                                                 <label for="field1" >College Student Full-time</label><br>
 
@@ -288,7 +288,7 @@
 
                                             </div>
                                             <div class="col-md-12">
-                                                <label class="mb-0"> 3.3. Employee Status: <span class="red">*</span></label><br>
+                                                <label class="mb-0 main-lable"> 3.3. Employee Status: <span class="red">*</span></label><br>
                                             </div>
                                             <div class="col-md-4">
                                                 <input type="radio" id="field8"  name="employee_status" value="Employed Full-time"  class="ml-20" > 
@@ -309,7 +309,7 @@
                                                 <label for="field12"  >Unemployed</label> 
                                             </div>
                                             <div class="col-sm-12"> 
-                                                <label class="mb-0 "> 3.4. Reasons for unemployed <span class="red">*</span></label><br>
+                                                <label class="mb-0 main-lable"> 3.4. Reasons for unemployed <span class="red">*</span></label><br>
                                             </div>
                                             <div class="col-md-12">
                                                 <input type="radio" id="field13"  name="reason_for_unemployee" value="I was employed in the past but am currently unemployed (reasons are not    related to COVID 19)" class="ml-20" > 
@@ -324,7 +324,7 @@
                                                 <label for="field15"  >I was never employed and am currently looking for a job</label>
                                             </div>
                                             <div class="col-md-12 mt-5">
-                                                <label class="mb-0 ">   3.5. If you are unemployed, please provide us some details to assess your suitability   for the scholarship </label>
+                                                <label class="mb-0 main-lable">   3.5. If you are unemployed, please provide us some details to assess your suitability   for the scholarship </label>
                                                 <div class="form-group mb-10">
                                                     <textarea name="scholarship_suitability" class="form-control  "  placeholder="Enter Message" rows="5"   class="ml-20"></textarea>
                                                 </div>
@@ -522,11 +522,35 @@
 <script src="<?php echo MAIN_PUBLIC_URL ?>ajax/js/registration.js" type="text/javascript"></script>
 <script src="<?php echo MAIN_PUBLIC_URL ?>ajax/js/district.js"></script>
 <script src="<?php echo MAIN_PUBLIC_URL ?>js/jquery.preloader.min.js" type="text/javascript"></script> 
+<script src="<?php echo MAIN_PUBLIC_URL ?>js/jquery.inputmask.bundle.min.js" type="text/javascript"></script>
 
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
     $(function () {
         $(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});
     });
+
 </script>
 
+
+<script>
+    $(function (e) {
+        "use strict";
+        $(".date-inputmask").inputmask("dd/mm/yyyy"),
+                $(".phone-inputmask").inputmask("9999999999"),
+                $(".email-inputmask").inputmask({
+            mask: "*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[*{2,6}][*{1,2}].*{1,}[.*{2,6}][.*{1,2}]"
+            , greedy: !1
+            , onBeforePaste: function (n, a) {
+                return (e = e.toLowerCase()).replace("mailto:", "")
+            }
+            , definitions: {
+                "*": {
+                    validator: "[0-9A-Za-z!#$%&'*+/=?^_`{|}~/-]"
+                    , cardinality: 1
+                    , casing: "lower"
+                }
+            }
+        })
+    });
+</script>

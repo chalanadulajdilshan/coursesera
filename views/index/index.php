@@ -29,11 +29,7 @@
                                     <a class="btn btn-colored btn-default btn-flat border-left-theme-color-2-6px mt-15" href="<?php echo URL; ?>registration" style="margin-bottom: 5%;"><b>Apply Online </b></a>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-
-
-
-                            </div>
+                            <div class="col-md-4">    </div>
                         </div>
                     </div>
                 </div>
@@ -94,15 +90,13 @@
                             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi earum aliquid in ullam.Lorem ipsum.</p>
                             <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit.eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
                             <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="<?php echo URL; ?>aboutus">View Details</a> 
-                            <img style="margin-top: 15px" src="<?php echo URL; ?>public/images/logos.png">
+                            <img style="margin-top: 15px" src="<?php echo URL; ?>public/images/logos.jpg">
                         </div>
                         <div class="col-sm-12 col-md-6 mt-0 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="video-popup">     
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/iVOWiwPrCK0" frameborder="0"
+                                <iframe width="560" height="360" src="https://www.youtube.com/embed/iVOWiwPrCK0" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<!--                                <a href="https://www.youtube.com/watch?v=pW1uVUg5wXM" data-lightbox-gallery="youtube-video" title="Video">
-                                    <img alt="" src="<?php echo URL; ?>public/images/about/5.jpg" class="img-responsive img-fullwidth mt-10 ml-30 ml-xs-0 ml-sm-0">
-                                </a>-->
+ 
                             </div>
                         </div>
                     </div>
@@ -691,7 +685,7 @@
                                 <!--                <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none"> 
                                                   <i class="fa fa-desktop text-theme-color-2 font-36"></i> 
                                                 </a>-->
-                                <div class="ml-120 ml-sm-0">
+                                <div class=" ml-sm-0">
                                     <p class="text-white">Those who are interested to gain new skills to enter into the job market</p>
                                     <p class="text-white">Students who are currently pursuing their undergraduate/ diploma/ postgraduate degree</p>
                                 </div>
@@ -700,7 +694,7 @@
                                 <!--                <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none">
                                                   <i class="fa fa-user text-theme-color-2 font-36"></i> 
                                                 </a>-->
-                                <div class="ml-120 ml-sm-0">
+                                <div class=" ml-sm-0">
                                     <p class="text-white">Those who are unemployed and wish to gain skills to start mini and micro-enterprises</p>
                                     <p class="text-white">Those who lost their employment/ income opportunity due to COVID 19 or other reasons and wish
                                         to gain new skills / up-skill / reskill to secure a job/income opportunity</p>
@@ -710,13 +704,13 @@
                                 <!--                <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none">
                                                   <i class="fa fa-money text-theme-color-2 font-36"></i> 
                                                 </a>-->
-                                <div class="ml-120 ml-sm-0">
+                                <div class=" ml-sm-0">
                                     <p class="text-white">Instructors/ teachers/ trainer of Technical and Vocational Education and Training </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 p-0 bg-img-cover wow fadeInRight hidden-xs" data-bg-img="<?php echo URL; ?>public/images/portfolio/s1.jpg" data-wow-duration="1s" data-wow-delay="0.3s" style="background-image: url(&quot;images/photos/ab1.jpg&quot;); min-height: 38.57em; visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                    <div class="col-sm-6 col-md-6 p-0 bg-img-cover wow fadeInRight hidden-xs" data-bg-img="<?php echo URL; ?>public/images/bg/bg5.jpg" data-wow-duration="1s" data-wow-delay="0.3s" style="background-image: url(&quot;images/photos/ab1.jpg&quot;); min-height: 38.57em; visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
                     </div>
                 </div>
             </div>
