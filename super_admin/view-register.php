@@ -6,6 +6,9 @@ include './auth.php';
 $id = '';
 $id = $_GET['id'];
 $REGESTRATIONS = new Registrations($id);
+$DISTRICT = new District($REGESTRATIONS->district);
+$PROVINCE = new DefaultData();
+$prov = $PROVINCE->provinces();
 ?>
 <html class="loading" lang="en" data-textdirection="ltr">
     <!-- BEGIN: Head-->
@@ -72,7 +75,7 @@ $REGESTRATIONS = new Registrations($id);
                                         <li class="breadcrumb-item"><a href="index.php"><i class="bx bx-home-alt"></i></a>
                                         </li>
 
-                                        <li class="breadcrumb-item active">View Applicant Details - " <?php echo $REGESTRATIONS->first_name . ' ' .$REGESTRATIONS->middle_name . ' ' .$REGESTRATIONS->last_name?> "
+                                        <li class="breadcrumb-item active">View Applicant Details
                                         </li>
                                     </ol>
                                 </div>
@@ -80,61 +83,283 @@ $REGESTRATIONS = new Registrations($id);
                         </div>
                     </div>
                 </div>
-                <div class="content-body">  
-                    <section id="info-tabs-">
-
-                        <div class="card icon-tab"> 
-                            <div class="card-content mt-2">
-                                <div class="card-body">
-                                    <form action="#" class="wizard-horizontal form repeater-default" id="form-data">
-                                        <fieldset>
-                                            <div class="br">
-                                                <div class="row">  
-                                                    <div class="col-sm-12">
-                                                        <div class="form-group">
-                                                            <label>Student Id</label>
-                                                            <input type="text" class="form-control"    value="<?php echo $REGESTRATIONS->student_id ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-12">
-                                                        <div class="form-group">
-                                                            <label>Student Full Name</label>
-                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->full_name ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-12">
-                                                        <div class="form-group">
-                                                            <label>Email</label>
-                                                            <input type="text" class="form-control" name="email"  value="<?php echo $REGESTRATIONS->email ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-12">
-                                                        <div class="form-group">
-                                                            <label>Phone Number</label>
-                                                            <input type="text" class="form-control"  name="phone_number" value="<?php echo $REGESTRATIONS->phone_number ?>">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6"> 
-                                                    </div>
-                                                    <div class="col-sm-6"> 
-                                                        <button class="btn btn-warning mb-1" type="button" id="update" style="float: right;color: white;margin-top: 20px">
-                                                            <span class=" spinner-border-sm" role="status" aria-hidden="true"></span>
-                                                            Update
-                                                        </button>
-                                                        <input type="hidden"   name="id" value="<?php echo $id ?>"/>
-                                                        <input type="hidden"   name="update"/>
-                                                    </div>
-
+                <section class="invoice-view-wrapper">
+                    <div class="row">
+                        <!-- invoice view page -->
+                        <div class="col-xl-9 col-md-8 col-12">
+                            <div class="card invoice-print-area">
+                                <div class="card-body pb-0 mx-25">
+                                    <!-- header section -->
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-12">
+                                            <span class="invoice-number mr-50">ID#</span>
+                                            <span>001</span>
+                                        </div>
+                                        <div class="col-lg-8 col-md-12">
+                                            <div class="d-flex align-items-center justify-content-lg-end flex-wrap">
+                                                <!--                                                <div class="mr-3">
+                                                                                                    <small class="text-muted">Issue Date:</small>
+                                                                                                    <span>08/10/2019</span>
+                                                                                                </div>-->
+                                                <div>
+                                                    <small class="text-muted">Date Recorded:</small>
+                                                    <span>08/10/2019 12.09.00</span>
                                                 </div>
-                                            </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- logo and title -->
+                                    <div class="row my-2 my-sm-3">
+                                        <div class="col-sm-6 col-12 text-center text-sm-left order-2 order-sm-1">
+                                            <h4 class="text-primary"> <?php echo $REGESTRATIONS->first_name . ' ' . $REGESTRATIONS->middle_name . ' ' . $REGESTRATIONS->last_name ?> </h4>
+                                            <h5 class="invoice-from">Scholarship :-  <span> <?php echo $REGESTRATIONS->scholarship ?></span></h5>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- invoice address and contact -->
+                                    <div class="row invoice-info">
 
-                                        </fieldset> 
-                                    </form> 
+                                        <div class="card icon-tab"> 
+
+                                            <div class="card-content mt-2">
+
+                                                <div class="card-body">
+                                                    <h6 class="invoice-from">How did you hear about us :-  <span> <?php echo $REGESTRATIONS->about_us ?></span></h6>
+                                                    <form action="#" class="wizard-horizontal form repeater-default" id="form-data">
+                                                        <fieldset>
+                                                            <div class="br">
+                                                                <div class="row">  
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>First Name</label>
+                                                                            <input type="text" class="form-control"    value="<?php echo $REGESTRATIONS->first_name ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Middle Name</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->middle_name ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Last Name</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->last_name ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Gender</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->gender ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Date Of Birth</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->date_of_birth ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Email</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->email ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Mobile Phone</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->mobile_phone ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Land Phone</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->land_phone ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Province</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $prov[$REGESTRATIONS->province] ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>District</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $DISTRICT->name ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-4">
+                                                                        <div class="form-group">
+                                                                            <label>Is Student?</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->is_student ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-8"> 
+                                                                        <div class="form-group">
+                                                                            <label>If yes, Details</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->student_status ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-4">
+                                                                        <div class="form-group">
+                                                                            <label>Employee Status</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->employee_status ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-8"> 
+                                                                        <div class="form-group">
+                                                                            <label>If Unemployed, Reasons for Unemployed</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->reason_for_unemployee ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12"> 
+                                                                        <div class="form-group">
+                                                                            <label> If you are unemployed, please provide us some details to assess your suitability for the scholarship </label>
+                                                                            <textarea class="form-control" readonly="true"><?php echo $REGESTRATIONS->reason_for_unemployee ?>" </textarea>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12"> 
+                                                                        <div class="form-group">
+                                                                            <label>Current Occupation </label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->current_occupation ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12"> 
+                                                                        <div class="form-group">
+                                                                            <label>Education</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->education ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12"> 
+                                                                        <div class="form-group">
+                                                                            <label>Field of studies</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->field_of_study ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-sm-12"> 
+                                                                        <div class="form-group">
+                                                                            <label>English Language Proficiency</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->english_language_proficiency ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6"> 
+                                                                        <div class="form-group">
+                                                                            <label> Do you have access to Internet?</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->have_internet ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6"> 
+                                                                        <div class="form-group">
+                                                                            <label> If you are selected, do you plan to use the Computer Lab at the </label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->how_access_course ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="col-sm-12"> 
+                                                                        <div class="form-group">
+                                                                            <label> If you are selected, Do you plan to use the Computer Lab at the </label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->computer_lab ?>" readonly="true">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>  
+
+                                                        </fieldset> 
+                                                    </form> 
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <hr>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- invoice action  -->
+                        <div class="col-xl-3 col-md-4 col-12">
+                            <div class="card invoice-action-wrapper shadow-none border">
+                                <div class="card-body">
+                                    <div class="invoice-action-btn">
+                                        <button class="btn btn-primary btn-block invoice-send-btn">
+                                            <i class="bx bx-send"></i>
+                                            <span>Print Details</span>
+                                        </button>
+                                    </div>
+                                    <br>
+                                    <div class="invoice-action-btn">
+                                        <button class="btn btn-light-primary btn-block invoice-print">
+                                            <span>Contact Via Mail</span>
+                                        </button>
+                                    </div>
+                                    <br>
+                                    <div class="invoice-action-btn">
+                                        <a href="#" class="btn btn-light-primary btn-block">
+                                            <span>Edit Details</span>
+                                        </a>
+                                    </div>
+
                                 </div>
                             </div>
-                        </div> 
-                    </section>
-                </div> 
+                        </div>
+                    </div>
+                </section>
+                <!--                <div class="content-body">  
+                                    <section id="info-tabs-">
+                
+                                        <div class="card icon-tab"> 
+                                            <div class="card-content mt-2">
+                                                <div class="card-body">
+                                                    <form action="#" class="wizard-horizontal form repeater-default" id="form-data">
+                                                        <fieldset>
+                                                            <div class="br">
+                                                                <div class="row">  
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Student Id</label>
+                                                                            <input type="text" class="form-control"    value="<?php echo $REGESTRATIONS->student_id ?>">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Student Full Name</label>
+                                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->full_name ?>">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Email</label>
+                                                                            <input type="text" class="form-control" name="email"  value="<?php echo $REGESTRATIONS->email ?>">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group">
+                                                                            <label>Phone Number</label>
+                                                                            <input type="text" class="form-control"  name="phone_number" value="<?php echo $REGESTRATIONS->phone_number ?>">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6"> 
+                                                                    </div>
+                                                                    <div class="col-sm-6"> 
+                                                                        <button class="btn btn-warning mb-1" type="button" id="update" style="float: right;color: white;margin-top: 20px">
+                                                                            <span class=" spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                                            Update
+                                                                        </button>
+                                                                        <input type="hidden"   name="id" value="<?php echo $id ?>"/>
+                                                                        <input type="hidden"   name="update"/>
+                                                                    </div>
+                
+                                                                </div>
+                                                            </div>  
+                
+                                                        </fieldset> 
+                                                    </form> 
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </section>
+                                </div> -->
             </div>
         </div>
         <!-- END: Content-->
@@ -168,7 +393,7 @@ $REGESTRATIONS = new Registrations($id);
         <script src="app-assets/js/scripts/forms/select/form-select2.min.js"></script>
         <!-- END: Page JS-->
         <script src="plugin/sweetalert/sweetalert.min.js" type="text/javascript"></script>
-         <script src="js/jquery.preloader.min.js" type="text/javascript"></script>
+        <script src="js/jquery.preloader.min.js" type="text/javascript"></script>
         <script src="tinymce/js/tinymce/tinymce.min.js" type="text/javascript"></script>
         <script src="ajax/js/student.js" type="text/javascript"></script>
         <script>
