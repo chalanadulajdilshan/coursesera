@@ -38,8 +38,15 @@ $(document).ready(function () {
                 });
             }
         } else {
+
+            //start preloarder
+            $('.someBlock').preloader();
+
             $("#personal_data_form ").css("display", "block");
             $("#first_form ").css("display", "none");
+
+            //remove preloarder
+            $('.someBlock').preloader('remove');
         }
     });
 
@@ -187,8 +194,15 @@ $(document).ready(function () {
                 showConfirmButton: false
             });
         } else {
+
+            //start preloarder
+            $('.someBlock').preloader();
+
             $("#personal_data_form ").css("display", "none");
             $("#last_data_form ").css("display", "block");
+
+            //remove preloarder
+            $('.someBlock').preloader('remove');
         }
 
     });
@@ -230,7 +244,7 @@ $(document).ready(function () {
                 timer: 1500,
                 showConfirmButton: false
             });
-     
+
         } else if ($('input:radio[name="english_language_proficiency"]:checked').length == 0) {
             swal({
                 title: "Error!",
@@ -239,7 +253,7 @@ $(document).ready(function () {
                 timer: 1500,
                 showConfirmButton: false
             });
-     
+
         } else if ($('input:radio[name="have_internet"]:checked').length == 0) {
             swal({
                 title: "Error!",
@@ -281,8 +295,38 @@ $(document).ready(function () {
                 showConfirmButton: false
             });
         } else {
-            $("#personal_data_form ").css("display", "none");
-            $("#last_data_form ").css("display", "block");
+
+            //start preloarder
+            $('.someBlock').preloader();
+
+            var formData = new FormData($('#form-data')[0]);
+            $.ajax({
+                url: url + "ajax/add.php",
+                type: "POST",
+                data: formData,
+                async: false,
+                dataType: 'json',
+                success: function (result) {
+
+                    //remove preloarder
+                    $('.someBlock').preloader('remove');
+
+                    swal({
+                        title: "Success!",
+                        text: "Your Registration was successfully!...",
+                        type: 'success',
+                        timer: 2000,
+                        showConfirmButton: false
+                    }, function () {
+                        setTimeout(function () {
+                            window.location.reload();
+                        }, 1500);
+                    });
+                },
+                cache: false,
+                contentType: false,
+                processData: false
+            });
         }
 
     });
