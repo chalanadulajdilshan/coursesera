@@ -56,7 +56,7 @@ include './auth.php';
                 <div class="content-header row">
                 </div>
                 <div class="content-body"><!-- Dashboard Ecommerce Starts -->
-                    <section id="dashboard-ecommerce">
+<!--                    <section id="dashboard-ecommerce">
                         <div class="row">
 
                             <div class="col-md-3">
@@ -69,8 +69,8 @@ include './auth.php';
                                                 </div>
                                             </div>
                                             <div class="total-amount">
-                                                <h5 class="mb-0">Accommodation</h5>
-                                                <small class="text-muted  ">Nu of accommodations <span class="text-danger"><b> 2</b></span></small>
+                                                <h5 class="mb-0">Title</h5>
+                                                <small class="text-muted  ">Subtitle Here <span class="text-danger"><b> 2</b></span></small>
                                             </div>
                                         </div>
                                         <div id="primary-line-chart"></div>
@@ -87,8 +87,8 @@ include './auth.php';
                                                 </div>
                                             </div>
                                             <div class="total-amount">
-                                                <h5 class="mb-0">Tour Packages</h5>
-                                                <small class="text-muted  ">Nu of Tour Companies<span class="text-danger"><b> 2</b></span></small>
+                                                    <h5 class="mb-0">Title</h5>
+                                                <small class="text-muted  ">Subtitle Here <span class="text-danger"><b> 2</b></span></small>
                                             </div>
                                         </div>
                                         <div id="primary-line-chart"></div>
@@ -106,8 +106,8 @@ include './auth.php';
                                                 </div>
                                             </div>
                                             <div class="total-amount">
-                                                <h5 class="mb-0">Rent a Car</h5>
-                                                <small class="text-muted  ">Nu of Rent car companies<span class="text-danger"><b> 2</b></span></small>
+                                                    <h5 class="mb-0">Title</h5>
+                                                <small class="text-muted  ">Subtitle Here <span class="text-danger"><b> 2</b></span></small>
                                             </div>
                                         </div>
                                         <div id="primary-line-chart"></div>
@@ -124,8 +124,8 @@ include './auth.php';
                                                 </div>
                                             </div>
                                             <div class="total-amount">
-                                                <h5 class="mb-0">Restaurants</h5>
-                                                <small class="text-muted  ">Nu of Restaurants<span class="text-danger"><b> 2</b></span></small>
+                                                   <h5 class="mb-0">Title</h5>
+                                                <small class="text-muted  ">Subtitle Here <span class="text-danger"><b> 2</b></span></small>
                                             </div>
                                         </div>
                                         <div id="primary-line-chart"></div>
@@ -192,7 +192,7 @@ include './auth.php';
                                 </div>
                             </div> 
                         </div>
-                    </section>
+                    </section>-->
 
                     <section class="faq-bottom"> 
                         <div class="row      ">
@@ -256,7 +256,7 @@ include './auth.php';
         <script>
         function myFunction() {
 
-            toastr.info("I do not think that word means what you think it means.", "Welcome MyTravelPartner.lk.!", {
+            toastr.info("employed for the unemployed movement", "Welcome Skills Online Sri Lanka!", {
                 showMethod: "slideDown",
                 hideMethod: "slideUp",
                 timeOut: 8e3

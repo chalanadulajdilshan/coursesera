@@ -10,7 +10,7 @@ include './auth.php';
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-        <title>Manage Accommodation - My.TravelPartner.lk</title>
+        <title>Manage Student - Skills Online</title>
         <link rel="apple-touch-icon" href="app-assets/images/logo-favicon.png">
         <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/logo-favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">
@@ -106,29 +106,33 @@ include './auth.php';
                                                             <thead>
                                                                 <tr>
                                                                     <th>#id</th>
-                                                                    <th>STU Id</th> 
-                                                                    <th>Name</th> 
-                                                                    <th>Mobile</th> 
+                                                                    <th>First Name</th> 
+                                                                    <th>Last Name</th> 
+                                                                    <th>Gender</th>
                                                                     <th>Email</th> 
+                                                                    <th>Contact Number</th> 
+                                                                    <th>Scholarship</th> 
                                                                     <th>Action</th> 
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
                                                                 <?php
-                                                                $STUDENT = new Student(NULL);
-                                                                foreach ($STUDENT->all() as $key => $student) {
+                                                                $REGESTRATIONS = new Registrations(NULL);
+                                                                foreach ($REGESTRATIONS->all() as $key => $reg) {
                                                                     $key++;
                                                                     ?>
-                                                                    <tr id="div<?php echo $student['id'] ?>">
+                                                                    <tr id="div<?php echo $reg['id'] ?>">
                                                                         <td><?php echo $key ?></td> 
-                                                                        <td><?php echo $student['student_id']; ?></td> 
-                                                                        <td><?php echo substr($student['full_name'], 0, 20); ?></td> 
-                                                                        <td><?php echo $student['phone_number']; ?></td> 
-                                                                        <td><?php echo substr($student['email'], 0, 20); ?></td> 
+                                                                        <td><?php echo $reg['first_name']; ?></td> 
+                                                                        <td><?php echo substr($reg['last_name'], 0, 20); ?></td> 
+                                                                        <td><?php echo $reg['gender']; ?></td> 
+                                                                        <td><?php echo $reg['email']; ?></td> 
+                                                                        <td><?php echo substr($reg['mobile_phone'], 0, 20); ?></td> 
+                                                                        <td><?php echo $reg['scholarship']; ?></td> 
 
                                                                         <td>
-                                                                            <a href = "view-student.php?id=<?php echo $student['id']; ?>" data-toggle = "tooltip" data-placement = "bottom" title = "Students" target="_blank" ><i class = " bx bx-user succes-btn"></i></a> |
-                                                                            <a href = "#" class = "delete-student" data-id = "<?php echo $student['id']; ?>" data-toggle = "tooltip" data-placement = "bottom" title = "Delete" ><i class = "bx bxs-trash delete-btn"></i></a>
+                                                                            <a href = "view-register.php?id=<?php echo $reg['id']; ?>" data-toggle = "tooltip" data-placement = "bottom" title = "Students" target="_blank" ><i class = "bx succes-btn">View</i></a> 
+<!--                                                                            <a href = "#" class = "delete-student" data-id = "<?php echo $reg['id']; ?>" data-toggle = "tooltip" data-placement = "bottom" title = "Delete" ><i class = "bx bxs-trash delete-btn"></i></a>-->
 
                                                                         </td>
 
@@ -140,10 +144,12 @@ include './auth.php';
                                                             <tfoot>
                                                                 <tr>
                                                                     <th>#id</th>
-                                                                    <th>STU Id</th>  
-                                                                    <th>Name</th> 
-                                                                    <th>Mobile</th> 
+                                                                    <th>First Name</th> 
+                                                                    <th>Last Name</th> 
+                                                                    <th>Gender</th>
                                                                     <th>Email</th> 
+                                                                    <th>Contact Number</th> 
+                                                                    <th>Scholarship</th> 
                                                                     <th>Action</th> 
                                                                 </tr>
                                                             </tfoot>

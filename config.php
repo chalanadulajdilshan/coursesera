@@ -16,6 +16,18 @@ define('DB_USER', "root");
 define('DB_PASS', "");
 define('DB_HOST', "localhost");
 
+//server
+//define('URL', 'http://' . $host . '/');
+//define('MAIN_PUBLIC_URL', 'http://' . $host . '/public/');
+//define('URL_Admin', 'http://' . $host . 'coursesera/');
+//
+//// Database
+//define('DB_TYPE', "mysql");
+//define('DB_NAME', "coursera");
+//define('DB_USER', "coursera");
+//define('DB_PASS', "wtBG>(mELV7T");
+//define('DB_HOST', "localhost");
+
 define('AUTH_PREFIX', 'vtapms');
 define('MAX_TRY', 3);
 //SALT

@@ -1,5 +1,5 @@
 <nav class="header-navbar main-header-navbar navbar-expand-lg navbar navbar-with-menu fixed-top ">
-    <div class="navbar-wrapper">
+<!--    <div class="navbar-wrapper">
         <div class="navbar-container content">
             <div class="navbar-collapse" id="navbar-mobile">
                 <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
@@ -187,7 +187,7 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </div>-->
 </nav>
 <div class="main-menu menu-fixed menu-dark menu-accordion menu-shadow" data-scroll-to-active="true">
     <div class="navbar-header  " style="margin-bottom: 10px; ">
@@ -211,7 +211,7 @@
             </li>
 
 
-            <li class=" nav-item  p-a-15">                                                                                                                                             
+<!--            <li class=" nav-item  p-a-15">                                                                                                                                             
                 <a href="#">  <span class="bx bxs-chalkboard  "> Teachers</span>  </a>
                 <ul class="menu-content">
                     <li ><a href="create-teacher.php"><i class="bx bx-right-arrow-alt"></i> Add New  </a>
@@ -220,7 +220,7 @@
                     <li><a href="manage-active-teachers.php"><i class="bx bx-right-arrow-alt"></i>  Active Teachers  </a> </li>
                     <li><a href="manage-inactive-teachers.php"><i class="bx bx-right-arrow-alt"></i>  InActive Teachers  </a> </li>
                 </ul> 
-            </li>
+            </li>-->
 
 
 
@@ -228,7 +228,7 @@
                 <a href="manage-students.php"> <span class="bx bxs-map  ">  Students</span>   </a>
                  
             </li>
-            <li class=" nav-item p-a-15 ">                                                                                                                                             
+<!--            <li class=" nav-item p-a-15 ">                                                                                                                                             
                 <a href="payments.php"> <span class="bx bxs-dollar-circle">  Payments</span>   </a>
                  
             </li>
@@ -246,7 +246,7 @@
                 <a href="help-center.php">  
                     <span class="bx     bx-help-circle   "> Help Center</span>   
                 </a> 
-            </li>
+            </li>-->
         </ul>
     </div>
 </div>
