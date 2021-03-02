@@ -139,8 +139,6 @@
 <!-- Footer Scripts --> 
 <!-- JS | Custom script for all pages --> 
 <script src="<?php echo URL; ?>public/js/custom.js"></script>
-
-<script src="<?php echo URL; ?>public/js/jquery-2.2.4.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="<?php echo URL; ?>public/js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
 <script type="text/javascript" src="<?php echo URL; ?>public/js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
 <script type="text/javascript" src="<?php echo URL; ?>public/js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
@@ -150,8 +148,6 @@
 <script type="text/javascript" src="<?php echo URL; ?>public/js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
 <script type="text/javascript" src="<?php echo URL; ?>public/js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
 <script type="text/javascript" src="<?php echo URL; ?>public/js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
-
-
 <script src="<?php echo MAIN_PUBLIC_URL ?>js/custom.js"></script>
 
 <script src="<?php echo MAIN_PUBLIC_URL ?>js/jquery.inputmask.bundle.min.js" type="text/javascript"></script>
