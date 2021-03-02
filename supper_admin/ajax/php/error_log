@@ -1,0 +1,9 @@
+[03-Nov-2020 03:30:48 America/New_York] PHP Deprecated:  Non-static method Helper::randamId() should not be called statically in /home/easyyedf/public_html/supper_admin/ajax/php/teacher.php on line 38
+[03-Nov-2020 09:49:15 America/New_York] PHP Deprecated:  Non-static method Helper::randamId() should not be called statically in /home/easyyedf/public_html/supper_admin/ajax/php/teacher.php on line 38
+[04-Nov-2020 03:54:21 America/New_York] PHP Deprecated:  Non-static method Helper::randamId() should not be called statically in /home/easyyedf/public_html/supper_admin/ajax/php/news.php on line 24
+[04-Nov-2020 03:59:56 America/New_York] PHP Deprecated:  Non-static method Helper::randamId() should not be called statically in /home/easyyedf/public_html/supper_admin/ajax/php/news.php on line 24
+[04-Nov-2020 04:15:39 America/New_York] PHP Deprecated:  Non-static method Helper::randamId() should not be called statically in /home/easyyedf/public_html/supper_admin/ajax/php/news.php on line 24
+[04-Nov-2020 04:17:01 America/New_York] PHP Deprecated:  Non-static method Helper::randamId() should not be called statically in /home/easyyedf/public_html/supper_admin/ajax/php/news.php on line 24
+[04-Nov-2020 04:28:05 America/New_York] PHP Deprecated:  Non-static method Helper::randamId() should not be called statically in /home/easyyedf/public_html/supper_admin/ajax/php/news.php on line 24
+[04-Nov-2020 04:31:48 America/New_York] PHP Deprecated:  Non-static method Helper::randamId() should not be called statically in /home/easyyedf/public_html/supper_admin/ajax/php/news.php on line 24
+[26-Nov-2020 22:58:31 America/New_York] PHP Deprecated:  Non-static method Helper::randamId() should not be called statically in /home/easyyedf/public_html/supper_admin/ajax/php/teacher.php on line 38

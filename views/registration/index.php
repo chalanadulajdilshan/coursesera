@@ -113,8 +113,8 @@
                                                     </label>
                                                 </div> 
                                                 <div class="form-group " style="display: none" id="other_val">
-                                                    <input name="" class="form-control" type="text" placeholder="Fill your other resource details"  data-field="first_name" >
-                                                    <div class="valid-message"></div>
+                                                    <input name="reason" class="form-control" type="text" placeholder="Fill your other resource details"  >
+                                                   
                                                 </div>
 
                                                 <div class="form-group   " style="float: right;">
