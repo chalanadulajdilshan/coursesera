@@ -10,7 +10,7 @@
         <meta name="description" content="Frest admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
         <meta name="keywords" content="admin template, Frest admin template, dashboard template, flat admin template, responsive admin template, web app">
         <meta name="author" content="PIXINVENT">
-        <title>Admin - EasyTutor.lk </title>
+        <title>Admin - Skills Online </title>
         <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.html">
         <link rel="shortcut icon" type="image/x-icon" href="../images/logo-favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">
@@ -66,15 +66,7 @@
                                             </div>
                                             <div class="card-content">
                                                 <div class="card-body">
-                                                    <div class="d-flex flex-md-row flex-column justify-content-around">
-                                                        <a href="#"
-                                                           class="btn btn-social btn-google btn-block font-small-3 mr-md-1 mb-md-0 mb-1">
-                                                            <i class="bx bxl-google font-medium-3"></i><span
-                                                                class="pl-50 d-block text-center">Google</span></a>
-                                                        <a href="#" class="btn btn-social btn-block mt-0 btn-facebook font-small-3">
-                                                            <i class="bx bxl-facebook-square font-medium-3"></i><span
-                                                                class="pl-50 d-block text-center">Facebook</span></a>
-                                                    </div>
+                                              
                                                     <div class="divider">
                                                         <div class="divider-text text-uppercase text-muted"><small>or login with
                                                                 email</small>
@@ -98,7 +90,7 @@
                                                                     <label class="checkboxsmall" for="exampleCheck1"><small>Keep me logged in</small></label>
                                                                 </div>
                                                             </div>
-                                                            <div class="text-right"><a href="forget-password.php" class="card-link"><small>Forgot Password?</small></a></div>
+<!--                                                            <div class="text-right"><a href="forget-password.php" class="card-link"><small>Forgot Password?</small></a></div>-->
                                                         </div>
                                                         <div class="form-group">
                                                             <div class="text-center text-danger btn-padding font-size-new" id="message"></div>
@@ -107,7 +99,7 @@
                                                         <button type="submit" class="btn btn-primary glow w-100 position-relative">Login</button> 
                                                     </form>
                                                     <hr>
-                                                    <div class="text-center"><small class="mr-25">Don't have an account?</small><a  href="#"><small>Sign up</small></a></div>
+<!--                                                    <div class="text-center"><small class="mr-25">Don't have an account?</small><a  href="#"><small>Sign up</small></a></div>-->
                                                 </div>
                                             </div>
                                         </div>

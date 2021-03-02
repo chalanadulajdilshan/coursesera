@@ -5,7 +5,7 @@ include './auth.php';
 
 $id = '';
 $id = $_GET['id'];
-$STUDENT = new Student($id);
+$REGESTRATIONS = new Registrations($id);
 ?>
 <html class="loading" lang="en" data-textdirection="ltr">
     <!-- BEGIN: Head-->
@@ -14,7 +14,7 @@ $STUDENT = new Student($id);
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <meta name="author" content="PIXINVENT">
-        <title>View Student - EasyTutor.lk</title>
+        <title>View Register - Skills Online</title>
         <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
         <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/logo-favicon.png"> 
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">
@@ -72,7 +72,7 @@ $STUDENT = new Student($id);
                                         <li class="breadcrumb-item"><a href="index.php"><i class="bx bx-home-alt"></i></a>
                                         </li>
 
-                                        <li class="breadcrumb-item active">View Student Details - " <?php echo $STUDENT->full_name ?> "
+                                        <li class="breadcrumb-item active">View Applicant Details - " <?php echo $REGESTRATIONS->first_name . ' ' .$REGESTRATIONS->middle_name . ' ' .$REGESTRATIONS->last_name?> "
                                         </li>
                                     </ol>
                                 </div>
@@ -93,25 +93,25 @@ $STUDENT = new Student($id);
                                                     <div class="col-sm-12">
                                                         <div class="form-group">
                                                             <label>Student Id</label>
-                                                            <input type="text" class="form-control"    value="<?php echo $STUDENT->student_id ?>">
+                                                            <input type="text" class="form-control"    value="<?php echo $REGESTRATIONS->student_id ?>">
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-12">
                                                         <div class="form-group">
                                                             <label>Student Full Name</label>
-                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $STUDENT->full_name ?>">
+                                                            <input type="text" class="form-control" name="full_name"  value="<?php echo $REGESTRATIONS->full_name ?>">
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-12">
                                                         <div class="form-group">
                                                             <label>Email</label>
-                                                            <input type="text" class="form-control" name="email"  value="<?php echo $STUDENT->email ?>">
+                                                            <input type="text" class="form-control" name="email"  value="<?php echo $REGESTRATIONS->email ?>">
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-12">
                                                         <div class="form-group">
                                                             <label>Phone Number</label>
-                                                            <input type="text" class="form-control"  name="phone_number" value="<?php echo $STUDENT->phone_number ?>">
+                                                            <input type="text" class="form-control"  name="phone_number" value="<?php echo $REGESTRATIONS->phone_number ?>">
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-6"> 
