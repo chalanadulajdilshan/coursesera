@@ -152,28 +152,6 @@
 <script src="<?php echo MAIN_PUBLIC_URL ?>js/custom.js"></script>
 
 
-<script src="<?php echo MAIN_PUBLIC_URL ?>js/jquery.inputmask.bundle.min.js" type="text/javascript"></script>
-
-<script>
-                        $(function (e) {
-                            "use strict";
-                            $(".date-inputmask").inputmask("dd/mm/yyyy"),
-                                    $(".phone-inputmask").inputmask("9999999999"),
-                                    $(".email-inputmask").inputmask({
-                                mask: "*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[*{2,6}][*{1,2}].*{1,}[.*{2,6}][.*{1,2}]"
-                                , greedy: !1
-                                , onBeforePaste: function (n, a) {
-                                    return (e = e.toLowerCase()).replace("mailto:", "")
-                                }
-                                , definitions: {
-                                    "*": {
-                                        validator: "[0-9A-Za-z!#$%&'*+/=?^_`{|}~/-]"
-                                        , cardinality: 1
-                                        , casing: "lower"
-                                    }
-                                }
-                            })
-                        });
 </script>
 
 </body>

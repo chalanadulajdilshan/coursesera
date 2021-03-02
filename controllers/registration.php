@@ -14,10 +14,19 @@ class Registration extends Controller {
         $this->view->render('footer');
     }
 
+    function success() {
+        $this->view->render('header');
+        $this->view->render('navigation');
+        $this->view->render('registration/registration-success');
+        $this->view->render('footer');
+    }
+
     function add() {
+
+
         $data = [
 
-            'about_us' => $_POST['about_us']+ $_POST['reason'],
+            'about_us' => $_POST['about_us'],
             'first_name' => $_POST['first_name'],
             'middle_name' => $_POST['middle_name'],
             'last_name' => $_POST['last_name'],

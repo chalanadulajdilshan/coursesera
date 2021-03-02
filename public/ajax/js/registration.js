@@ -319,7 +319,7 @@ $(document).ready(function () {
                         showConfirmButton: false
                     }, function () {
                         setTimeout(function () {
-                            window.location.reload();
+                            window.location.href = url +"registration/success";
                         }, 1500);
                     });
                 },
