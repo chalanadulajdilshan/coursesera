@@ -22,7 +22,7 @@ $(document).ready(function () {
                 if (!$('#other_method').val() || $('#other_method').val().length === 0) {
                     swal({
                         title: "Error!",
-                        text: "Please enter your property type..!",
+                        text: "Please enter how did you hear about us?..",
                         type: 'info',
                         timer: 1500,
                         showConfirmButton: false
@@ -31,7 +31,7 @@ $(document).ready(function () {
             } else {
                 swal({
                     title: "Error!",
-                    text: "Please enter your property type..!",
+                    text: "Please enter how did you hear about us?..",
                     type: 'error',
                     timer: 1500,
                     showConfirmButton: false
@@ -75,7 +75,7 @@ $(document).ready(function () {
         } else if (!$('#last_name').val() || $('#last_name').val().length === 0) {
             swal({
                 title: "Error!",
-                text: "Please enter your last name name..!",
+                text: "Please enter your last name..!",
                 type: 'error',
                 timer: 1500,
                 showConfirmButton: false
@@ -301,7 +301,7 @@ $(document).ready(function () {
 
             var formData = new FormData($('#form-data')[0]);
             $.ajax({
-                url: url + "ajax/add.php",
+                url: url + "registration/add",
                 type: "POST",
                 data: formData,
                 async: false,
