@@ -58,6 +58,10 @@ class Registration extends Controller {
         ];
 
         if ($this->model->add($data)) {
+        $this->mail->set_address($_POST['email']);
+                $this->mail->set_content(); 
+              
+                $this->mail->send();
             echo json_encode(array('has_errors' > FALSE, 'status' => TRUE));
         } else {
             echo json_encode(array('has_errors' > FALSE, 'status' => FALSE));
