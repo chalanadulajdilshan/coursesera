@@ -46,7 +46,7 @@
                                 <img src="<?php echo URL; ?>public/images/logo.png" alt="">
                             </a>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 p-0">
                         <ul class="menuzord-menu" style="margin-left:0;">
                             <li class=""><a href="<?php echo URL; ?>">Home</a>
 
@@ -54,7 +54,7 @@
                             <li><a href="<?php echo URL; ?>aboutus">About Us</a>
 
                             </li>
-                            <li><a href="<?php echo URL; ?>course">Courses</a>
+                            <li><a href="<?php echo URL; ?>course">Scholarship</a>
 
                             </li>
                             <li><a href="<?php echo URL; ?>success_stories">Success Stories</a>
@@ -63,13 +63,13 @@
                             <li><a href="<?php echo URL; ?>contactus">Contact Us</a>
 
                             </li>
-                            <li class="active"><a href="<?php echo URL; ?>registration">Register</a>
+                            <li class="active"><a href="<?php echo URL; ?>registration">Apply Now.</a>
 
                             </li>  
                         </ul>
                         </div>
                          <div class="col-md-3">
-                            <a class="menuzord-brand pull-left flip" href="./">
+                             <a class="menuzord-brand pull-left flip" style="margin: 15px 0px 0px 0;"href="./">
                                 <img src="<?php echo URL; ?>public/images/logo02.png" alt="">
                             </a>
                         </div>

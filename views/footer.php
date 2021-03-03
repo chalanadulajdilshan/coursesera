@@ -57,10 +57,10 @@
                     <ul class="list angle-double-right list-border">
                         <li><a href="<?php echo URL; ?>">Home</a></li>
                         <li><a href="<?php echo URL; ?>aboutus">About Us</a></li>
-                        <li><a href="<?php echo URL; ?>course">Courses</a></li>
+                        <li><a href="<?php echo URL; ?>course">Scholarship</a></li>
                         <li><a href="<?php echo URL; ?>success_stories">Success Stories</a></li>
                         <li><a href="<?php echo URL; ?>contactus">Contact Us</a></li>
-                        <li><a href="<?php echo URL; ?>registration">Register Now</a></li>
+                        <li><a href="<?php echo URL; ?>registration">Apply Now</a></li>
                     </ul>
                 </div>
             </div>
