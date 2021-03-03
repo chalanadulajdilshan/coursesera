@@ -192,12 +192,11 @@ function mail_set_template(){
 																style='color:#ffffff; font-family:Arial,sans-serif; font-size:14px; line-height:26px; text-align:left; padding-bottom:20px;'>
                                                                 
 																<h4>Dear Applicant,</h4>
-                                                                <p style='color:#ffffff; '>Thank you very much for registering with the Skills online Sri Lanka Programme. We have recommended your application to Commonwealth of Learning, (COL) Canada.</p><br>
-                                                                <p style='color:#ffffff; '>If you are eligible and are short-listed you will receive an email from NL-VTA, requesting you to attend an online-interview.  In case if you do not see it in your Inbox remember to <strong>check your spam email</strong> as well. </p><br>
-                                                                <p style='color:#ffffff; '>Thank you very much for registering with the Skills online Sri Lanka Programme. We have recommended your application to Commonwealth of Learning, (COL) Canada.</p><br>
-                                                                <p style='color:#ffffff; '>If you have any questions, need clarifications please do not hesitate to contact the helpdesk at the National Library help.skillsonline@mail.natlib.lk –   0112596516 (VTA), VTA Email : faq@vta.lk</p><br>
+                                                                <p style='color:#ffffff; '>Thank you very much for registering with the COL-Skills for Work-Skills online Sri Lanka Programme.</p><br>
+                                                                <p style='color:#ffffff; '>If you are eligible and are short-listed you will receive an email from SOSL, requesting you to attend an online-interview within next 3 days.  In case if you do not see it in your Inbox remember to <strong>check your email ‘SPAM’ folder</strong> as well. </p><br>
+                                                                <p style='color:#ffffff; '>If you have any questions, need clarifications or have concerns please do not hesitate to contact the helpdesk at the National Library: Email - help.skillsonline@mail.natlib.lk  Phone: +94113610772; WhatsApp: +94711919475 (Text only)</p>
                                                                 <p style='color:#ffffff; '>Coordinator.<br>
-                                                                <p style='color:#ffffff; '>Skills Online Programme, NLSL-COL </p>
+                                                                <p style='color:#ffffff; '>NLSL- Skills Online Programme </p>
                                                                 </td>
 														</tr>
 														
