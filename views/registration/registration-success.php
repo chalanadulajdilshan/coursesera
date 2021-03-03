@@ -18,7 +18,7 @@
                                         <center>
                                             <img src="<?php echo MAIN_PUBLIC_URL ?>images/icon.jpg" alt=""/>
                                         </center>
-                                        <p>Your has been recorded successfully. one of our staff member will contact you..!</p>
+                                        <p>If you have any questions please contact with us Email</p>
                                         <p><b>Thank you very much for your collaboration..! </b></p>
                                         <hr> 
                                         <center>

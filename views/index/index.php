@@ -23,10 +23,15 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <div class="home-content pt-130">
-                                    <h2 class="m-0 text-white text-uppercase font-30">Welcome To</h2>
-                                    <h1 class="text-white text-uppercase font-52 font-weight-600 mt-0 line-height-1"><span class="text-theme-color-2">Skills Online</span>  Sri Lanka</h1>
-                                    <p class="font-16 text-white">We provides always our best services for our clients and  always<br> try to achieve our client's trust and satisfaction.</p>
-                                    <a class="btn btn-colored btn-default btn-flat border-left-theme-color-2-6px mt-15" href="<?php echo URL; ?>registration" style="margin-bottom: 5%;"><b>Apply Online </b></a>
+                                    <h2 class="m-0 text-white text-uppercase font-slider">Welcome To<span class="text-theme-color-2"> Skills Online </span>Sri Lanka</h2>
+                                    <h4 class="media-heading heading title text-white">Do you wish to be an entrepreneur?</h4>
+                                    <p class="font-16 text-white">Learn your favourite skills and implement your ideas into real life</p>
+                                    <h4 class="media-heading heading title text-white">Are you looking for a job?</h4>
+                                    <p class="font-16 text-white">Get a certification from the professional course and work and the world's leading companies</p>
+                                    <h4 class="media-heading heading title text-white">Do you want to work at the world's leading companies?</h4>
+                                    <p class="font-16 text-white">Earn skills to get hired in the world's top companies</p>
+
+                                    <!--<a class="btn btn-colored btn-default btn-flat border-left-theme-color-2-6px mt-15" href="<?php echo URL; ?>registration" style="margin-bottom: 5%;"><b>Apply Online</b></a>-->
                                 </div>
                             </div>
                             <div class="col-md-4">    </div>
@@ -66,7 +71,7 @@
 
                         <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
                             <a href="<?php echo URL; ?>google">
-                                <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/google digital.png" alt="">
+                                <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/google.png" alt="">
                             </a>
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30">
                                 <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2"> Google</span></h4>
@@ -87,16 +92,20 @@
                     <div class="row mt-10">
                         <div class="col-sm-12 col-md-6 mb-sm-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                             <h3 class="text-uppercase mt-0">Welcome To <span class="text-theme-color-2"> SOSL </span></h3>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi earum aliquid in ullam.Lorem ipsum.</p>
-                            <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit.eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
-                            <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="<?php echo URL; ?>aboutus">View Details</a> 
-                            <img style="margin-top: 15px" src="<?php echo URL; ?>public/images/logos.jpg">
+                            <p class="mb-15">The Commonwealth of Learning (COL)'s Skills for Work initiative is aimed at closing the skills gap for in-demand and high-demand jobs in commonwealth nations. </p>
+                            <p class="mb-15">The National Library of Sri Lanka (NLSL) finds the Commonwealth of Learning's approach to skill development among unemployed citizens very appropriate 
+                                and has partnered with Canada based COL to implement it in Sri Lanka.</p>
+                            <p class="mb-15">Through this partnership, the NLSL initiative, named Skills Online Sri Lanka Programme (SOSLP) launched with the support of local partners will offer scholarship 
+                                to 2500 Sri Lankans through a competitive application process.  </p>
+
+                                <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="<?php echo URL; ?>aboutus">View Details</a> 
+                                <img style="margin-top: 15px" src="<?php echo URL; ?>public/images/logos.jpg">
                         </div>
                         <div class="col-sm-12 col-md-6 mt-0 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="video-popup">     
                                 <iframe width="560" height="360" src="https://www.youtube.com/embed/iVOWiwPrCK0" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
+
                             </div>
                         </div>
                     </div>
@@ -392,7 +401,7 @@
                         <div class="col-md-10 col-md-offset-1 text-center">
                             <h3 class="text-white text-uppercase font-30 font-weight-600 mt-0 mb-20">5100+ Courses and Specializations</h3>
                             <p class="text-white lead">Lorem ipsum dolor sit amet, volupt consectetur adipisicing elit. Rem autem voluptatem obcaecat ipsum dolor sit tetur adipisicing elit amet, consec autem atem obcaecati!</p>
-                            
+
                             </a>
                         </div>
                     </div>
@@ -409,197 +418,21 @@
                             <h3 class="text-uppercase title line-bottom mt-0 mb-30">Photo <span class="text-theme-color-2">Gallery</span></h3>
                             <!-- Portfolio Gallery Grid -->
 
-                            <div class="gallery-isotope grid-4 gutter-small clearfix" data-lightbox="gallery">
+                            <div class=" clearfix" data-lightbox="gallery">
                                 <!-- Portfolio Item Start -->
                                 <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm1.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/1.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="owl-carousel-1col ">
+                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/001.jpg" alt=""></div>
+                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/002.jpg" alt=""></div>
+                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/003.jpg" alt=""></div>
+                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/004.jpg" alt=""></div>
+                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/005.jpg" alt=""></div>
+                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/006.jpg" alt=""></div>
+                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/007.jpg" alt=""></div>
+                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/008.jpg" alt=""></div>
                                     </div>
                                 </div>
-                                <!-- Portfolio Item End -->
 
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm2.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/2.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm3.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/3.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm4.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/4.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm5.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/5.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm6.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/6.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm7.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/7.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm8.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/8.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm9.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/9.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm10.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/10.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm11.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/11.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Portfolio Item End -->
-
-                                <!-- Portfolio Item Start -->
-                                <div class="gallery-item">
-                                    <div class="thumb">
-                                        <img alt="project" src="<?php echo URL; ?>public/images/gallery/gallery-sm12.jpg" class="img-fullwidth">
-                                        <div class="overlay-shade"></div>
-                                        <div class="icons-holder">
-                                            <div class="icons-holder-inner">
-                                                <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                                                    <a href="<?php echo URL; ?>public/images/gallery/12.jpg"  data-lightbox-gallery="gallery"><i class="fa fa-picture-o"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <!-- Portfolio Item End -->
                             </div>
                             <!-- End Portfolio Gallery Grid -->
@@ -722,146 +555,14 @@
             <div class="container pt-40 pb-50">
                 <div class="section-content">
                     <div class="row">
-                        <div class="col-md-4 wow fadeInRight pr-40" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
-                            <h3 class="text-uppercase title line-bottom">What <span class="text-theme-color-2 font-weight-700">Clients Say ?</span></h3>
-                            <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 382px;"><div class="bxslider bx-nav-top" style="width: auto; position: relative; transition-duration: 0s; transform: translate3d(0px, -392.8px, 0px);"><div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15 bx-clone" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
-                                            <div class="comment">
-                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
-                                            </div>
-                                            <div class="content mt-20">
-                                                <div class="thumb pull-left flip">
-                                                    <img src="images/testimonials/2.jpg" alt="" class="img-circle" width="64">
-                                                </div>
-                                                <div class="testimonials-details pull-left flip ml-20">
-                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
-                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
-                                                    <ul class="review_text list-inline">
-                                                        <li>
-                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div><div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15 bx-clone" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
-                                            <div class="comment">
-                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
-                                            </div>
-                                            <div class="content mt-20">
-                                                <div class="thumb pull-left flip">
-                                                    <img src="images/testimonials/3.jpg" alt="" class="img-circle" width="64">
-                                                </div>
-                                                <div class="testimonials-details pull-left flip ml-20">
-                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
-                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
-                                                    <ul class="review_text list-inline">
-                                                        <li>
-                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                        <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
-                                            <div class="comment">
-                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
-                                            </div>
-                                            <div class="content mt-20">
-                                                <div class="thumb pull-left flip">
-                                                    <img src="images/testimonials/1.jpg" alt="" class="img-circle" width="64">
-                                                </div>
-                                                <div class="testimonials-details pull-left flip ml-20">
-                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
-                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
-                                                    <ul class="review_text list-inline">
-                                                        <li>
-                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                        <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
-                                            <div class="comment">
-                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
-                                            </div>
-                                            <div class="content mt-20">
-                                                <div class="thumb pull-left flip">
-                                                    <img src="images/testimonials/2.jpg" alt="" class="img-circle" width="64">
-                                                </div>
-                                                <div class="testimonials-details pull-left flip ml-20">
-                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
-                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
-                                                    <ul class="review_text list-inline">
-                                                        <li>
-                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                        <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
-                                            <div class="comment">
-                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
-                                            </div>
-                                            <div class="content mt-20">
-                                                <div class="thumb pull-left flip">
-                                                    <img src="images/testimonials/3.jpg" alt="" class="img-circle" width="64">
-                                                </div>
-                                                <div class="testimonials-details pull-left flip ml-20">
-                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
-                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
-                                                    <ul class="review_text list-inline">
-                                                        <li>
-                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                        <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15 bx-clone" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
-                                            <div class="comment">
-                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
-                                            </div>
-                                            <div class="content mt-20">
-                                                <div class="thumb pull-left flip">
-                                                    <img src="images/testimonials/1.jpg" alt="" class="img-circle" width="64">
-                                                </div>
-                                                <div class="testimonials-details pull-left flip ml-20">
-                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
-                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
-                                                    <ul class="review_text list-inline">
-                                                        <li>
-                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div><div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15 bx-clone" style="float: none; list-style: outside none none; position: relative; width: 433px; margin-bottom: 20px;">
-                                            <div class="comment">
-                                                <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
-                                            </div>
-                                            <div class="content mt-20">
-                                                <div class="thumb pull-left flip">
-                                                    <img src="images/testimonials/2.jpg" alt="" class="img-circle" width="64">
-                                                </div>
-                                                <div class="testimonials-details pull-left flip ml-20">
-                                                    <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-600">Jonathan Smith</h5>
-                                                    <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">cici inc.</h6>
-                                                    <ul class="review_text list-inline">
-                                                        <li>
-                                                            <div class="star-rating" title="Rated 4.50 out of 5"><span data-width="90%" style="width: 90%;">4.50</span></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div></div></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev" href=""><i class="fa fa-angle-left"></i></a><a class="bx-next" href=""><i class="fa fa-angle-right"></i></a></div></div></div>
+                        <div class="col-sm-12 col-md-4 mb-sm-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s;">
+                            <h3 class="line-bottom mt-20 line-height-1 text-white">COL-Coursera-NLSL <span class="text-theme-color-2 text-uppercase">Partnership</span></h3>
+                            <p class="mb-15 text-justify text-white">As an intergovernmental organisation committed to improving the livelihood conditions of people across the Commonwealth, Commonwealth of Learning (COL) has formed a partnership with Coursera to make a difference to the
+                                lives of people whose immediate need is to acquire skills for regaining employment.</p>
+                            <p class="mb-15 text-justify text-white">The National Library of Sri Lanka (NLSL) finds the Commonwealth of Learning’s approach to skill development among unemployed citizens very appropriate and has partnered with
+                                Canada based COL to implement this initiative in Sri Lanka.</p>
+                            <p class="mb-15 text-justify text-white">The initiative, named Skills Online Sri Lanka Programme will offer scholarship to five thousand (5000) 
+                                Sri Lankans through a competitive application process.</p>
                         </div>
                         <div class="col-md-8 hidden-xs pl-40">
                             <h3 class="line-bottom mt-20 line-height-1"><span class="text-theme-color-2">FAQ</span></h3>

@@ -24,20 +24,26 @@
         <div class="container mt-50 pb-70 pt-0">
             <div class="section-content">
                 <div class="row mt-10">
-                    <div class="col-sm-12 col-md-6 mb-sm-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <h3 class="text-uppercase mt-15">Welcome To <span class="text-theme-color-2">  LearnPress </span></h3>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi earum aliquid in ullam.Lorem ipsum.</p>
-                        <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt ut dolorem laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
-                        <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt ut dolorem laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis quidem laudantium deleniti.</p>
-                        <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="#">View Details</a> 
+                    <div class="col-sm-12 col-md-12 mb-sm-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <h3 class="text-uppercase mt-15">About <span class="text-theme-color-2">Skills Online Sri Lanka</span></h3>
+                        <p class="mb-15">Skills Online Sri Lanka is a skill development program implemented in Sri Lanka by the National Library in partnership with the Commonwealth of Learning.
+                            The Skills Online Sri Lanka works with local organizations, private training centers, educational institutions, and employers to close skill gaps for in-demand jobs responding to employer and industry needs through directly supporting youth and adult to participate and complete skill and professional development courses offered by online learning platform Coursera, Udemy and Grow with Google.
+                        </p>
+
                     </div>
-                    <div class="col-sm-12 col-md-6 mt-10 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <div class="video-popup">                
-                            <a href="https://www.youtube.com/watch?v=pW1uVUg5wXM" data-lightbox-gallery="youtube-video" title="Video">
-                                <img alt="" src="<?php echo URL; ?>public/images/about/5.jpg" class="img-responsive img-fullwidth mt-10 ml-30 ml-xs-0 ml-sm-0">
-                            </a>
-                        </div>
+                    <div class="col-sm-12 col-md-12 mb-sm-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <h3 class="text-uppercase mt-15">About <span class="text-theme-color-2">Commonwealth of Learning
+                            </span></h3>
+                        <p class="mb-15">Hosted by the Government of Canada and headquartered in Burnaby, Canada, the Commonwealth of Learning (COL) is the world’s only 
+                            intergovernmental organisation solely concerned with the promotion and development of distance education and open learning. COL was created by Commonwealth Heads of Government to
+                            encourage the development and sharing of open learning/distance education knowledge, resources and technologies.
+                            COL is helping developing nations improve access to quality education and training.
+                            <br>To learn more about COL: <a style="color: #387eab;" target="_blank" href="https://www.col.org"> https://www.col.org/</a>
+
+                        </p>
+
                     </div>
+
                 </div>
             </div>
         </div>
@@ -152,16 +158,16 @@
                         <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15">
                             <div class="comment">
                                 <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-1000">Vision</h5>
-                                
+
                             </div>
                             <div class="content mt-20">
                                 <div class="thumb pull-left flip">
-                                     
+
                                 </div>
                                 <div class="testimonials-details pull-left flip ml-20">
                                     <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
-                                     
-                                     
+
+
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -169,16 +175,16 @@
                         <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15">
                             <div class="comment">
                                 <h5 class="author text-theme-color-2 mt-0 mb-0 font-weight-1000">Mission</h5>
-                                
+
                             </div>
                             <div class="content mt-20">
                                 <div class="thumb pull-left flip">
-                                     
+
                                 </div>
                                 <div class="testimonials-details pull-left flip ml-20">
                                     <p class="text-white"><em>Lorem ipsum dolor sit ametconse ctetur adipisicing elitvolup tatem error sit qui.</em></p>
-                                     
-                                     
+
+
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
