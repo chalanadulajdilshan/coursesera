@@ -23,13 +23,14 @@
                                     <form action="#">
                                         <div class="row">
                                             <div class="form-group col-md-12">
-                                                <label>NIC</label>
+                                                <h5>NIC Number</h5>
+                                                <label>(Do not use letter V any other letters.)</label>
                                                 <input type="text" class="form-control" id="nic" name="nic">
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="form-group col-md-12">
-                                                <label>Name</label>
+                                                <h5>Name</h5>
                                                 <input type="text" class="form-control">
                                             </div>
                                         </div>
@@ -417,7 +418,7 @@
 
                                                 <input type="radio" id="edu4" name="education" value="Postgraduate Diploma" class="ml-20">
                                                 <label for="edu4">Postgraduate Diploma</label><br>
-                                                
+
                                                 <input type="radio" id="edu5" name="education" value="Bachelor’s Degree" class="ml-20">
                                                 <label for="edu5">Bachelor’s Degree</label><br>
 
@@ -436,23 +437,23 @@
                                                 <h5 class="text-theme-colored text-uppercase mb-0">6) Field of studies <span class="red">*</span></h5>
                                                 <input type="radio" id="std1" name="field_of_study" value="Education" class="ml-20">
                                                 <label for="std1">Education</label><br>
-                                                
+
                                                 <input type="radio" id="std2" name="field_of_study" value="Computer science" class="ml-20">
                                                 <label for="std2">Computer science</label><br>
-                                                
+
                                                 <input type="radio" id="std3" name="field_of_study" value="Accountancy" class="ml-20">
                                                 <label for="std3">Accountancy</label><br>
-                                                
+
                                                 <input type="radio" id="std4" name="field_of_study" value="Engineering" class="ml-20">
                                                 <label for="std4">Engineering</label><br>
-                                                
+
                                                 <input type="radio" id="std5" name="field_of_study" value="Other" class="ml-20">
                                                 <label for="std5">Other</label><br>
 
 
                                             </div>
-                                            
-                                           
+
+
                                             <div class="col-md-10">
                                                 <h5 class="text-theme-colored text-uppercase mb-10">7) English Language Proficiency <span class="red">*</span></h5>
 
