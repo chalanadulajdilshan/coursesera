@@ -354,47 +354,74 @@
                                 <div class="col-md-10 col-md-push-1"> 
                                     <div class="bg-lightest border-1px p-25">   
                                         <div class="row">
-                                            <div class="col-sm-8">
-                                                <h5 class="text-theme-colored text-uppercase mb-10">4) Current Occupation <span class="red">*</span></h5>
+                                            <div class="col-md-12">
+                                                <h5 class="text-theme-colored text-uppercase mb-0">4) Current Occupation <span class="red">*</span></h5>
+                                                <input type="radio" id="curo1" name="current_occupation" value="Teacher" class="ml-20">
+                                                <label for="curo1">Teacher</label><br>
 
-                                                <div class="form-group mb-10">
-                                                    <select class="form-control " name="current_occupation" id="current_occupation">
-                                                        <option value="Teacher"> Teacher</option>
-                                                        <option value="Librarian"> Librarian</option>
-                                                        <option value="Student">  Student</option>
-                                                        <option value="Self-employed">Self-employed</option>
-                                                        <option value="Other">Other</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-8">
-                                                <h5 class="text-theme-colored text-uppercase mb-10">5) Education <span class="red">*</span></h5>
-                                                <div class="form-group mb-10">
-                                                    <select class="form-control " name="education" id="education">
-                                                        <option value=" GCE (O/L)"> GCE (O/L)</option>
-                                                        <option value="GCE (A/L)"> GCE (A/L)</option>
-                                                        <option value="Bachelor’s Degree"> Bachelor’s Degree</option>
-                                                        <option value="Master’s Degree">Master’s Degree</option>
-                                                        <option value="PHD">PHD</option>
-                                                        <option value="Diploma">Diploma</option>
-                                                        <option value="Postgraduate Diploma">Postgraduate Diploma</option>
-                                                        <option value="Other">Other</option>
+                                                <input type="radio" id="curo2" name="current_occupation" value="Librarian" class="ml-20">
+                                                <label for="curo1">Librarian</label><br>
 
-                                                    </select>
-                                                </div>
+                                                <input type="radio" id="curo3" name="current_occupation" value="Student" class="ml-20">
+                                                <label for="curo1">Student</label><br>
+
+                                                <input type="radio" id="curo4" name="current_occupation" value="Self-employed" class="ml-20">
+                                                <label for="curo1">Self-employed</label><br>
+
+                                                <input type="radio" id="curo5" name="current_occupation" value="Other" class="ml-20">
+                                                <label for="curo1">Other</label><br>
+
                                             </div>
-                                            <div class="col-sm-8">
-                                                <h5 class="text-theme-colored text-uppercase mb-10">6) Field of studies <span class="red">*</span></h5>
-                                                <div class="form-group mb-10">
-                                                    <select class="form-control " name="field_of_study" id="field_of_study" >
-                                                        <option value="Education"> Education</option>
-                                                        <option value="Computer science"> Computer science</option>
-                                                        <option value="Accountancy"> Accountancy</option>
-                                                        <option value="Engineering"> Engineering</option> 
-                                                        <option value="Other">Other</option>
-                                                    </select>
-                                                </div>
+
+                                            <div class="col-md-12">
+                                                <h5 class="text-theme-colored text-uppercase mb-0">5) Education <span class="red">*</span></h5>
+                                                <input type="radio" id="edu1" name="education" value="GCE (O/L)" class="ml-20">
+                                                <label for="edu1">GCE (O/L)</label><br>
+
+                                                <input type="radio" id="edu2" name="education" value="GCE (A/L)" class="ml-20">
+                                                <label for="edu2">GCE (A/L)</label><br>
+
+                                                <input type="radio" id="edu3" name="education" value="Diploma" class="ml-20">
+                                                <label for="edu3">Diploma</label><br>
+
+                                                <input type="radio" id="edu4" name="education" value="Postgraduate Diploma" class="ml-20">
+                                                <label for="edu4">Postgraduate Diploma</label><br>
+                                                
+                                                <input type="radio" id="edu5" name="education" value="Bachelor’s Degree" class="ml-20">
+                                                <label for="edu5">Bachelor’s Degree</label><br>
+
+                                                <input type="radio" id="edu6" name="education" value="Master’s Degree" class="ml-20">
+                                                <label for="edu6">Master’s Degree</label><br>
+
+                                                <input type="radio" id="edu7" name="education" value="PHD" class="ml-20">
+                                                <label for="edu7">PHD</label><br>
+
+                                                <input type="radio" id="edu8" name="education" value="Other" class="ml-20">
+                                                <label for="edu8">Other</label><br>
+
                                             </div>
+
+                                            <div class="col-md-12">
+                                                <h5 class="text-theme-colored text-uppercase mb-0">6) Field of studies <span class="red">*</span></h5>
+                                                <input type="radio" id="std1" name="field_of_study" value="Education" class="ml-20">
+                                                <label for="std1">Education</label><br>
+                                                
+                                                <input type="radio" id="std2" name="field_of_study" value="Computer science" class="ml-20">
+                                                <label for="std2">Computer science</label><br>
+                                                
+                                                <input type="radio" id="std3" name="field_of_study" value="Accountancy" class="ml-20">
+                                                <label for="std3">Accountancy</label><br>
+                                                
+                                                <input type="radio" id="std4" name="field_of_study" value="Engineering" class="ml-20">
+                                                <label for="std4">Engineering</label><br>
+                                                
+                                                <input type="radio" id="std5" name="field_of_study" value="Other" class="ml-20">
+                                                <label for="std5">Other</label><br>
+
+
+                                            </div>
+                                            
+                                           
                                             <div class="col-md-10">
                                                 <h5 class="text-theme-colored text-uppercase mb-10">7) English Language Proficiency <span class="red">*</span></h5>
 
