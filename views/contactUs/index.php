@@ -30,36 +30,30 @@
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-map-2 text-theme-colored"></i></a>
                                 <div class="media-body"> <strong>OUR OFFICE LOCATION</strong>
-                                    <p>#405, Lan Streen, Los Vegas, USA</p>
+                                    <p>No 14, Independence Avenue, Colombo 07, Sri Lanka.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-12">
                             <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-call text-theme-colored"></i></a>
                                 <div class="media-body"> <strong>OUR CONTACT NUMBER</strong>
-                                    <p>+325 12345 65478</p>
+                                    <p> +94 113610772<br>+94 711919475</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-12">
                             <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-mail text-theme-colored"></i></a>
                                 <div class="media-body"> <strong>OUR CONTACT E-MAIL</strong>
-                                    <p>supporte@yourdomin.com</p>
+                                    <p>help.skillsonline@mail.natlib.lk</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-12">
-                            <div class="icon-box left media bg-deep p-30 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-film text-theme-colored"></i></a>
-                                <div class="media-body"> <strong>Make a Video Call</strong>
-                                    <p>ThemeMascotSkype</p>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <h3 class="line-bottom mt-0 mb-20">Interested in discussing?</h3>
-                    <p class="mb-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error optio in quia ipsum quae neque alias eligendi, nulla nisi. Veniam ut quis similique culpa natus dolor aliquam officiis ratione libero. Expedita asperiores aliquam provident amet dolores.</p>
+                    <h3 class="line-bottom mt-0 mb-20">Contact Us</h3>
+                    <p class="mb-20"></p>
                     <!-- Contact Form -->
                     <form id="contact_form" name="contact_form" class="" action="http://html.kodesolution.live/m/learnpress/v2.0/demo/includes/sendmail.php" method="post">
 
