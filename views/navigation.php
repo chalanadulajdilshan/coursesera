@@ -41,7 +41,7 @@
             <div class="container">
                 <nav id="menuzord" class="menuzord default">
                     <a class="menuzord-brand pull-left flip" href="./">
-                        <img src="<?php echo URL; ?>public/images/c-logo.png" alt="">
+                        <img src="<?php echo URL; ?>public/images/logo.png" alt="">
                     </a>
                     <ul class="menuzord-menu" style="margin-left: 20%;">
                         <li class="active"><a href="<?php echo URL; ?>">Home</a>
