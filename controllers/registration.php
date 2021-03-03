@@ -21,11 +21,17 @@ class Registration extends Controller {
         $this->view->render('footer');
     }
 
+    function nic_check() {
+        $this->view->render('header');
+        $this->view->render('navigation');
+        $this->view->render('registration/nic-check');
+        $this->view->render('footer');
+    }
+
     function add() {
 
 
         $data = [
-
             'about_us' => $_POST['about_us'],
             'first_name' => $_POST['first_name'],
             'middle_name' => $_POST['middle_name'],
@@ -58,10 +64,10 @@ class Registration extends Controller {
         ];
 
         if ($this->model->add($data)) {
-        $this->mail->set_address($_POST['email']);
-                $this->mail->set_content(); 
-              
-                $this->mail->send();
+            $this->mail->set_address($_POST['email']);
+            $this->mail->set_content();
+
+            $this->mail->send();
             echo json_encode(array('has_errors' > FALSE, 'status' => TRUE));
         } else {
             echo json_encode(array('has_errors' > FALSE, 'status' => FALSE));

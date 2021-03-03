@@ -1,13 +1,15 @@
 <?php
 
-include '../../class/include.php';
-header('Content-type: application/json');
+include '../../../class/include.php';
 
-if ($_POST['action'] == 'GETCITYSBYDISTRICT') {
+ 
+ 
+if ($_POST['action'] == 'check_nic_number') {
 
-    $CITY = new City(NULL);
+    $REGISTRATIONS = new Registrations(NULL);
 
-    $result = $CITY->GetCitiesByDistrict($_POST["district"]);
+    $result = $REGISTRATIONS->checkNicNumber($_POST["nic"]);
+//    var_dump($result);
     echo json_encode($result);
 
     exit();

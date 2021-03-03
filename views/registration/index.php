@@ -6,15 +6,46 @@
     <!-- Start main-content -->
     <div class="main-content">
         <!-- Section: home -->
+
+
         <section id="home" class="divider bg-lighter" >
             <div class="display-table">
                 <div class="display-table-cell">
                     <div class="container pb-100 pt-50"> 
                         <form id="form-data">
+
+                            <div class="container pb-100 pt-50 " id="nic_form"> 
+                                <div class="col-md-3"> </div>
+                                <div class="col-md-6 bg-white border-1px">
+                                    <div class="heading-line-bottom">
+                                        <h4 class="heading-title">Please Enter your NIC to continue</h4>
+                                    </div>
+                                    <form action="#">
+                                        <div class="row">
+                                            <div class="form-group col-md-12">
+                                                <label>NIC</label>
+                                                <input type="text" class="form-control" id="nic" name="nic">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-md-12">
+                                                <label>Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-default" id="check_nic">Continue</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-md-3"> </div>
+                            </div>
+
                             <div class="row">
                                 <div class="col-md-10 col-md-push-1"> 
 
-                                    <div class="bg-lightest border-1px " id="first_form" style="padding: 25px 25px 50px 25px !important;" id="">
+                                    <div class="bg-lightest border-1px " id="first_form" style="padding: 25px 25px 50px 25px !important;display: none"  >
                                         <h4 class="mt-0 pt-5"> How did you hear about Skills Online Sri Lanka Programme.?</h4>
                                         <p>Thank you for making a donation to our charitable organization. Please use the form below to pay your desired giving amount.</p>
                                         <hr> 
@@ -550,8 +581,10 @@
 <script src="<?php echo MAIN_PUBLIC_URL ?>ajax/js/district.js"></script>
 <script src="<?php echo MAIN_PUBLIC_URL ?>js/jquery.preloader.min.js" type="text/javascript"></script> 
 <script src="<?php echo MAIN_PUBLIC_URL ?>js/jquery.inputmask.bundle.min.js" type="text/javascript"></script>
+<script src="<?php echo MAIN_PUBLIC_URL ?>ajax/js/nic-check.js" type="text/javascript"></script>
 
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 <script>
 //    $(function () {
 //        $(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});
