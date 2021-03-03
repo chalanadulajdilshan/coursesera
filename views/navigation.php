@@ -59,7 +59,7 @@
                         <li><a href="<?php echo URL; ?>contactus">Contact Us</a>
 
                         </li>
-                        <li><a class="btn btn-default btn-transparent btn-theme-colored btn-circled btn-lg" data-toggle="modal" data-target=".bs-example-modal-sm" style="border: 3px solid;
+                        <li><a class="btn btn-default btn-transparent btn-theme-colored btn-circled btn-lg" href="<?php echo URL; ?>registration" style="border: 3px solid;
                                "><b>Register Now...!</b></a>
                         </li>  
                     </ul>
@@ -68,23 +68,6 @@
         </div>
     </div>
 
-    <div class="modal fade bs-example-modal-sm" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <form>
-                    <div class="form-group">
-                        <label for="NIC">NIC No</label>
-                        <input type="text" class="form-control" id="nic_number" style="text-transform: uppercase" placeholder="NIC Number">
-                    </div>
-                    <div class="form-group">
-                        <label for="Name">Name</label>
-                        <input type="text" class="form-control" id="your_name" placeholder="Your Name">
-                    </div>                
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
 </header>
 
 
