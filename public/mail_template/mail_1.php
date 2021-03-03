@@ -194,8 +194,8 @@ function mail_set_template(){
 																<h4>Dear Applicant,</h4>
                                                                 <p style='color:#ffffff; '>Thank you very much for registering with the COL-Skills for Work-Skills online Sri Lanka Programme.</p><br>
                                                                 <p style='color:#ffffff; '>If you are eligible and are short-listed you will receive an email from SOSL, requesting you to attend an online-interview within next 3 days.  In case if you do not see it in your Inbox remember to <strong>check your email ‘SPAM’ folder</strong> as well. </p><br>
-                                                                <p style='color:#ffffff; '>If you have any questions, need clarifications or have concerns please do not hesitate to contact the helpdesk at the National Library: Email - help.skillsonline@mail.natlib.lk  Phone: +94113610772; WhatsApp: +94711919475 (Text only)</p>
-                                                                <p style='color:#ffffff; '>Coordinator.<br>
+                                                                <p style='color:#ffffff; '>If you have any questions, need clarifications or have concerns please do not hesitate to contact the helpdesk at the National Library: Email - help.skillsonline@mail.natlib.lk  Phone: +94113610772; WhatsApp: +94711919475 (Text only)</p><br>
+                                                                <p style='color:#ffffff; '>Coordinator.</p><br>
                                                                 <p style='color:#ffffff; '>NLSL- Skills Online Programme </p>
                                                                 </td>
 														</tr>

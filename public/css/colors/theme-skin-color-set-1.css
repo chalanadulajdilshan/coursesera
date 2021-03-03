@@ -1232,3 +1232,9 @@ fieldset[disabled] .btn-theme-colored.focus {
 .icon-box.iconbox-theme-colored.iconbox-border {
   border-color: #387eab;
 }
+.panel-group .panel-title a {
+  color: #387eab !important;
+}
+.panel-group .panel-title a.active {
+  color: #fff !important;
+}

@@ -53,8 +53,8 @@
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
 
                                 <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2"> Coursera</span></h4>
-                                <p>laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero    </p>
-                                <a href="#" class="btn btn-sm btn-theme-colored">View more</a>
+                                <p>Build skills with courses, certificates, and degrees online from world-class universities.</p>
+                                <a href=" https://www.coursera.org/browse" class="btn btn-sm btn-theme-colored">View more</a>
                             </div>
 
                         </div>
@@ -63,8 +63,8 @@
 
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
                                 <h4 class="letter-space-1 mt-10"><span class="text-theme-color-2">Udemy</span></h4>
-                                <p>laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero    </p>
-                                <a href="#" class="btn btn-sm btn-theme-colored">View more</a>
+                                <p>The leading global marketplace for learning and instruction   </p>
+                                <a href="https://www.udemy.com/" class="btn btn-sm btn-theme-colored">View more</a>
                             </div>
 
                         </div>
@@ -75,8 +75,8 @@
                             </a>
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30">
                                 <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2"> Google</span></h4>
-                                <p>laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero   </p>
-                                <a href="#" class="btn btn-sm btn-theme-colored">View more</a>
+                                <p>Many of Grow with Google’s tools and resources are available for free on our website   </p>
+                                <a href="https://grow.google/" class="btn btn-sm btn-theme-colored">View more</a>
                             </div>
 
                         </div>
@@ -98,12 +98,12 @@
                             <p class="mb-15">Through this partnership, the NLSL initiative, named Skills Online Sri Lanka Programme (SOSLP) launched with the support of local partners will offer scholarship 
                                 to 2500 Sri Lankans through a competitive application process.  </p>
 
-                                <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="<?php echo URL; ?>aboutus">View Details</a> 
-                                <img style="margin-top: 15px" src="<?php echo URL; ?>public/images/logos.jpg">
+                            <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="<?php echo URL; ?>aboutus">View Details</a> 
+                            <img style="margin-top: 15px" src="<?php echo URL; ?>public/images/logos.jpg">
                         </div>
                         <div class="col-sm-12 col-md-6 mt-0 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="video-popup">     
-                                <iframe width="560" height="360" src="https://www.youtube.com/embed/iVOWiwPrCK0" frameborder="0"
+                                <iframe width="560" height="380" src="https://www.youtube.com/embed/iVOWiwPrCK0" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
@@ -124,22 +124,24 @@
                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                     <div class="icon-box p-15 mb-0 mb-sm-0 mt-sm-0">
                                         <a class="icon pull-left sm-pull-none flip" href="#">
-                                            <i class="fa fa-building text-theme-colored font-50"></i>
+                                            <i class="fa fa-graduation-cap text-theme-colored font-50"></i>
                                         </a>
                                         <div class="ml-70 ml-sm-0">
-                                            <h4 class="icon-box-title mt-15 mb-5">Best Campus</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                            <h4 class="icon-box-title mt-15 mb-5">Learn online</h4>
+                                            <p>Watch videos | Take quizzes</p>
+                                            <p> Complete assignments</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                     <div class="icon-box p-15 mb-0 mb-sm-0 mt-sm-0">
                                         <a class="icon pull-left sm-pull-none flip" href="#">
-                                            <i class="fa fa-users text-theme-colored font-50"></i>
+                                            <i class="fa fa-location-arrow text-theme-colored font-50"></i>
                                         </a>
                                         <div class="ml-70 ml-sm-0">
-                                            <h4 class="icon-box-title mt-15 mb-5">Best Staff</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                            <h4 class="icon-box-title mt-15 mb-5">Learn anywhere</h4>
+                                            <p>Available on web and mobile.</p>
+                                            <p>Download videos to the mobile app.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -150,18 +152,19 @@
                                         </a>
                                         <div class="ml-70 ml-sm-0">
                                             <h4 class="icon-box-title mt-15 mb-5">5100+ Courses</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                            <p>The selected learners will have access to over 5100 courses.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                     <div class="icon-box p-15 mb-30 mb-sm-0 mt-sm-0">
                                         <a class="icon pull-left sm-pull-none flip" href="#">
-                                            <i class="fa fa-money text-theme-colored font-50"></i>
+                                            <i class="fa fa-file text-theme-colored font-50"></i>
                                         </a>
                                         <div class="ml-70 ml-sm-0">
-                                            <h4 class="icon-box-title mt-15 mb-5">Cost Free</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                            <h4 class="icon-box-title mt-15 mb-5">Share achievements</h4>
+                                            <p>Apply what you’ve learned</p>
+                                            <p>Connect course Certificates to your LinkedIn profile</p>
                                         </div>
                                     </div>
                                 </div>
@@ -179,7 +182,7 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <h2 class="mt-0 line-height-1 text-uppercase">Popular <span class="text-theme-color-2">Subjects</span></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>-->
                         </div>
                     </div>
                 </div>
@@ -197,12 +200,12 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Arts and Humanities</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                        <p>Humanities studies the history and development of human thought and culture.By focusing on literature, history, philosophy </p>
+<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
                                             <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -217,12 +220,12 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Business</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                        <p>Make Data-Driven Business Decisions. Achieve fluency in business data strategies in four discipline-specific courses.</p>
+<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
                                             <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -237,12 +240,12 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Computer Science</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                        <p>The basis for education in the last millennium was “reading, writing, and arithmetic;” now it is reading, writing, and computing.  </p>
+<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
                                             <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -257,12 +260,12 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Information Technology</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                        <p>This course will transition you from working on a single computer to an entire fleet.  </p>
+<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
                                             <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -277,12 +280,12 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Physical Science & Engineering</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                        <p>An introductory course designed to allow students to explore the basic concepts of physical science. </p>
+<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
                                             <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -297,12 +300,12 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Health</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                        <p>This course provides students with an overview of issues central to the health sciences and careers in the field of health. </p>
+<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
                                             <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -317,12 +320,12 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Personal Development</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                        <p>Personal development improves your quality of life through the development of skills to help you achieve your personal and professional goals.</p>
+<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
                                             <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -337,12 +340,12 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Language Learning</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                        <p>Multilingual skills open doors to new employment opportunities, culture, and experiences. </p>
+<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
                                             <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -357,7 +360,7 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Math and Logic</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
+                                        <p>Mathematical thinking is not the same as doing mathematics – at least not as mathematics is typically presented in our school system.  </p>
                                         <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
@@ -377,12 +380,12 @@
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
                                         <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Data Science</a></h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam tortor, egestas varius erat aliquam. </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                        <p>Launch your career in data science. Gain foundational data science skills to prepare for a career or further advanced learning in data science.  </p>
+<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
                                             <li class="current-fund"><strong>Time</strong> June 26</li>
                                             <li class="target-fund"><strong>Discount</strong>15%</li>
                                             <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -400,7 +403,7 @@
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 text-center">
                             <h3 class="text-white text-uppercase font-30 font-weight-600 mt-0 mb-20">5100+ Courses and Specializations</h3>
-                            <p class="text-white lead">Lorem ipsum dolor sit amet, volupt consectetur adipisicing elit. Rem autem voluptatem obcaecat ipsum dolor sit tetur adipisicing elit amet, consec autem atem obcaecati!</p>
+                            <p class="text-white lead">The selected learners will have access to over 5100 courses (accessible through a smartphone/desktop/laptop) until 31 March 2021 in the following categories. </p>
 
                             </a>
                         </div>
