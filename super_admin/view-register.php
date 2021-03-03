@@ -103,7 +103,7 @@ $prov = $PROVINCE->provinces();
                                                                                                 </div>-->
                                                 <div>
                                                     <small class="text-muted">Date Recorded:</small>
-                                                    <span>08/10/2019 12.09.00</span>
+                                                    <span><?php echo $REGESTRATIONS->created_date ?></span>
                                                 </div>
                                             </div>
                                         </div>
