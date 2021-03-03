@@ -16,7 +16,7 @@
     <!-- Start main-content -->
     <div class="main-content">
         <!-- Section: home -->
-        <section id="home" class="divider layer-overlay overlay-dark-4" data-bg-img="<?php echo URL; ?>public/images/bg/2.jpg">
+        <section id="home" class="divider layer-overlay overlay-dark-4" data-bg-img="<?php echo URL; ?>public/images/bg/Main_Image.jpg">
             <div class="display-table">
                 <div class="display-table-cell">
                     <div class="container pt-100 pb-100">
@@ -51,8 +51,8 @@
                             <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/couseara.png" alt="">
 
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
-
-                                <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2"> Coursera</span></h4>
+                                <h5 style="margin-bottom: -5px;" class="sub-title mt-5">COL Skills for Work </h5>
+                                <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2">Coursera Scholarship</span></h4>
                                 <p>Build skills with courses, certificates, and degrees online from world-class universities.</p>
                                 <a href=" https://www.coursera.org/browse" class="btn btn-sm btn-theme-colored">View more</a>
                             </div>
@@ -62,19 +62,19 @@
                             <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/udemylogo.png" alt="">
 
                             <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
-                                <h4 class="letter-space-1 mt-10"><span class="text-theme-color-2">Udemy</span></h4>
+                                <h5 style="margin-bottom: -5px;" class="sub-title mt-5">COL Skills for Work </h5>
+                                <h4 class="letter-space-1 mt-10"><span class="text-theme-color-2">Udemy Scholarship</span></h4>
                                 <p>The leading global marketplace for learning and instruction   </p>
                                 <a href="https://www.udemy.com/" class="btn btn-sm btn-theme-colored">View more</a>
                             </div>
-
                         </div>
 
                         <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-0 wow fadeInUp" data-margin-top="-160px" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <a href="<?php echo URL; ?>google">
-                                <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/google.png" alt="">
-                            </a>
-                            <div class="bg-silver-light border-1px p-20 pt-0 pb-30">
-                                <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2"> Google</span></h4>
+                            <img class="img-fullwidth" src="<?php echo URL; ?>public/images/services/google.png" alt="">
+
+                            <div class="bg-silver-light border-1px p-20 pt-0 pb-30 mb-sm-180">
+                                <h5 style="margin-bottom: -5px;" class="sub-title mt-5">COL Skills for Work </h5>
+                                <h4 class=" letter-space-1 mt-10"><span class="text-theme-color-2">Grow with Google Scholarship</span></h4>
                                 <p>Many of Grow with Google’s tools and resources are available for free on our website   </p>
                                 <a href="https://grow.google/" class="btn btn-sm btn-theme-colored">View more</a>
                             </div>
@@ -199,13 +199,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Arts and Humanities</a></h4>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Arts and Humanities</a></h4>
                                         <p>Humanities studies the history and development of human thought and culture.By focusing on literature, history, philosophy </p>
-<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>-->
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -219,13 +219,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Business</a></h4>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Business</a></h4>
                                         <p>Make Data-Driven Business Decisions. Achieve fluency in business data strategies in four discipline-specific courses.</p>
-<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>-->
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -239,13 +239,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Computer Science</a></h4>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Computer Science</a></h4>
                                         <p>The basis for education in the last millennium was “reading, writing, and arithmetic;” now it is reading, writing, and computing.  </p>
-<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>-->
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -259,13 +259,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Information Technology</a></h4>
-                                        <p>This course will transition you from working on a single computer to an entire fleet.  </p>
-<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>-->
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Information Technology</a></h4>
+                                        <p>This course will transition you from working on a single computer to an entire fleet.Students learn about the basic function of computers.</p>
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -279,13 +279,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Physical Science & Engineering</a></h4>
-                                        <p>An introductory course designed to allow students to explore the basic concepts of physical science. </p>
-<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>-->
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Physical Science & Engineering</a></h4>
+                                        <p>An introductory course designed to allow students to explore the basic concepts of physical science & engineering </p>
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -299,13 +299,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Health</a></h4>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Health</a></h4>
                                         <p>This course provides students with an overview of issues central to the health sciences and careers in the field of health. </p>
-<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>-->
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -319,13 +319,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Personal Development</a></h4>
-                                        <p>Personal development improves your quality of life through the development of skills to help you achieve your personal and professional goals.</p>
-<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>-->
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Personal Development</a></h4>
+                                        <p>Personal development improves your quality of life through the development of skills to help you achieve your personal.</p>
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -339,13 +339,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Language Learning</a></h4>
-                                        <p>Multilingual skills open doors to new employment opportunities, culture, and experiences. </p>
-<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>-->
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Language Learning</a></h4>
+                                        <p>Multilingual skills open doors to new employment opportunities, culture, experiences and existing knowledge of languages. </p>
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -359,13 +359,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Math and Logic</a></h4>
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Math and Logic</a></h4>
                                         <p>Mathematical thinking is not the same as doing mathematics – at least not as mathematics is typically presented in our school system.  </p>
-                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
@@ -379,13 +379,13 @@
                                     </div>
                                     <div class="project-details p-15 pt-10 pb-10">
                                         <h5 class="font-14 font-weight-500 mb-5"></h5>
-                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="page-courses-accounting-technologies.html">Data Science</a></h4>
-                                        <p>Launch your career in data science. Gain foundational data science skills to prepare for a career or further advanced learning in data science.  </p>
-<!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
-                                            <li class="current-fund"><strong>Time</strong> June 26</li>
-                                            <li class="target-fund"><strong>Discount</strong>15%</li>
-                                            <li class="remaining-days"><strong>Duration</strong>6 Months</li>
-                                        </ul>-->
+                                        <h4 class="font-weight-700 text-uppercase mt-0"><a href="">Data Science</a></h4>
+                                        <p>Launch your career in data science. Gain foundational data science skills to prepare for a career or further advanced learning...  </p>
+                                        <!--                                        <ul class="list-inline project-conditions text-center m-0 p-10">
+                                                                                    <li class="current-fund"><strong>Time</strong> June 26</li>
+                                                                                    <li class="target-fund"><strong>Discount</strong>15%</li>
+                                                                                    <li class="remaining-days"><strong>Duration</strong>6 Months</li>
+                                                                                </ul>-->
                                     </div>
                                 </div>
                             </div>
