@@ -19,8 +19,7 @@ define('DB_HOST', "localhost");
 //server
 //define('URL', 'http://' . $host . '/');
 //define('MAIN_PUBLIC_URL', 'http://' . $host . '/public/');
-//define('URL_Admin', 'http://' . $host . 'coursesera/');
-//
+//define('URL_Admin', 'https://' . $host . '/');
 //// Database
 //define('DB_TYPE', "mysql");
 //define('DB_NAME', "coursera");

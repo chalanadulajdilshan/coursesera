@@ -43,7 +43,7 @@ class Registrations {
     public $computer_lab;
     public $scholarship;
     public $is_consent;
-
+   
     public function __construct($id) {
 
         if ($id) {
