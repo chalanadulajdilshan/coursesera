@@ -19,20 +19,25 @@ class Database {
 //  private $password = '.%L}=$eeL[OJ';
 //  private $DB_CON = '';
 
-    private $host = 'localhost';
-    private $name = 'coursesera';
-    private $user = 'root';
-    private $password = '';
-    private $DB_CON = '';
 
-    public
-            function __construct() {
 
-        $this->DB_CON = mysqli_connect($this->host, $this->user, $this->password, $this->name);
+private $host = 'localhost';
+private $name = 'coursesera';
+private $user = 'root';
+private $password = '';
+private $DB_CON = '';
+
+public
+
+function __construct() {
+
+    $this->DB_CON = mysqli_connect($this->host, $this->user, $this->password, $this->name);
+
     }
 
     public
-            function readQuery($query) {
+
+    function readQuery($query) {
         $result = mysqli_query($this->DB_CON, $query) or die(mysqli_error());
 
         return $result;

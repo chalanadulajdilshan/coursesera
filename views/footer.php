@@ -111,7 +111,12 @@
         <div class="container pt-20 pb-20">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="font-11 text-black-777 m-0">Copyright &copy;2021 ICT Unit. All Rights Reserved</p>
+                    <p class="font-11 text-black-777 m-0">
+
+                        Copyright © Vocational Training Authority of Sri Lanka. All Rights Reserved.
+                        <br>
+                        Powered By ICT UNIT of VTA.
+                    </p>
                 </div>
                 <div class="col-md-6 text-right">
                     <div class="widget no-border m-0">
@@ -135,7 +140,7 @@
     </div>
 </footer>
 
-  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
 <!-- Footer Scripts --> 
 <!-- JS | Custom script for all pages --> 

@@ -526,9 +526,9 @@
 
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
-    $(function () {
-        $(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});
-    });
+//    $(function () {
+//        $(".datepicker").datepicker({dateFormat: 'yy-mm-dd'});
+//    });
 
 </script>
 
