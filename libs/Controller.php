@@ -8,6 +8,7 @@ class Controller {
 //        $this->auth = new Auth();
         $this->uploader = new \Verot\Upload\Upload();
         $this->load_model($model_name, 'models/');
+        $this->mail = new Mail(MHOST, MUSERNAME, MPASSWORD, MTITLE, MPORT);
 //         $this->auth->auth();
     }
     

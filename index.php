@@ -9,6 +9,7 @@ import('libs/Database');
 import('libs/Model');
 import('libs/User_Auth_Model');
 import('libs/View');
+import('libs/Mail');
 
 // ==========================
 import('./libs/Validation');

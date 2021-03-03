@@ -1,4 +1,6 @@
 <?php
+// error_reporting(0);
+// @ini_set('display_errors', 0);
 
 // root URL
 $host = $_SERVER['HTTP_HOST'];
@@ -26,6 +28,13 @@ define('DB_HOST', "localhost");
 //define('DB_USER', "coursera");
 //define('DB_PASS', "wtBG>(mELV7T");
 //define('DB_HOST', "localhost");
+
+define('MHOST', "smtp-mail.outlook.com");
+define('MUSERNAME', 'NoReply@vtasl.gov.lk');
+define('MPASSWORD', 'r$f#_zU$dHK4r2H+');
+define('MTITLE', "Skills Online - Sri Lanka");
+define('MPORT', 587);
+
 
 define('AUTH_PREFIX', 'vtapms');
 define('MAX_TRY', 3);
