@@ -64,12 +64,11 @@
         <link href="<?php echo URL; ?>public/css/sweetalert.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo URL; ?>public/css/preloader-submit.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <script> 
+        <script>
             var public_url = <?php echo json_encode(MAIN_PUBLIC_URL); ?>;
-            var url = <?php echo json_encode(URL); ?>; 
+            var url = <?php echo json_encode(URL); ?>;
         </script>
-
-    </head>
-    <body class="someBlock">
+</head>
+<body class="someBlock">
 
 
