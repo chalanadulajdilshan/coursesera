@@ -5,8 +5,7 @@ $(document).ready(function () {
             function () {
                 if ($(this).val() == 'other') {
                     $("#other_val ").css("display", "block");
-                }
-                else {
+                } else {
                     $("#other_val ").css("display", "none");
                 }
             });
@@ -37,16 +36,13 @@ $(document).ready(function () {
                     showConfirmButton: false
                 });
             }
-        } else {
-
-            //start preloarder
-            $('.someBlock').preloader();
+        } else { 
+          
 
             $("#personal_data_form ").css("display", "block");
             $("#first_form ").css("display", "none");
 
-            //remove preloarder
-            $('.someBlock').preloader('remove');
+          
         }
     });
 
@@ -319,7 +315,7 @@ $(document).ready(function () {
                         showConfirmButton: false
                     }, function () {
                         setTimeout(function () {
-                            window.location.href = url +"registration/success";
+                            window.location.href = url + "registration/success";
                         }, 1500);
                     });
                 },
