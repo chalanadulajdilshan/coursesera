@@ -14,6 +14,7 @@
 class Registrations {
 
     public $id;
+    public $nic;
     public $about_us;
     public $first_name;
     public $middle_name;
@@ -56,6 +57,7 @@ class Registrations {
             $result = mysqli_fetch_array($db->readQuery($query));
 
             $this->id = $result['id'];
+            $this->nic = $result['nic'];
             $this->about_us = $result['about_us'];
             $this->first_name = $result['first_name'];
             $this->middle_name = $result['middle_name'];
@@ -101,6 +103,21 @@ class Registrations {
             array_push($array_res, $row);
         }
         return $array_res;
+    }
+
+    public function checkNicNumber($nic) {
+
+        $query = "SELECT * FROM `register` WHERE `nic` =$nic ORDER BY `id` ASC";
+
+        
+        $db = new Database();
+        $result = $db->readQuery($query);
+//        var_dump(mysqli_num_rows($result));
+        if (mysqli_num_rows($result)) {
+            return TRUE;
+        } else {
+            return FALSE;
+        }
     }
 
 //    public function create() {
@@ -153,19 +170,6 @@ class Registrations {
 //        return $array_res;
 //    }
 //
-//    public function getStudentByTeacher($student) {
-//
-//        $query = "SELECT * FROM `student` WHERE `teacher_id` ='$student' ORDER BY `id` ASC";
-//        $db = new Database();
-//        $result = $db->readQuery($query);
-//        $array_res = array();
-//
-//        while ($row = mysqli_fetch_array($result)) {
-//            array_push($array_res, $row);
-//        }
-//
-//        return $array_res;
-//    }
 //
 //    public function login($student_id, $password) {
 //
