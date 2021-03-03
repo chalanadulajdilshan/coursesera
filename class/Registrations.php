@@ -43,7 +43,8 @@ class Registrations {
     public $computer_lab;
     public $scholarship;
     public $is_consent;
-   
+    public $created_date;
+
     public function __construct($id) {
 
         if ($id) {
@@ -84,6 +85,7 @@ class Registrations {
             $this->computer_lab = $result['computer_lab'];
             $this->scholarship = $result['scholarship'];
             $this->is_consent = $result['is_consent'];
+            $this->created_date = $result['created_date'];
 
             return $result;
         }
