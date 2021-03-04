@@ -11,7 +11,7 @@ $(document).ready(function () {
                 title: "Error!",
                 text: "Please enter your nic number..!",
                 type: 'error',
-                timer: 2500,
+                timer: 4000,
                 showConfirmButton: false
             });
         } else if (regExp.test(nic))
@@ -20,7 +20,7 @@ $(document).ready(function () {
                 title: "Error!",
                 text: "Please remove letter V or any other letter",
                 type: 'error',
-                timer: 2500,
+                timer: 4000,
                 showConfirmButton: false
             });
         } else if (($('#nic').val().length != 9) && ($('#nic').val().length != 12)) {
@@ -28,7 +28,7 @@ $(document).ready(function () {
                 title: "Error!",
                 text: "Invalid NIC Number.Please check your nic number again..!",
                 type: 'error',
-                timer: 2500,
+                timer: 4000,
                 showConfirmButton: false
             });
         } else {
@@ -46,7 +46,7 @@ $(document).ready(function () {
                             title: "Error!",
                             text: "This nic number is already registed..! Please contact our help desk agent",
                             type: 'error',
-                            timer: 2500,
+                            timer: 4000,
                             showConfirmButton: false
                         });
                     } else {

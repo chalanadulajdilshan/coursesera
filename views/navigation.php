@@ -7,7 +7,7 @@
                     <div class="widget no-border m-0">
                         <ul class="list-inline">
                             <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-white"></i> <a class="text-white" href="#">+94 1136 10772</a> </li>
-                            <li class="text-white m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-white"></i> Mon-Fri 8:00 to 2:00 </li>
+                            <li class="text-white m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-white"></i> 24/7 Days Open</li>
                             <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white"></i> <a class="text-white" href="#">help.skillsonline@mail.natlib.lk</a> </li>
                         </ul>
                     </div>

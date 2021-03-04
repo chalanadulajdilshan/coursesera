@@ -5,7 +5,7 @@
 // root URL
 $host = $_SERVER['HTTP_HOST'];
 define('HOST', $host);
-define('DEVELOPMENT_MODE', 1);
+define('DEVELOPMENT_MODE', 0);
 
 define('URL', 'http://' . $host . '/coursesera/');
 define('MAIN_PUBLIC_URL', 'http://' . $host . '/coursesera/public/');
@@ -24,9 +24,9 @@ define('DB_HOST', "localhost");
 //define('URL_Admin', 'https://' . $host . '/');
 //// Database
 //define('DB_TYPE', "mysql");
-//define('DB_NAME', "coursera");
-//define('DB_USER', "coursera");
-//define('DB_PASS', "wtBG>(mELV7T");
+//define('DB_NAME', "vtalk_coursesera");
+//define('DB_USER', "vtalk_soslp");
+//define('DB_PASS', "!!6zHYVb%Eb");
 //define('DB_HOST', "localhost");
 
 define('MHOST', "smtp-mail.outlook.com");
