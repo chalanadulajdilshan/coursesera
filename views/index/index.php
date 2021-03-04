@@ -23,13 +23,13 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <div class="home-content pt-130">
-                                    <h2 class="m-0 text-white text-uppercase font-slider">Welcome To<span class="text-theme-color-2"> Skills Online </span>Sri Lanka</h2>
-                                    <h4 class="media-heading heading title text-white">Do you wish to be an entrepreneur?</h4>
-                                    <p class="font-16 text-white">Learn your favourite skills and implement your ideas into real life</p>
-                                    <h4 class="media-heading heading title text-white">Are you looking for a job?</h4>
-                                    <p class="font-16 text-white">Get a certification from the professional course and work and the world's leading companies</p>
-                                    <h4 class="media-heading heading title text-white">Do you want to work at the world's leading companies?</h4>
-                                    <p class="font-16 text-white">Earn skills to get hired in the world's top companies</p>
+                                    <h2 class="m-0 text-white text-uppercase font-slider text-shadow">Welcome To<span class="text-theme-color-2"> Skills Online </span>Sri Lanka</h2>
+                                    <h4 class="media-heading heading title text-white text-shadow">Do you wish to be an entrepreneur?</h4>
+                                    <p class="font-16 text-white text-shadow">Learn your favourite skills and implement your ideas into real life</p>
+                                    <h4 class="media-heading heading title text-white text-shadow">Are you looking for a job?</h4>
+                                    <p class="font-16 text-white text-shadow">Get a certification from the professional course and work and the world's leading companies</p>
+                                    <h4 class="media-heading heading title text-white text-shadow">Do you want to work at the world's leading companies?</h4>
+                                    <p class="font-16 text-white text-shadow">Earn skills to get hired in the world's top companies</p>
 
                                     <!--<a class="btn btn-colored btn-default btn-flat border-left-theme-color-2-6px mt-15" href="<?php echo URL; ?>registration" style="margin-bottom: 5%;"><b>Apply Online</b></a>-->
                                 </div>
