@@ -4,7 +4,7 @@
 
     <section class="inner-header divider" data-bg-img="<?php echo URL; ?>public/images/bg/banner3.png">
 
-   <div class="container pt-70 pb-20">
+        <div class="container pt-70 pb-20">
             <!-- Section Content -->
             <div class="section-content">
                 <div class="row">
@@ -48,7 +48,7 @@
                                 </div>
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -128,8 +128,7 @@
     <section>
         <div class="container-fluid pt-0 pb-0">
             <div class="row">
-                 <!-- Google Map HTML Codes --><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7736.203340975469!2d79.87631!3d6.898245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x72aa217196acf9b5!2sVocational%20Training%20Authority%20of%20Sri%20Lanka!5e1!3m2!1sen!2slk!4v1614663398527!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.870594493159!2d79.86344931459271!3d6.906073995009925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2597b05ec61eb%3A0x9c59717e7d332f45!2sNational%20Library%20of%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1614788764980!5m2!1sen!2slk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>

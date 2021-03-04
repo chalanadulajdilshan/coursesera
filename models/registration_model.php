@@ -13,9 +13,13 @@ class Registration_Model extends Model {
     }
 
     function add($data) {
-        $date = array('created_date' => date('Y-m-d H:i:s'));
-        $newData = $data + $date;
-        return $this->db->insert(array('table' => 'register', 'data' => $newData));
+//        $date = array('created_date' => date('Y-m-d H:i:s'));
+//        $newData = $data + $date;
+        $res=  $this->db->insert(array('table' => 'register', 'data' => $data));
+        
+        return $res;
+        
+        
     }
 
 }
