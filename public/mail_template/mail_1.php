@@ -3,7 +3,7 @@ function mail_set_template(){
 //$data['aaaa']='aaa';
 
    return "
-    <!DOCTYPE html
+   <!DOCTYPE html
 	PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:v='urn:schemas-microsoft-com:vml'
 	xmlns:o='urn:schemas-microsoft-com:office:office'>
@@ -159,11 +159,11 @@ function mail_set_template(){
 											<tr>
 												<td class='tbrr p30-15'
 													style='padding: 20px;border-radius: 25px 25px 0px 0px;'
-													bgcolor='#12325c'>
+													bgcolor='#f5f5f5'>
 													<table width='100%' border='0' cellspacing='0' cellpadding='0'>
 														<tr>
 															<td class='h1 pb25'
-																style='color:#ffffff; font-family:Muli, Arial,sans-serif; font-size:32px; line-height:46px; text-align:center; font-weight:700'>
+																style='color:#000; font-family:Muli, Arial,sans-serif; font-size:32px; line-height:46px; text-align:center; font-weight:700'>
 																Welcome, to 'Skills Online Sri Lanka'</td>
 														</tr>
 
@@ -181,7 +181,7 @@ function mail_set_template(){
 								<tr>
 									<td style='padding-bottom: 10px;'>
 										<table width='100%' border='0' cellspacing='0' cellpadding='0'
-											bgcolor='#0e264b'>
+											bgcolor='#f5f5f5'>
 											 
 											<tr>
 												<td class='p30-15' style='padding: 50px 30px;'>
@@ -189,14 +189,14 @@ function mail_set_template(){
 													
 														<tr>
 															<td class='text pb20'
-																style='color:#ffffff; font-family:Arial,sans-serif; font-size:14px; line-height:26px; text-align:left; padding-bottom:20px;'>
+																style='color:#000; font-family:Arial,sans-serif; font-size:14px; line-height:26px; text-align:left; padding-bottom:20px;'>
                                                                 
 																<h4>Dear Applicant,</h4>
-                                                                <p style='color:#ffffff; '>Thank you very much for registering with the COL-Skills for Work-Skills online Sri Lanka Programme.</p><br>
-                                                                <p style='color:#ffffff; '>If you are eligible and are short-listed you will receive an email from SOSL, requesting you to attend an online-interview within next 3 days.  In case if you do not see it in your Inbox remember to <strong>check your email ‘SPAM’ folder</strong> as well. </p><br>
-                                                                <p style='color:#ffffff; '>If you have any questions, need clarifications or have concerns please do not hesitate to contact the helpdesk at the National Library: Email - help.skillsonline@mail.natlib.lk  Phone: +94113610772; WhatsApp: +94711919475 (Text only)</p><br>
-                                                                <p style='color:#ffffff; '>Coordinator.</p><br>
-                                                                <p style='color:#ffffff; '>NLSL- Skills Online Programme </p>
+                                                                <p style='color:#000; '>Thank you very much for registering with the COL-Skills for Work-Skills online Sri Lanka Programme.</p><br>
+                                                                <p style='color:#000; '>If you are eligible and are short-listed you will receive an email from SOSL, requesting you to attend an online-interview within next 3 days.  In case if you do not see it in your Inbox remember to <strong>check your email ‘SPAM’ folder</strong> as well. </p><br>
+                                                                <p style='color:#000; '>If you have any questions, need clarifications or have concerns please do not hesitate to contact the helpdesk at the National Library: Email - <strong>help.skillsonline@mail.natlib.lk</strong>  Phone: +94113610772; WhatsApp: +94711919475 (Text only).</p><br>
+                                                                <p style='color:#000; '>Coordinator,</p>
+                                                                <p style='color:#000; '>NLSL- Skills Online Programme.</p>
                                                                 </td>
 														</tr>
 														
@@ -214,12 +214,12 @@ function mail_set_template(){
 								<tr>
 									<td class='p30-15 bbrr' style='padding: 25px;
 border-radius: 0px 0px 25px 25px;'
-										bgcolor='#0e264b'>
+										bgcolor='#f5f5f5'>
 										<table width='100%' border='0' cellspacing='0' cellpadding='0'>
 											
 											<tr>
 												<td class='text-footer1 pb10'
-													style='color:#c1cddc; font-family:Muli, Arial,sans-serif; font-size:14px; line-height:20px; text-align:center;'>
+													style='color:#000; font-family:Muli, Arial,sans-serif; font-size:14px; line-height:20px; text-align:center;'>
 													VTA ICT UNIT - Skill online Sri Lanka</td>
 											</tr>
 											 

@@ -1,6 +1,7 @@
 <?php
- error_reporting(0);
- @ini_set('display_errors', 0);
+
+error_reporting(0);
+@ini_set('display_errors', 0);
 
 // root URL
 $host = $_SERVER['HTTP_HOST'];
@@ -19,9 +20,11 @@ define('DB_PASS', "");
 define('DB_HOST', "localhost");
 
 //server
-//define('URL', 'http://' . $host . '/');
-//define('MAIN_PUBLIC_URL', 'http://' . $host . '/public/');
-//define('URL_Admin', 'https://' . $host . '/');
+// $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+// define('URL', $protocol . $host . '/');
+// define('MAIN_PUBLIC_URL', $protocol . $host . '/public/');
+// define('URL_Admin', $protocol . $host . '/');
+
 //// Database
 //define('DB_TYPE', "mysql");
 //define('DB_NAME', "vtalk_coursesera");
