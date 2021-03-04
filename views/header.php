@@ -59,11 +59,11 @@
         <script src="<?php echo URL; ?>public/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
         <link href="<?php echo URL; ?>public/css/jquery.formValid.css" rel="stylesheet" type="text/css"/>
 
-        <script src="<?php echo URL; ?>public/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="<?php echo URL; ?>public/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <link href="<?php echo URL; ?>public/css/sweetalert.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo URL; ?>public/css/preloader-submit.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 
         <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="Stylesheet" type="text/css" />
@@ -73,6 +73,14 @@
             var url = <?php echo json_encode(URL); ?>;
         </script>
 </head>
-<body class="someBlock">
+<body class="">
+<div id="wrapper" class="clearfix">
+  <!-- preloader -->
+  <div id="preloader">
+    <div id="spinner">
+      <img alt="" src="<?php echo URL; ?>public/images/preloaders/5.gif">
+    </div>
+    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
+  </div>
 
 

@@ -65,7 +65,8 @@
                             </li>
                             <li class="active"><a href="<?php echo URL; ?>registration">Apply Now.</a>
 
-                            </li>  
+                            </li>
+                            
                         </ul>
                         </div>
                          <div class="col-md-3">
