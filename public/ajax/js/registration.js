@@ -25,9 +25,9 @@ $(document).ready(function () {
 //check how to know other occupation
     $('input:radio[name="current_occupation"]').change(
             function () {
- 
+
                 if ($(this).val() == 'Other') {
-                    
+
                     $("#occupation_val").css("display", "block");
                 } else {
                     $("#occupation_val").css("display", "none");
@@ -53,32 +53,40 @@ $(document).ready(function () {
         event.preventDefault();
         if (!$('input[name=about_us]:checked').val()) {
 
-            if ($(this).val() == 'other') {
-                if (!$('#other_method').val() || $('#other_method').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please enter how did you hear about us?..",
+                type: 'error',
+                timer: 4000,
+                showConfirmButton: false
+            });
+
+        } else {
+
+            if ($('input[name=about_us]:checked').val() === 'other') {
+
+                if (!$('#about_us_other').val() || $('#about_us_other').val().length === 0) {
                     swal({
                         title: "Error!",
-                        text: "Please enter how did you hear about us?..",
-                        type: 'info',
+                        text: "Please enter your reason?..",
+                        type: 'error',
                         timer: 4000,
                         showConfirmButton: false
                     });
+                } else {
+                    $("html, body").animate({
+                        scrollTop: 0
+                    }, 1000);
+                    $("#personal_data_form ").css("display", "block");
+                    $("#first_form ").css("display", "none");
                 }
             } else {
-                swal({
-                    title: "Error!",
-                    text: "Please enter how did you hear about us?..",
-                    type: 'error',
-                    timer: 4000,
-                    showConfirmButton: false
-                });
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1000);
+                $("#personal_data_form ").css("display", "block");
+                $("#first_form ").css("display", "none");
             }
-        } else {
-
-            $("html, body").animate({
-                scrollTop: 0
-            }, 1000);
-            $("#personal_data_form ").css("display", "block");
-            $("#first_form ").css("display", "none");
         }
     });
 //back personal data to form one
@@ -243,6 +251,7 @@ $(document).ready(function () {
                     });
 
                 } else if ($('input[name=employee_status]:checked').val() == 'Unemployed') {
+                    
                     if ($('input:radio[name="reason_for_unemployee"]:checked').length == 0)
                     {
                         swal({
@@ -319,6 +328,8 @@ $(document).ready(function () {
                         showConfirmButton: false
                     });
                 } else if ($('input:radio[name="opportunity"]:checked').length == 0) {
+                    
+                    
                     swal({
                         title: "Error!",
                         text: "Please enter job or income opportunity..!",
@@ -328,7 +339,6 @@ $(document).ready(function () {
                     });
                 } else {
 
-
                     $("html, body").animate({
                         scrollTop: 0
                     }, 1000);
@@ -337,6 +347,8 @@ $(document).ready(function () {
                     $("#last_data_form ").css("display", "block");
                 }
             } else if ($('input:radio[name="opportunity"]:checked').length == 0) {
+                
+                
                 swal({
                     title: "Error!",
                     text: "Please enter job or income opportunity..!",

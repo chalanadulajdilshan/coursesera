@@ -144,7 +144,7 @@
                                                     </label>
                                                 </div> 
                                                 <div class="form-group " style="display: none" id="other_val">
-                                                    <input name="about_us_other" class="form-control" type="text" placeholder="Fill your other resource details"  >
+                                                    <input name="about_us_other" id="about_us_other" class="form-control" type="text" placeholder="Fill your other resource details"  >
 
                                                 </div>
 
@@ -479,6 +479,11 @@
                                                             Data Analysis
                                                         </label>
                                                     </div>
+                                                        <label class="radio-inline">
+                                                            <input type="radio" name="opportunity" value="relevant">
+                                                          Not relevant 
+                                                        </label>
+                                                    </div>
                                                     <div class="form-group">
                                                         <label class="radio-inline">
                                                             <input type="radio" name="opportunity" value="other">
@@ -486,11 +491,11 @@
                                                         </label>
                                                     </div> 
                                                     <div class="form-group " style="display: none" id="opportunity_val">
-                                                        <input name="opportunity_other" class="form-control" type="text" placeholder="Fill your other details"  > 
+                                                        <input name="opportunity_other" id="opportunity_other" class="form-control" type="text" placeholder="Fill your other details"  > 
                                                     </div> 
                                                 </div>
                                             </div> 
-                                        </div>
+                                        
 
 
 
