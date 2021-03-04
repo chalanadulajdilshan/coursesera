@@ -273,6 +273,10 @@ form {
 .breadcrumb.white li a {
     color: #808080;
 }
+.text-shadow{
+   text-shadow: 0 5px 4px rgb(0, 0, 0);
+}
+
 @media only screen and (min-width: 768px) {
     .breadcrumb.text-right {
         text-align: right !important;
