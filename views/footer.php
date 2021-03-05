@@ -1,6 +1,6 @@
 
 <footer id="footer" class="footer bg-black-222" data-bg-img="images/footer-bg.png">
-     
+
     <div class="footer-bottom bg-black-333">
         <div class="container pt-20 pb-20">
             <div class="row">
@@ -33,6 +33,16 @@
 <!-- Footer Scripts --> 
 <!-- JS | Custom script for all pages --> 
 <script src="<?php echo URL; ?>public/js/custom.js"></script>
+<!-- external javascripts -->
+<script src="<?php echo URL; ?>public/js/jquery-2.2.4.min.js"></script>
+<script src="<?php echo URL; ?>public/js/jquery-ui.min.js"></script>
+<script src="<?php echo URL; ?>public/js/bootstrap.min.js"></script>
+<!-- JS | jquery plugin collection for this theme -->
+<script src="<?php echo URL; ?>public/js/jquery-plugin-collection.js"></script>
+
+<!-- Revolution Slider 5.x SCRIPTS -->
+<script src="<?php echo URL; ?>public/js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+<script src="<?php echo URL; ?>public/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript" src="<?php echo URL; ?>public/js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script> 
 <script type="text/javascript" src="<?php echo URL; ?>public/js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
 <script type="text/javascript" src="<?php echo URL; ?>public/js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 

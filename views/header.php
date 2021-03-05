@@ -47,16 +47,6 @@
         <!-- CSS | Theme Color -->
         <link href="<?php echo URL; ?>public/css/colors/theme-skin-color-set-1.css" rel="stylesheet" type="text/css">
 
-        <!-- external javascripts -->
-        <script src="<?php echo URL; ?>public/js/jquery-2.2.4.min.js"></script>
-        <script src="<?php echo URL; ?>public/js/jquery-ui.min.js"></script>
-        <script src="<?php echo URL; ?>public/js/bootstrap.min.js"></script>
-        <!-- JS | jquery plugin collection for this theme -->
-        <script src="<?php echo URL; ?>public/js/jquery-plugin-collection.js"></script>
-
-        <!-- Revolution Slider 5.x SCRIPTS -->
-        <script src="<?php echo URL; ?>public/js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-        <script src="<?php echo URL; ?>public/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
         <link href="<?php echo URL; ?>public/css/jquery.formValid.css" rel="stylesheet" type="text/css"/>
 
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

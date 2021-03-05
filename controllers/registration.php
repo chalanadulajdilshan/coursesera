@@ -43,11 +43,7 @@ class Registration extends Controller {
         if (isset($_POST['opportunity_other'])) {
             $_POST['opportunity_other'];
         }
-
-     
-        
         $data = [
-
             'about_us' => $_POST['about_us'],
             'about_us_other' => $_POST['about_us_other'],
             'nic' => $_POST['nic'],
