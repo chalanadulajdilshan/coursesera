@@ -2,7 +2,7 @@
 <footer id="footer" class="footer bg-black-222" data-bg-img="images/footer-bg.png">
      
     <div class="footer-bottom bg-black-333">
-        <div class="container pt-20 pb-20">
+        <div class="container pt-15 pb-10">
             <div class="row">
                 <div class="col-md-6">
                     <p class="font-11 text-black-777 m-0">Copyright &copy;2021 ICT Unit VTA. All Rights Reserved</p>
