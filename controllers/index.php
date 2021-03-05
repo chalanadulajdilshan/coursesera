@@ -10,7 +10,7 @@ class Index extends Controller{
         
         $this->view->render('header');
 //        $this->view->render('navigation');
-        $this->view->render('error/pageUnderConstruction');
+        $this->view->render('index/index');
         $this->view->render('footer');
     }
      
