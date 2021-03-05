@@ -142,6 +142,7 @@
                                 <!-- Portfolio Item Start -->
                                 <div class="gallery-item">
                                     <div class="owl-carousel-1col ">
+
                                         <div class="item"><img style="width:75%;" src="<?php echo URL; ?>public/images/gallery/1.jpg" alt=""></div>
                                         <div class="item"><img style="width:75%;" src="<?php echo URL; ?>public/images/gallery/2.jpg" alt=""></div>
                                         <div class="item"><img style="width:75%;" src="<?php echo URL; ?>public/images/gallery/3.jpg" alt=""></div>
@@ -149,6 +150,7 @@
                                         <div class="item"><img style="width:75%;" src="<?php echo URL; ?>public/images/gallery/5.jpg" alt=""></div>
 
                                        
+
                                     </div>
                                 </div>
 
