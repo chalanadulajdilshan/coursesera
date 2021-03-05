@@ -1,4 +1,3 @@
-<!-- Header -->
 <header id="header" class="header">
     <div class="header-top bg-theme-color-2 sm-text-center">
         <div class="container">
@@ -37,9 +36,9 @@
         </div>
     </div>
     <div class="header-nav">
-        <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
+        <div class="header-nav-wrapper navbar-scrolltofixed bg-white" >
             <div class="container">
-                <nav id="menuzord" class="menuzord default">
+               <nav id="menuzord" class="menuzord default">
                     <div class="row">
                         <div class="col-md-3">
                             <a class="menuzord-brand pull-left flip" href="./">
@@ -77,9 +76,6 @@
                     </div>
                 </nav>
             </div>
-        </div>
+        </div><div></div>
     </div>
 </header>
-
-
-

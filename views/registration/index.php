@@ -24,7 +24,7 @@
                                     <div class="row">
                                         <div class="form-group col-md-12">
                                             <h5>NIC Number</h5>
-                                            <label>(Do not use letter V any other letters.)</label>
+                                            <label>(Do not use letter V or any other letters.)</label>
                                             <input type="text" class="form-control" id="nic" name="nic">
                                         </div>
                                     </div>

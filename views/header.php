@@ -64,23 +64,21 @@
         <link href="<?php echo URL; ?>public/css/sweetalert.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo URL; ?>public/css/preloader-submit.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-
         <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="Stylesheet" type="text/css" />
 
         <script>
             var public_url = <?php echo json_encode(MAIN_PUBLIC_URL); ?>;
             var url = <?php echo json_encode(URL); ?>;
         </script>
-</head>
-<body class="">
-<div id="wrapper" class="clearfix">
-  <!-- preloader -->
-  <div id="preloader">
-    <div id="spinner">
-      <img alt="" src="<?php echo URL; ?>public/images/preloaders/5.gif">
-    </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-  </div>
+    </head>
+    <body class="someBlock">
+        <div id="wrapper" class="clearfix">
+            <!-- preloader -->
+            <!--  <div id="preloader">
+                <div id="spinner">
+                  <img alt="" src="<?php echo URL; ?>public/images/preloaders/5.gif">
+                </div>
+                <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
+              </div>-->
 
 
