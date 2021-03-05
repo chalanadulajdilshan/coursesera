@@ -8,7 +8,7 @@
     <!-- Start main-content -->
     <div class="main-content">
         <!-- Section: home -->
-        <section id="home" class="divider layer-overlay overlay-dark-4" data-bg-img="<?php echo URL; ?>public/images/bg/Main_Image.jpg">
+        <section id="home" class="divider layer-overlay overlay-dark-4" data-bg-img="<?php echo URL; ?>public/images/bg/Main_Image2.jpg">
             <div class="display-table">
                 <div class="display-table-cell">
                     <div class="container pt-100 pb-100">
@@ -142,14 +142,13 @@
                                 <!-- Portfolio Item Start -->
                                 <div class="gallery-item">
                                     <div class="owl-carousel-1col ">
-                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/001.jpg" alt=""></div>
-                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/002.jpg" alt=""></div>
-                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/003.jpg" alt=""></div>
-                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/004.jpg" alt=""></div>
-                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/005.jpg" alt=""></div>
-                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/006.jpg" alt=""></div>
-                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/007.jpg" alt=""></div>
-                                        <div class="item"><img style="width:800px; height:380px;" src="<?php echo URL; ?>public/images/gallery/008.jpg" alt=""></div>
+                                        <div class="item"><img style="width:75%;" src="<?php echo URL; ?>public/images/gallery/1.jpg" alt=""></div>
+                                        <div class="item"><img style="width:75%;" src="<?php echo URL; ?>public/images/gallery/2.jpg" alt=""></div>
+                                        <div class="item"><img style="width:75%;" src="<?php echo URL; ?>public/images/gallery/3.jpg" alt=""></div>
+                                        <div class="item"><img style="width:75%;" src="<?php echo URL; ?>public/images/gallery/4.jpg" alt=""></div>
+                                        <div class="item"><img style="width:75%;" src="<?php echo URL; ?>public/images/gallery/5.jpg" alt=""></div>
+
+                                       
                                     </div>
                                 </div>
 
