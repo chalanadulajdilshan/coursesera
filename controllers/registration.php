@@ -21,29 +21,30 @@ class Registration extends Controller {
         $this->view->render('footer');
     }
 
-    function add() { 
-        
-        $student_status=0;
-        $reason_for_unemployee=0;        
-        
-        if(isset($_POST['student_status'])){
+    function add() {
+
+        $student_status = 0;
+        $reason_for_unemployee = 0;
+
+        if (isset($_POST['student_status'])) {
             $_POST['student_status'];
         }
-        if(isset($_POST['reason_for_unemployee'])){
+        if (isset($_POST['reason_for_unemployee'])) {
             $_POST['reason_for_unemployee'];
         }
-        
-        
-        if(isset($_POST['education_other'])){
+
+
+        if (isset($_POST['education_other'])) {
             $_POST['education_other'];
         }
-        if(isset($_POST['current_occupation_other'])){
+        if (isset($_POST['current_occupation_other'])) {
             $_POST['current_occupation_other'];
         }
-        if(isset($_POST['opportunity_other'])){
+        if (isset($_POST['opportunity_other'])) {
             $_POST['opportunity_other'];
         }
-        
+
+     
         
         $data = [
 
@@ -56,7 +57,7 @@ class Registration extends Controller {
             'email' => $_POST['email'],
             'mobile_phone' => $_POST['mobile_phone'],
             'land_phone' => $_POST['land_phone'],
-            'date_of_birth' => $_POST['date']+$_POST['month']+$_POST['year'],
+            'date_of_birth' => $_POST['date'] .'-'. $_POST['month'] .'-'. $_POST['year'],
             'gender' => $_POST['gender'],
             'address_no' => $_POST['address_no'],
             'address_street' => $_POST['address_street'],
@@ -78,24 +79,20 @@ class Registration extends Controller {
             'have_internet' => $_POST['have_internet'],
             'how_access_course' => $_POST['how_access_course'],
             'computer_lab' => $_POST['computer_lab'],
-            
             'scholarship' => $_POST['scholarship'],
             'why_scholarship' => $_POST['why_scholarship'],
             'hours_scholarship' => $_POST['hours_scholarship'],
-            
             'education_other' => $_POST['education_other'],
             'current_occupation_other' => $_POST['current_occupation_other'],
             'opportunity_other' => $_POST['opportunity_other'],
-            
             'is_consent' => $_POST['is_consent']
-                
         ];
 //        Helper::dd($data);
         if ($this->model->add($data)) {
-        $this->mail->set_address($_POST['email']);
-                $this->mail->set_content(); 
-              
-                $this->mail->send();
+            $this->mail->set_address($_POST['email']);
+            $this->mail->set_content();
+
+            $this->mail->send();
             echo json_encode(array('has_errors' > FALSE, 'status' => TRUE));
         } else {
             echo json_encode(array('has_errors' > FALSE, 'status' => FALSE));
