@@ -29,7 +29,7 @@
     </div>
 </footer>
 <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-</div>
+
 <!-- Footer Scripts --> 
 <!-- JS | Custom script for all pages --> 
 <script src="<?php echo URL; ?>public/js/custom.js"></script>
@@ -55,7 +55,6 @@
 <script src="<?php echo MAIN_PUBLIC_URL ?>js/custom.js"></script>
 
 
-</script>
 
 </body>
 

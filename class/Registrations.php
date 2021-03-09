@@ -16,6 +16,7 @@ class Registrations {
     public $id;
     public $nic;
     public $about_us;
+    public $about_us_other;
     public $first_name;
     public $middle_name;
     public $last_name;
@@ -33,6 +34,7 @@ class Registrations {
     public $is_student;
     public $student_status;
     public $employee_status;
+    public $still_attending;
     public $reason_for_unemployee;
     public $scholarship_suitability;
     public $current_occupation;
@@ -43,6 +45,11 @@ class Registrations {
     public $how_access_course;
     public $computer_lab;
     public $scholarship;
+    public $why_scholarship;
+    public $hours_scholarship;
+    public $education_other;
+    public $current_occupation_other;
+    public $opportunity_other;
     public $is_consent;
     public $created_date;
 
@@ -59,6 +66,7 @@ class Registrations {
             $this->id = $result['id'];
             $this->nic = $result['nic'];
             $this->about_us = $result['about_us'];
+            $this->about_us_other = $result['about_us_other'];
             $this->first_name = $result['first_name'];
             $this->middle_name = $result['middle_name'];
             $this->last_name = $result['last_name'];
@@ -76,6 +84,7 @@ class Registrations {
             $this->is_student = $result['is_student'];
             $this->student_status = $result['student_status'];
             $this->employee_status = $result['employee_status'];
+            $this->still_attending = $result['still_attending'];
             $this->reason_for_unemployee = $result['reason_for_unemployee'];
             $this->scholarship_suitability = $result['scholarship_suitability'];
             $this->current_occupation = $result['current_occupation'];
@@ -86,10 +95,71 @@ class Registrations {
             $this->how_access_course = $result['how_access_course'];
             $this->computer_lab = $result['computer_lab'];
             $this->scholarship = $result['scholarship'];
+            $this->why_scholarship = $result['why_scholarship'];
+            $this->hours_scholarship = $result['hours_scholarship'];
+            $this->education_other = $result['education_other'];
+            $this->current_occupation_other = $result['current_occupation_other'];
+            $this->opportunity_other = $result['opportunity_other'];
             $this->is_consent = $result['is_consent'];
             $this->created_date = $result['created_date'];
 
             return $result;
+        }
+    }
+
+    public function create() {
+
+        $query = "INSERT INTO `register` (`nic`,`about_us`,`about_us_other`,`first_name`, `middle_name`,`last_name`,`email`,`mobile_phone`,`land_phone`,`date_of_birth`,`gender`,`address_no`,"
+                . " `address_street`,`province`,`district`,`city`,`is_differently_abled`,`is_student`,`student_status`,`employee_status`,`still_attending`,`reason_for_unemployee`,`scholarship_suitability`,"
+                . "`current_occupation`,`education`,`field_of_study`,`english_language_proficiency`,`have_internet`,`how_access_course`,`computer_lab`,`scholarship`,"
+                . "`why_scholarship`,`hours_scholarship`,`education_other`,`current_occupation_other`,`opportunity_other`,`is_consent`) VALUES  ('"
+                . $this->nic . "','"
+                . $this->about_us . "','"
+                . $this->about_us_other . "', '"
+                . $this->first_name . "', '"
+                . $this->middle_name . "', '"
+                . $this->last_name . "', '"
+                . $this->email . "', '"
+                . $this->mobile_phone . "', '"
+                . $this->land_phone . "', '"
+                . $this->date_of_birth . "', '"
+                . $this->gender . "', '"
+                . $this->address_no . "', '"
+                . $this->address_street . "', '"
+                . $this->province . "', '"
+                . $this->district . "', '"
+                . $this->city . "', '"
+                . $this->is_differently_abled . "', '"
+                . $this->is_student . "', '"
+                . $this->student_status . "', '"
+                . $this->employee_status . "', '"
+                . $this->still_attending . "', '"
+                . $this->reason_for_unemployee . "', '"
+                . $this->scholarship_suitability . "', '"
+                . $this->current_occupation . "', '"
+                . $this->education . "', '"
+                . $this->field_of_study . "', '"
+                . $this->english_language_proficiency . "', '"
+                . $this->have_internet . "', '"
+                . $this->how_access_course . "', '"
+                . $this->computer_lab . "', '"
+                . $this->scholarship . "', '"
+                . $this->why_scholarship . "', '"
+                . $this->hours_scholarship . "', '"
+                . $this->education_other . "', '"
+                . $this->current_occupation_other . "', '"
+                . $this->opportunity_other . "', '"
+                . $this->is_consent . "')";
+
+
+        $db = new Database();
+
+        $result = $db->readQuery($query);
+
+        if ($result) {
+            return TRUE;
+        } else {
+            return FALSE;
         }
     }
 
@@ -109,10 +179,10 @@ class Registrations {
 
         $query = "SELECT * FROM `register` WHERE `nic` =$nic ORDER BY `id` ASC";
 
-        
+
         $db = new Database();
         $result = $db->readQuery($query);
-//        var_dump(mysqli_num_rows($result));
+
         if (mysqli_num_rows($result)) {
             return TRUE;
         } else {
@@ -120,26 +190,271 @@ class Registrations {
         }
     }
 
-//    public function create() {
-//
-//        $query = "INSERT INTO `student` (`full_name`, `student_id`,`teacher_id`, `email`,`phone_number`,`password`) VALUES  ('"
-//                . $this->full_name . "','"
-//                . $this->student_id . "', '"
-//                . $this->teacher_id . "', '"
-//                . $this->email . "', '"
-//                . $this->phone_number . "', '"
-//                . $this->password . "')";
-//
-//        $db = new Database();
-//
-//        $result = $db->readQuery($query);
-//
-//        if ($result) {
-//            return TRUE;
-//        } else {
-//            return FALSE;
-//        }
-//    }
+    public function sendStudentRegistrationEmail($email) {
+
+        
+        $to = 'chalanadulaj99@gmail.com';
+        $subject = 'Registration Successfully ';
+        $from = 'Skills Online - Sri Lanka.';
+
+// To send HTML mail, the Content-type header must be set
+        $headers = 'MIME-Version: 1.0' . "\r\n";
+        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+// Create email headers
+        $headers .= 'From: ' . $from . "\r\n" .
+                'Reply-To: ' . $from . "\r\n" .
+                'X-Mailer: PHP/' . phpversion();
+
+// Compose a simple HTML email message
+        $message = "
+   <!DOCTYPE html
+	PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:v='urn:schemas-microsoft-com:vml'
+	xmlns:o='urn:schemas-microsoft-com:office:office'>
+
+<head>
+	<meta http-equiv='Content-type' content='text/html; charset=utf-8' />
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1' />
+	<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+	<meta name='format-detection' content='date=no' />
+	<meta name='format-detection' content='address=no' />
+	<meta name='format-detection' content='telephone=no' />
+	<meta name='x-apple-disable-message-reformatting' />
+	<!--[if !mso]><!-->
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i' rel='stylesheet' />
+	<!--<![endif]-->
+	<title>Vocational Training Authority</title>
+
+
+	<style type='text/css' media='screen'>
+		/* Linked Styles */
+		body {
+			padding: 0 !important;
+			margin: 0 !important;
+			display: block !important;
+			min-width: 100% !important;
+			width: 100% !important;
+			
+			-webkit-text-size-adjust: none
+		}
+
+		a {
+			color: #66c7ff;
+			text-decoration: none
+		}
+
+		p {
+			padding: 0 !important;
+			margin: 0 !important
+		}
+
+		img {
+			-ms-interpolation-mode: bicubic;
+			/* Allow smoother rendering of resized image in Internet Explorer */
+		}
+
+		.mcnPreviewText {
+			display: none !important;
+		}
+
+
+		/* Mobile styles */
+		@media only screen and (max-device-width: 480px),
+		only screen and (max-width: 480px) {
+			.mobile-shell {
+				width: 100% !important;
+				min-width: 100% !important;
+			}
+
+			.bg {
+				background-size: 100% auto !important;
+				-webkit-background-size: 100% auto !important;
+			}
+
+			.text-header,
+			.m-center {
+				text-align: center !important;
+			}
+
+			.center {
+				margin: 0 auto !important;
+			}
+
+			.container {
+				padding: 20px 10px !important
+			}
+
+			.td {
+				width: 100% !important;
+				min-width: 100% !important;
+			}
+
+			.m-br-15 {
+				height: 15px !important;
+			}
+
+			.p30-15 {
+				padding: 30px 15px !important;
+			}
+
+			.m-td,
+			.m-hide {
+				display: none !important;
+				width: 0 !important;
+				height: 0 !important;
+				font-size: 0 !important;
+				line-height: 0 !important;
+				min-height: 0 !important;
+			}
+
+			.m-block {
+				display: block !important;
+			}
+
+			.fluid-img img {
+				width: 100% !important;
+				max-width: 100% !important;
+				height: auto !important;
+			}
+
+			.column,
+			.column-top,
+			.column-empty,
+			.column-empty2,
+			.column-dir-top {
+				float: left !important;
+				width: 100% !important;
+				display: block !important;
+			}
+
+			.column-empty {
+				padding-bottom: 10px !important;
+			}
+
+			.column-empty2 {
+				padding-bottom: 30px !important;
+			}
+
+			.content-spacing {
+				width: 15px !important;
+			}
+		}
+	</style>
+</head>
+
+<body class='body'
+	style='padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important;   -webkit-text-size-adjust:none;'>
+	<table width='100%' border='0' cellspacing='0' cellpadding='0'  >
+		<tr>
+			<td align='center' valign='top'>
+				<table width='650' border='0' cellspacing='0' cellpadding='0' class='mobile-shell'>
+					<tr>
+						<td class='td container'
+							style='width:650px; min-width:650px; font-size:0pt; line-height:0pt; margin:0; font-weight:normal; padding:55px 0px;'>
+							<!-- Header -->
+					
+							<!-- END Header -->
+
+							<!-- Intro -->
+							<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+								<tr>
+									<td style='padding-bottom: 10px;'>
+										<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+											<tr>
+												<td class='tbrr p30-15'
+													style='padding: 20px;border-radius: 25px 25px 0px 0px;'
+													bgcolor='#f5f5f5'>
+													<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+														<tr>
+															<td class='h1 pb25'
+																style='color:#000; font-family:Muli, Arial,sans-serif; font-size:32px; line-height:46px; text-align:center; font-weight:700'>
+																Welcome, to 'Skills Online Sri Lanka'</td>
+														</tr>
+
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<!-- END Intro -->
+
+							<!-- Article / Full Width Image + Title + Copy + Button -->
+							<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+								<tr>
+									<td style='padding-bottom: 10px;'>
+										<table width='100%' border='0' cellspacing='0' cellpadding='0'
+											bgcolor='#f5f5f5'>
+											 
+											<tr>
+												<td class='p30-15' style='padding: 50px 30px;'>
+													<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+													
+														<tr>
+															<td class='text pb20'
+																style='color:#000; font-family:Arial,sans-serif; font-size:14px; line-height:26px; text-align:left; padding-bottom:20px;'>
+                                                                
+																<h4>Dear Applicant,</h4>
+                                                                <p style='color:#000; '>Thank you very much for registering with the COL-Skills for Work-Skills online Sri Lanka Programme.</p><br>
+                                                                <p style='color:#000; '>If you are eligible and are short-listed you will receive an email from SOSL, requesting you to attend an online-interview within next 3 days.  In case if you do not see it in your Inbox remember to <strong>check your email ‘SPAM’ folder</strong> as well. </p><br>
+                                                                <p style='color:#000; '>If you have any questions, need clarifications or have concerns please do not hesitate to contact the helpdesk at the National Library: Email - <strong>help.skillsonline@mail.natlib.lk</strong>  Phone: +94113610772; WhatsApp: +94711919475 (Text only).</p><br>
+                                                                <p style='color:#000; '>Coordinator,</p>
+                                                                <p style='color:#000; '>NLSL- Skills Online Programme.</p>
+                                                                </td>
+														</tr>
+														
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<!-- END Article / Full Width Image + Title + Copy + Button -->
+
+							<!-- Footer -->
+							<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+								<tr>
+									<td class='p30-15 bbrr' style='padding: 25px;
+border-radius: 0px 0px 25px 25px;'
+										bgcolor='#f5f5f5'>
+										<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+											
+											<tr>
+												<td class='text-footer1 pb10'
+													style='color:#000; font-family:Muli, Arial,sans-serif; font-size:14px; line-height:20px; text-align:center;'>
+													VTA ICT UNIT - Skill online Sri Lanka</td>
+											</tr>
+											 
+										</table>
+									</td>
+								</tr>
+								 
+							</table>
+							<!-- END Footer -->
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
+    ";
+
+        
+
+        if (mail($to, $subject, $message, $headers)) {
+            return TRUE;
+        } else {
+            return FALSE;
+        }
+    }
+
+//    
 //    public function getActiveStudent() {
 //
 //        $query = "SELECT * FROM `student` WHERE `status` = 1 ORDER BY `id` DESC";

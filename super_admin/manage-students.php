@@ -90,10 +90,9 @@ include './auth.php';
                         </div>
                     </div>
                 </div>
+
                 <div class="content-body"> 
                     <section id="dashboard-ecommerce">
-
-
                         <div class="content-body"> 
                             <section id="basic-datatable">
                                 <div class="row">
@@ -106,12 +105,12 @@ include './auth.php';
                                                             <thead>
                                                                 <tr>
                                                                     <th>#id</th>
+                                                                    <th>NIC</th>
                                                                     <th>First Name</th> 
                                                                     <th>Last Name</th> 
                                                                     <th>Gender</th>
                                                                     <th>Email</th> 
                                                                     <th>Contact Number</th> 
-                                                                    <th>Scholarship</th> 
                                                                     <th>Action</th> 
                                                                 </tr>
                                                             </thead>
@@ -123,33 +122,28 @@ include './auth.php';
                                                                     ?>
                                                                     <tr id="div<?php echo $reg['id'] ?>">
                                                                         <td><?php echo $key ?></td> 
+                                                                        <td><?php echo $reg['nic']; ?></td>  
                                                                         <td><?php echo $reg['first_name']; ?></td> 
                                                                         <td><?php echo substr($reg['last_name'], 0, 20); ?></td> 
                                                                         <td><?php echo $reg['gender']; ?></td> 
                                                                         <td><?php echo $reg['email']; ?></td> 
                                                                         <td><?php echo substr($reg['mobile_phone'], 0, 20); ?></td> 
-                                                                        <td><?php echo $reg['scholarship']; ?></td> 
-
                                                                         <td>
                                                                             <a href = "view-register.php?id=<?php echo $reg['id']; ?>" data-toggle = "tooltip" data-placement = "bottom" title = "Students" target="_blank" ><i class = "bx succes-btn">View</i></a> 
-<!--                                                                            <a href = "#" class = "delete-student" data-id = "<?php echo $reg['id']; ?>" data-toggle = "tooltip" data-placement = "bottom" title = "Delete" ><i class = "bx bxs-trash delete-btn"></i></a>-->
-
                                                                         </td>
-
                                                                     </tr>
-
                                                                 <?php }
                                                                 ?>
                                                             </tbody>
                                                             <tfoot>
                                                                 <tr>
                                                                     <th>#id</th>
+                                                                    <th>NIC</th> 
                                                                     <th>First Name</th> 
                                                                     <th>Last Name</th> 
                                                                     <th>Gender</th>
                                                                     <th>Email</th> 
                                                                     <th>Contact Number</th> 
-                                                                    <th>Scholarship</th> 
                                                                     <th>Action</th> 
                                                                 </tr>
                                                             </tfoot>
@@ -162,8 +156,6 @@ include './auth.php';
                                 </div>
                             </section> 
                         </div>
-
-
                     </section>    
                 </div>
             </div>  
