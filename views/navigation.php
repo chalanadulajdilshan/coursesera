@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 hidden-sm hidden-xs">
-                    <a class="menuzord-brand pull-left flip" style="margin: 10px 0px 0px 0;"href="./">
+                    <a class="menuzord-brand pull-left flip" style="margin: 10px 0px 0px 0;" href="./">
                         <img src="<?php echo URL; ?>public/images/logo02.png" alt="">
                     </a>
                 </div>

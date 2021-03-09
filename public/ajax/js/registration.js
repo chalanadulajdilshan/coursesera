@@ -485,33 +485,7 @@ $(document).ready(function () {
 
 //start preloarder
             $('.someBlock').preloader();
-            var formData = new FormData($('#form-data')[0]);
-            $.ajax({
-                url: url + "registration/add",
-                type: "POST",
-                data: formData,
-                async: false,
-                dataType: 'json',
-                success: function (result) {
-
-                    //remove preloarder
-                    $('.someBlock').preloader('remove');
-                    swal({
-                        title: "Success!",
-                        text: "Your Registration was successfully!...",
-                        type: 'success',
-                        timer: 2000,
-                        showConfirmButton: false
-                    }, function () {
-                        setTimeout(function () {
-                            window.location.href = url + "registration/success";
-                        }, 4000);
-                    });
-                },
-                cache: false,
-                contentType: false,
-                processData: false
-            });
+          
         }
 
     });

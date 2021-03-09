@@ -92,8 +92,8 @@ $prov = $PROVINCE->provinces();
                                     <!-- header section -->
                                     <div class="row">
                                         <div class="col-lg-4 col-md-12">
-                                            <span class="invoice-number mr-50">ID#</span>
-                                            <span>001</span>
+                                            <span class="invoice-number mr-50">ID# </span>
+                                            <span><?php echo $REGESTRATIONS->id ?></span>
                                         </div>
                                         <div class="col-lg-8 col-md-12">
                                             <div class="d-flex align-items-center justify-content-lg-end flex-wrap">
@@ -289,16 +289,17 @@ $prov = $PROVINCE->provinces();
                                     </div>
                                     <br>
                                     <div class="invoice-action-btn">
+                                        <a href="edit-registration.php?id=<?php echo $REGESTRATIONS->id ?>"  target="_blank" class="btn btn-light-primary btn-block">
+                                            <span>Edit Details</span>
+                                        </a>
+                                    </div>
+                                    <br>
+                                    <div class="invoice-action-btn">
                                         <button class="btn btn-light-primary btn-block invoice-print">
                                             <span>Contact Via Mail</span>
                                         </button>
                                     </div>
-                                    <br>
-                                    <div class="invoice-action-btn">
-                                        <a href="#" class="btn btn-light-primary btn-block">
-                                            <span>Edit Details</span>
-                                        </a>
-                                    </div>
+
 
                                 </div>
                             </div>
