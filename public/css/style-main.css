@@ -274,7 +274,7 @@ form {
     color: #808080;
 }
 .text-shadow{
-   text-shadow: 0 5px 4px rgb(0, 0, 0);
+    text-shadow: 0 5px 4px rgb(0, 0, 0);
 }
 
 @media only screen and (min-width: 768px) {
@@ -4462,7 +4462,7 @@ blockquote p {
 .divider,
 .parallax {
     background-repeat: repeat;
-/*    background-position: center center;*/
+    /*    background-position: center center;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -7115,4 +7115,11 @@ blockquote p {
 }
 .font-slider{
     font-size: 50px;
+}
+@media only screen and (max-width: 400px) {
+    #program {
+        background-color: green;
+        /*padding-bottom: 0px !important;*/
+        min-height: 35.5em !important;
+    }
 }
