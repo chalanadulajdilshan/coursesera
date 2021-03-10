@@ -102,5 +102,7 @@ Rounded Boxed Skin
     .menuzord-responsive .menuzord-menu > li > a{
         padding: 12px 20px !important;
         border-radius: 0;
+        margin-bottom: 5px;
     }
+    
 }

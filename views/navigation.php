@@ -49,7 +49,7 @@
 
                         </li>
                         <li class="">
-                            <a class="btn btn-default btn-transparent btn-theme-colored btn-circled btn-lg" href="<?php echo URL; ?>registration" style="border: 3px solid;"><b>Register Now</b></a>
+                            <a class="btn btn-default btn-transparent btn-theme-colored btn-circled btn-lg" href="<?php echo URL; ?>registration" style="border: 3px solid;padding: 4px;"><b>Register Now</b></a>
                         </li>
 
                     </ul>

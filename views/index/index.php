@@ -128,8 +128,8 @@
     <section id="mission">
         <div class="container-fluid pt-0 pb-0">
             <div class="row equal-height">
-                <div class="col-sm-6 col-md-6 pull-right xs-pull-none bg-theme-colored wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" style="min-height: 38.57em; visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
-                    <div class="pt-60 pb-10 pl-90 pr-160 p-md-30">
+                <div id="program" class="col-sm-6 col-md-6 pull-right xs-pull-none bg-theme-colored wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" style="min-height: 38.57em; visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                    <div class="pt-60  pl-90 pr-160 p-md-30" >
                         <h2 class="title text-white text-uppercase line-bottom mt-0 mb-30">Who can join the programme</h2>
                         <div class="icon-box clearfix m-0 p-0 pb-10">
                             <!--                <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none"> 
